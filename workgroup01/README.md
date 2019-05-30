@@ -1,7 +1,7 @@
 # Gorushler
 |No| Vebinar | PPT|Video |Tarix|Moderator|Agenda|
 |------|----------------------|---------|---|-----|------|----|
-|1| IT sahesinde global karyera|.ppt|.mp4|01 June 2019, 09:00-10:00AM Baku TZ|Sako M|`Open Source`<br/> `Amerika ve Avropada ish/tehsil` <br/>`Tech Stack trendler`<br/>`Ideya/Startup bootstrap`<br/>`Google teqaud proqrami`|
+|1| IT sahesinde global karyera|.ppt|.mp4|01 June 2019, 09:00-10:00AM Baku TZ|Sako M|`1. Open Source`<br/> `2. Amerika ve Avropada ish/tehsil` <br/>`3. Tech Stack trendler`<br/>`4. Ideya/Startup bootstrap`<br/>`5. Google teqaud proqrami`|
 
 ### Members
 |No| Ad | Shirket |Vezife|Olke|Email|Linkedin|Profil|
