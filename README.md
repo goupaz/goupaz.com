@@ -21,6 +21,7 @@ Ugurlar! <br />
 
 GOUP layihəsi xaricde yashayan ve IT sahesinde calishan bir qrup  təcrübəli komandanın ideyasıdır. Layihənin əsas məqsədi Azerbaycanda "Open Source" resurslarin inkishafi, bu sahede xaricde elde etdiymiz tecrubenin  sizlerle paylashilmasidir.  
 
+
 ### Missiya
 Xarici ve yerli bazarda IT sahesinde calishan mutexesislerimiz arasında körpülər qurmaq
 
@@ -30,7 +31,8 @@ Yerli Startup infrastrukturunun inkishafi
 Texnoloji yenilikleri isti-isti sizlere catdirmaq
 
 ### Obyektiv
-Hədəfimiz çox sadədir IT sahesinin inkishafini suretlendirmek ve en boyuk auditoriyani toplamaq.
+Hədəfimiz çox sadədir IT sahesinin inkishafini suretlendirmek ve en boyuk auditoriyani toplamaq. 
+Hedef: 10Mentor-10Workgroup-100Developer
 
 
 ## Əlaqə
