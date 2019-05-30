@@ -36,6 +36,7 @@ Meqsedim olkede eqosuz, agilli ve eylenceli dunya seviyyeli muhendislerin yetish
 ```
 
 ### Hedefler
+[June-August 2019]
 1. CKA
 2. Linux
 3. CKAD
