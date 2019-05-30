@@ -32,6 +32,7 @@ Texnoloji yenilikleri isti-isti sizlere catdirmaq
 
 ### Obyektiv
 Hədəfimiz çox sadədir IT sahesinin inkishafini suretlendirmek ve en boyuk auditoriyani toplamaq. 
+
 Hedef: 10Mentor-10Workgroup-100Developer
 
 
