@@ -1,4 +1,4 @@
-# SAKO M
+<Ad Soyad>
 
 < Meqsedim >
 
@@ -23,7 +23,10 @@
 ```
 
 ### Hedefler
-June-Aug
+Workgroup01 layihenin [June-August 2019] lovhesinde elave edin: https://github.com/goupaz/0-to-hero/projects/1
+1.
+2.
+3.
 
 ### Meqaleler
 ```
