@@ -22,7 +22,7 @@ b) Hansi inqredient ne zaman(Y dili, Z dilinden sonra oyrenmek) <br />
 c) Hansi inqredientden ne qeder(X shirketde 2 il)
 
 
-Qeyd 1: Vaxt mehdudiyyeti sebebinden detallara zamanla girecem. Internet resurslarin coxlugunu nezere alaraq, coox done-done meslehet gorerdim ki, secdiyiniz istiqamet uzeri ugurlu ve tecrubeli hesab etdiyiniz mentorlarla Karyera yol xeritenizi hazirlayin.
+Qeyd 1: Internet resurslarin coxlugunu nezere alaraq, coox done-done meslehet gorerdik ki, secdiyiniz istiqamet uzeri ugurlu ve tecrubeli hesab etdiyiniz mentorlarla Karyera yol xeritenizi hazirlayin.
 
 
 Qeyd 2: Eger en cox zaman kecirdiyiniz komanda, etrafinizda olan dostlar oyrenmeye meyilli ve hevesli deyilse, alternativleri deyerlendirin.
