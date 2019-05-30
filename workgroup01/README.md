@@ -19,4 +19,9 @@
 |11|Mustafa||||mustafayevmustafa99@gmail.com||
 |12|Ferrux||||ferrux.alisoylu@gmail.com||
 
-### SESSION01 Notes
+### SESSION01 Notes/Questions
+```
+Q1: Niye bezi super ideyasi olan startuplar fail olur , ama ideyasi daha sade baxirsan hec bir xususiliyu olmayan startuplar ise daha da boyuye bilir, ikincisi startup ideyalarina Avropada oldugu kimi Amerikada da dovlet destek verir, yoxsa ancaq ozelden inverstor tapirlar ,bir de market research di , startup ucun bunu nece edirler , hansi toollarla olcurler evvelceden ki ,bele bir ideyaya marketde ehtiyac var tutar yoxsa yoxdu.
+A1:
+
+```
