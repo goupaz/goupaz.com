@@ -2,7 +2,7 @@
 
 Meqsedim olkede eqosuz, agilli ve eylenceli dunya seviyyeli muhendislerin yetishdirilmesine yardim etmekdir.
 
-### Ish:
+### Tecrube:
 ```
 2009-2012: Bakcell, Azerbaijan
 2012-2012: ZTE, Kazakhstan
@@ -36,7 +36,9 @@ Meqsedim olkede eqosuz, agilli ve eylenceli dunya seviyyeli muhendislerin yetish
 ```
 
 ### Hedefler
-June-Aug
+1. CKA
+2. Linux
+3. CKAD
 
 ### Meqaleler
 ```
