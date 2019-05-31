@@ -6,6 +6,8 @@
 |2|Roshka|NN|DevOps|Çexiya|arlington1985@gmail.com|[linkedin](https://www.linkedin.com/in/rovshan-musayev/)|[github](https://github.com/Arlington1985)|
 |3|Ramil|JEsta I.S.|DBA|Kanada|ramilrahimov.ora@gmail.com|[linkedin](https://www.linkedin.com/in/ramilrahimov/)||
 |4|Farid|AWS|Network Dev Engineer| Avstraliya||[linkedin](https://www.linkedin.com/in/farid-akhundov-34925b4b/)||
+|5|Tahir|Schweickert Netzwerktechnik GmbH|Sr Network Engineer| Almaniya||[linkedin](https://www.linkedin.com/in/tahir-sultanov-17565944/)||
+
 
 ### Mentor niye lazimdir?
 
