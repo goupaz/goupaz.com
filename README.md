@@ -11,7 +11,12 @@ IT uzre "Open Source" layihəsine xosh geldiniz.
 
 Ugurlar! <br /> 
 
-![alt text](img.jpg)
+# Gorushler
+
+|No| Vebinar | PPT|Video |Tarix|Moderator|Agenda|
+|------|----------------------|---------|---|-----|------|----|
+|1| IT sahesinde global karyera|[Slides](session01.pdf)|[Video](https://www.youtube.com/watch?v=Kvr1S4USXOI)|01 June 2019, 09:00-10:00AM Baku TZ|Sako M|`1. Open Source`<br/> `2. Amerika ve Avropada ish/tehsil` <br/>`3. Tech Stack trendler`<br/>`4. Ideya/Startup bootstrap`<br/>`5. Google teqaud proqrami`|
+
 
 © 2019 GOUP. Bütün hüquqlar qorunur.
 
