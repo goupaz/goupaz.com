@@ -9,8 +9,6 @@ IT uzre "Open Source" layihəsine xosh geldiniz.
 - [Workgroup01](/workgroup01/README.md)
 - [Əlaqə](#Əlaqə)
 
-Ugurlar! <br /> 
-
 # Gorushler
 
 |No| Vebinar | PPT|Video |Tarix|Moderator|Agenda|
