@@ -33,6 +33,7 @@ Meqsedim olkede eqosuz, agilli ve eylenceli dunya seviyyeli muhendislerin yetish
 1. Xaricde Tehsil Dovlet Proqrami 2015-2017
 2. ECTalent(Genc karyera istedadlari) tecrube proqrami 2017-2018
 3. Google Aciq Kodlu teqaud proqrami 2019-2019
+4. ITU Dr.Shu Park Chan Scholarship 2019 
 ```
 
 ### Hedefler
