@@ -1,7 +1,7 @@
 Textbook - Thomas Cormen, Charles Leiserson, Ronald Rivest, and Clifford Stein. Introduction to Algorithms. 3rd ed. MIT Press, 2009. ISBN: 9780262033848.
 
 
-|Week| Topic | Text |Chapter|
+|Week| Topic | Text Chapter|
 |------|-------|---------|--------|
 |1|	Asymptotic analysis, Worst/average case, Insertion/merge sort	|Ch.1~2|
 |2|Solving recurrences, Substitution/recursion-tree/master method|Ch. 3, 4.3~4.5|
