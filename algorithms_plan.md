@@ -2,7 +2,7 @@ Textbook - Thomas Cormen, Charles Leiserson, Ronald Rivest, and Clifford Stein. 
 
 
 |Week| Topic | Text Chapter|
-|------|-------|---------|--------|
+|------|-------|--------|
 |1|	Asymptotic analysis, Worst/average case, Insertion/merge sort	|Ch.1~2|
 |2|Solving recurrences, Substitution/recursion-tree/master method|Ch. 3, 4.3~4.5|
 |3|Divide and conquer|4.1~4.2|
