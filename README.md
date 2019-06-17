@@ -20,8 +20,6 @@ IT uzre "Open Source" layihəsine xosh geldiniz.
 |5| DevOps|Coming soon|[Session05](coming soon)|06 Iyul 2019, 11:00-11:45AM Baku TZ|[Alakbar Mammadov](https://www.linkedin.com/in/alakbarm/)|Norvec|`1. DevOps trends`<br/> `2. Job Market in Norway`|
 |6| Building ERPGO SaaS|Coming soon|[Session06](coming soon)|13 Iyul 2019, 11:00-11:45AM Baku TZ|[Nurlan Farajov](https://www.linkedin.com/in/nurlan-farajov/)|Polsha|`1. Database trends`<br/> `2. Job Market in Poland`|
 
-nurlan.farajov@gmail.com
-
 
 © 2019 GOUP. Bütün hüquqlar qorunur.
 
