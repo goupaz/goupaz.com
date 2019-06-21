@@ -15,11 +15,15 @@ IT uzre "Open Source" layihəsine xosh geldiniz.
 |------|----------------------|---------|---|-----|-----|------|----|
 |1| IT sahesinde global karyera|[Slides](session01.pdf)|[Session01](https://www.youtube.com/watch?v=Kvr1S4USXOI)|01 Iyun 2019, 09:00-10:00AM Baku TZ|[Sako M](https://www.linkedin.com/in/sakom/)|Amerika|`1. Open Source`<br/> `2. Amerika ve Avropada ish/tehsil` <br/>`3. Tech Stack trendler`<br/>`4. Ideya/Startup bootstrap`<br/>`5. Google teqaud proqrami`|
 |2| Bulud Texnologiyalari|[Slides](Session02.pdf)|[Session02](https://youtu.be/amnGyiPqJQ0)|15 Iyun 2019, 11:00-11:45AM Baku TZ|[Rovshan Musayev](https://www.linkedin.com/in/rovshan-musayev/)|Cexiya|`1. AWS`<br/> `2. GCP` <br/>`3. Azure`<br/>`4. Job Market in Czech`|
-|3| Database Texnologiyalari|Coming soon|[Session03](coming soon)|22 Iyun 2019, 18:00-18:45AM Baku TZ|[Ramil Rahimov](https://www.linkedin.com/in/ramilrahimov/)|Kanada|`1. Database trends`<br/> 2. Job Market in Kanada`|
+|3| Database Texnologiyalari|Coming soon|[Session03](coming soon)|22 Iyun 2019, 18:00-18:45AM Baku TZ|[Ramil Rahimov](https://www.linkedin.com/in/ramilrahimov/)|Kanada|`1. Database trends`<br/> `2. Job Market in Kanada`|
 |4| Network Texnologiyalari|Coming soon|[Session04](coming soon)|29 Iyun 2019, 11:00-11:45AM Baku TZ|[Farid Akhundov](https://www.linkedin.com/in/farid-akhundov-34925b4b/)|Avstraliya|`1. Database trends`<br/> `2. Job Market in Australia`|
 |5| DevOps|Coming soon|[Session05](coming soon)|06 Iyul 2019, 11:00-11:45AM Baku TZ|[Alakbar Mammadov](https://www.linkedin.com/in/alakbarm/)|Norvec|`1. DevOps trends`<br/> `2. Job Market in Norway`|
 |6| Building ERPGO SaaS|Coming soon|[Session06](coming soon)|13 Iyul 2019, 11:00-11:45AM Baku TZ|[Nurlan Farajov](https://www.linkedin.com/in/nurlan-farajov/)|Polsha|`1. Database trends`<br/> `2. Job Market in Poland`|
-
+|7| Software Texnologiyalari |Coming soon|[Session07](coming soon)|20 Iyul 2019, 11:00-11:45AM Baku TZ|[Elxan Shahverdi](https://www.linkedin.com/in/elkhan-shahverdi-59356166/)|Estonia|`1. Concurrency and Parallelism OR
+2. Stream and Batch processing ` <br/> `2. Job Market in Estonia`|
+|8| Buglance Startup|Coming soon|[Session08](coming soon)|27 Iyul 2019, 11:00-11:45AM Baku TZ|[Togrul Samad](https://www.linkedin.com/in/togsam/)|Polsha|`1. Startup prosesi`<br/> `2. Job Market in Dubay`|
+|9| IT Security Texnologiyalari|Coming soon|[Session09](coming soon)|03 Avqust 2019, 11:00-11:45AM Baku TZ|[Rashad Suleymanov](https://www.linkedin.com/in/rashad-suleymanov-b7293a41/)|Polsha|`1. Database trends`<br/> `2. Job Market in Poland`|
+|10| ...|Coming soon|[Session10](coming soon)|10 Avqust 2019, 11:00-11:45AM Baku TZ|[...](..)|Polsha|`1. ...`<br/> `2. Job Market in ...`|
 
 © 2019 GOUP. Bütün hüquqlar qorunur.
 
