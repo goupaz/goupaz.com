@@ -31,11 +31,11 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 
 ### Biz kimik?
 
-GOUP layihəsi xaricdə yaşayan və IT sahəsində çalişan bir qrup  təcrübəli komandanın ideyasıdır. Layihənin əsas məqsədi Azerbaycanda "Open Source" resursların inkişafı, bu sahədə xaricdə əldə etdiyimiz təcrübənin sizlərlə paylaşılmasıdır.  
+GOUP layihəsi xaricdə yaşayan və IT sahəsində çalışan bir qrup  təcrübəli komandanın ideyasıdır. Layihənin əsas məqsədi Azərbaycanda "Open Source" resursların inkişafı, bu sahədə xaricdə əldə etdiyimiz təcrübənin sizlərlə paylaşılmasıdır.  
 
 
 ### Missiya
-Xarici və yerli bazarda IT sahəsində çalişan mütəxəsislərimiz arasında körpülər qurmaq
+Xarici və yerli bazarda IT sahəsində çalışan mütəxəsislərimiz arasında körpülər qurmaq
 
 ### Vizyon
 Xarici bazarlara çıxacaq  Azərbaycan Gəncliyini hazırlamaq. <br /> 
@@ -50,7 +50,7 @@ Hədəf: 10Mentor-10Workgroup-100Developer
 
 ## Əlaqə
 
-Buyurub, ashagidaki əlaqə vasitələri ilə bizimlə əlaqə saxlaya bilərsiniz:
+Buyurub, aşağıdakı əlaqə vasitələri ilə bizimlə əlaqə saxlaya bilərsiniz:
 
 
 Slack Qrupumuz:
