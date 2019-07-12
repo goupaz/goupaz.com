@@ -56,8 +56,7 @@ Buyurub, ashagidaki elaqe vasiteleri bizimle elaqe saxlaya bilersiniz:
 Slack Qrupumuz:
 https://goupaz.slack.com
 
-Slack Qrupuna Dəvət linki:
-https://join.slack.com/t/goupaz/shared_invite/enQtMjU1MjM5MDc2MzQxLWRjMDFlMTNhNjBhZWY4YWVlNThlNTY5NWJhNWY0NzA3ZDk5MTVjZDVhMGIyMGUyZWFlMDE1M2ZmYTBhYjRhYTI
+Slack Qrupuna Dəvət [link](https://join.slack.com/t/goupaz/shared_invite/enQtMjU1MjM5MDc2MzQxLWRjMDFlMTNhNjBhZWY4YWVlNThlNTY5NWJhNWY0NzA3ZDk5MTVjZDVhMGIyMGUyZWFlMDE1M2ZmYTBhYjRhYTI)
 
 Youtube Səhifəmiz:
 https://www.youtube.com/channel/UC5-CzpUMNnehyCSvo3kiMTw/
