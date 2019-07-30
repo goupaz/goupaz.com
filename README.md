@@ -7,9 +7,9 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 - [Haqqımızda](#haqqımızda)
 - [Əlaqə](#Əlaqə)
 
-# Görüşlər
+# Chapter01 Iyun01-Avqust04 2019
 
-|No| Vebinar | PPT|Video |Tarix|Moderator|Ölkə|Agenda|
+|No| Topic | PPT|Video |Tarix|Moderator|Ölkə|Agenda|
 |------|----------------------|---------|---|-----|-----|------|----|
 |1| IT sahəsində global karyera|[Slides](slides/session01.pdf)|[Session01](https://www.youtube.com/watch?v=Kvr1S4USXOI)|01 İyun 2019, 09:00-10:00AM Baku TZ|[Sako M](https://www.linkedin.com/in/sakom/)|Amerika|`1. Open Source`<br/> `2. Amerika ve Avropada iş/təhsil` <br/>`3. Tech Stack trendlər`<br/>`4. Ideya/Startup bootstrap`<br/>`5. Google təqaüd proqramı`|
 |2| Bulud Texnologiyaları|[Slides](slides/Session02.pdf)|[Session02](https://youtu.be/amnGyiPqJQ0)|15 İyun 2019, 11:00-11:45AM Baku TZ|[Rovshan Musayev](https://www.linkedin.com/in/rovshan-musayev/)|Çexiya|`1. AWS`<br/> `2. GCP` <br/>`3. Azure`<br/>`4. Job Market in Czech`|
