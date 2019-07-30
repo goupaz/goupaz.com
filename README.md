@@ -7,7 +7,7 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 - [Haqqımızda](#haqqımızda)
 - [Əlaqə](#Əlaqə)
 
-# Chapter01 Iyun01-Avqust04 2019
+# Chapter01
 
 |No| Topic | PPT|Video |Tarix|Moderator|Ölkə|Agenda|
 |------|----------------------|---------|---|-----|-----|------|----|
