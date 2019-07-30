@@ -21,10 +21,8 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |6| Microservices Architecture|Coming soon|[Session06](https://www.youtube.com/watch?v=YzXuyDpUo9E)|13 İyul 2019, 11:00-11:45|[Emin Hasanov](https://www.linkedin.com/in/eminhasanov/)|Almaniya|`1. Microservices architecture`<br/> `2. Job Market in Germany`<br/> `3. How prepare to interview`|
 |7| Security Texnologiyalari|[Slides](slides/session07-Eminus.pdf)|[Session07](https://youtu.be/s6FXRsO3mqs)|20 İyul 2019, 11:00-11:45AM Baku TZ|[Emin Quliyev](https://www.linkedin.com/in/emin-ghuliev-461a22129/)|Azerbaijan|`1. Software architect`<br>`2. System engineering`<br>`3. OS kernel`<br>`4. Performance tuning`<br/>`5. Security Trends` <br/>`6. How to be Security Engineer`|
 |8| Alqoritmlər, İnterviyu hazırlığı|Coming soon|[Session08](https://www.youtube.com/watch?v=KoAuS2A1j9Y)|27 İyul 2019, 11:00-11:45AM Baku TZ|[Vusal Ahmadoglu](https://www.linkedin.com/in/vusaldadalov/)|Hollandiya|`1. Alghoritms and Data Structures`<br/> `2. How to break down giants interview process`|
-|9| IT Security Texnologiyaları|Coming soon|[Session09](coming soon)|30 İyul 2019, 11:00-11:45AM Baku TZ|[Rashad Suleymanov](https://www.linkedin.com/in/rashad-suleymanov-b7293a41/)|Polsha|`1. Security trends`<br/> `2. Job Market in Poland`|
-|*| Software Texnologiyaları |Coming soon|[Session10](coming soon)|03 Avqust 2019, 11:00-11:45AM Baku TZ|[Elxan Shahverdi](https://www.linkedin.com/in/elkhan-shahverdi-59356166/)|Estonia|`1. Concurrency and Parallelism `<br/>`2. Stream and Batch processing ` <br/> `3. Job Market in Estonia`|
-|*|Buglance Startup|Coming soon|[Session08](coming soon)|27 İyul 2019, 11:00-11:45AM Baku TZ|[Togrul Samad](https://www.linkedin.com/in/togsam/)|UAE|`1. Startup prosesi`<br/> `2. Job Market in UAE`|
-|Techstars| ...|Coming soon|[Session10](coming soon)|10 Avqust 2019, 11:00-11:45AM Baku TZ|[...](..)|Polsha|`1. ...`<br/> `2. Job Market in ...`|
+|9||Design ve Behave hazirligi|[Session9](coming soon)|03 Avqust 2019, 11:00-11:45AM Baku TZ|[Emin Guliyev](https://www.linkedin.com/in/eminguliyev/)|Denmark|`1. Interview Design Questions`<br/>`2. Interview Bahaviour Questions` `3. Job Market in Denmark`|
+|X| IT Security Texnologiyaları|Coming soon|[SessionX](coming soon)|04 Avqust 2019, 11:00-11:45AM Baku TZ|[Rashad Suleymanov](https://www.linkedin.com/in/rashad-suleymanov-b7293a41/)|Polsha|`1. Security trends`<br/> `2. Job Market in Poland`|
 
 © 2019 GOUP. Bütün hüquqlar qorunur.
 
