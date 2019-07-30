@@ -5,8 +5,6 @@ Dəyərli istifadəçilərimiz,
 IT üzrə "Open Source" layihəsinə xoş gəldiniz. 
 
 - [Haqqımızda](#haqqımızda)
-- [Mentors](/mentors/README.md)
-- [Workgroup01](/workgroup01/README.md)
 - [Əlaqə](#Əlaqə)
 
 # Görüşlər
