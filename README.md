@@ -7,6 +7,7 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 - [Haqqımızda](#haqqımızda)
 - [Əlaqə](#Əlaqə)
 
+![alt text](contributors.png)
 # Chapter01
 
 |No| Topic | PPT|Video |Tarix|Moderator|Ölkə|Agenda|
