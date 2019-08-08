@@ -56,5 +56,4 @@ https://goupaz.slack.com
 
 Slack Qrupuna Dəvət [link](https://join.slack.com/t/goupaz/shared_invite/enQtMjU1MjM5MDc2MzQxLWRjMDFlMTNhNjBhZWY4YWVlNThlNTY5NWJhNWY0NzA3ZDk5MTVjZDVhMGIyMGUyZWFlMDE1M2ZmYTBhYjRhYTI)
 
-Youtube Səhifəmiz:
-https://www.youtube.com/channel/UC5-CzpUMNnehyCSvo3kiMTw/
+Youtube Səhifəmiz: https://www.youtube.com/goupaz
