@@ -21,7 +21,7 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |7| System Engineering/Software Architecture|[Slides](slides/session07-Eminus.pdf)|[Session07](https://youtu.be/s6FXRsO3mqs)|20 İyul 2019, 11:00-11:45AM Baku TZ|[Emin Quliyev](https://www.linkedin.com/in/emin-ghuliev-461a22129/)|Azerbaijan|
 |8| Alqoritmlər, İnterviyu hazırlığı|Coming soon|[Session08](https://www.youtube.com/watch?v=KoAuS2A1j9Y)|27 İyul 2019, 11:00-11:45AM Baku TZ|[Vusal Ahmadoglu](https://www.linkedin.com/in/vusaldadalov/)|Hollandiya|
 |9|Design ve Behave hazirligi|[Slides](slides/session09_emin_guliyev.pptx)|[Session09](https://youtu.be/z_O_AZhNqdQ)|03 Avqust 2019, 11:00-11:45AM Baku TZ|[Emin Guliyev](https://www.linkedin.com/in/eminguliyev/)|Germany|
-|X| IT Security Texnologiyaları|Coming soon|[SessionX](slides/session10.pdf)|04 Avqust 2019, 11:00-11:45AM Baku TZ|[Rashad Suleymanov](https://www.linkedin.com/in/rashad-suleymanov-b7293a41/)|Polsha|
+|X| IT Security Texnologiyaları|Coming soon|[SessionX](https://www.youtube.com/watch?v=njEZV81T4k4)|11 Avqust 2019, 12:00-12:45AM Baku TZ|[Rashad Suleymanov](https://www.linkedin.com/in/rashad-suleymanov-b7293a41/)|Polsha|
 
 © 2019 GOUP. Bütün hüquqlar qorunur.
 
