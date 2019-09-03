@@ -23,6 +23,12 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |9|Design ve Behave hazirligi|[Slides](slides/session09_emin_guliyev.pptx)|[Session09](https://youtu.be/z_O_AZhNqdQ)|03 Avqust 2019, 11:00-11:45AM Baku TZ|[Emin Guliyev](https://www.linkedin.com/in/eminguliyev/)|Germany|
 |X| IT Security Texnologiyaları|[Slides](slides/session10-Rashad.pdf)|[SessionX](https://www.youtube.com/watch?v=njEZV81T4k4)|11 Avqust 2019, 12:00-12:45AM Baku TZ|[Rashad Suleymanov](https://www.linkedin.com/in/rashad-suleymanov-b7293a41/)|Polsha|
 
+# Chapter02
+
+|No| Topic | PPT|Video |Tarix|Moderator|Ölkə|
+|------|----------------------|---------|---|-----|-----|------|
+|1| Proqramlaşdırmaya giriş |[Slides]()|[Session01]()|01 September 2019, 12:00-13:00 Baku TZ|[Tural Ismayilzade](https://www.linkedin.com/in/turalismailzadeh/)|Estonia|
+
 © 2019 GOUP. Bütün hüquqlar qorunur.
 
 # Haqqımızda
