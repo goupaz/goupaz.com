@@ -28,7 +28,7 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |No| Topic | PPT|Video |Tarix|Moderator|Ölkə|
 |------|----------------------|---------|---|-----|-----|------|
 |1| Proqramlaşdırmaya giriş |[Slides]()|[Session01]()|08 September 2019, 12:00-13:00 Baku TZ|[Tural Ismayilzade](https://www.linkedin.com/in/turalismailzadeh/)|Estoniya|
-
+|2| Təhsil sisteminin uğursuzluğumuzda rolu||[slides]|()|Session02|()|15 September, 12.00-13.00 Baku TZ|[Togrul Samad](https://www.linkedin.com/in/togsam/?msgConversationId=6575044465281519616&msgOverlay=true) 
 © 2019 GOUP. Bütün hüquqlar qorunur.
 
 # Haqqımızda
