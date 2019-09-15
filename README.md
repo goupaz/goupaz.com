@@ -28,7 +28,7 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |No| Topic | PPT|Video |Tarix|Moderator|Ölkə|
 |------|----------------------|---------|---|-----|-----|------|
 |1|Proqramlaşdırmaya giriş |[Slides]()|[Session01](https://www.youtube.com/watch?v=9Vr0ZdYCM70&feature=youtu.be)|08 September 2019, 12:00-13:00 Baku TZ|[Tural Ismayilzade](https://www.linkedin.com/in/turalismailzadeh/)|Estonia|
-|2|Təhsil sisteminin uğursuzluğumuzda rolu|[Slides](https://www.youtube.com/watch?v=N9hCfpJ9zBQ)|[Session02]()|15 September, 12.00-13.00 Baku TZ|[Togrul Samad](https://www.linkedin.com/in/togsam/?msgConversationId=6575044465281519616&msgOverlay=true)|United Arab Emirates| 
+|2|Təhsil sisteminin uğursuzluğumuzda rolu|[Slides]()|[Session02](https://www.youtube.com/watch?v=N9hCfpJ9zBQ)|15 September, 12.00-13.00 Baku TZ|[Togrul Samad](https://www.linkedin.com/in/togsam/?msgConversationId=6575044465281519616&msgOverlay=true)|United Arab Emirates| 
 
 © 2019 GOUP. Bütün hüquqlar qorunur.
 
