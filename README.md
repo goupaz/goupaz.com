@@ -30,6 +30,8 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |1|Proqramlaşdırmaya giriş |N/A|[Session01](https://www.youtube.com/watch?v=9Vr0ZdYCM70&feature=youtu.be)|08 September 2019, 12:00-13:00 Baku TZ|[Tural Ismayilzade](https://www.linkedin.com/in/turalismailzadeh/)|Estoniya|
 |2|Təhsil sisteminin uğursuzluğumuzda rolu|N/A|[Session02](https://www.youtube.com/watch?v=N9hCfpJ9zBQ)|15 September, 12.00-13.00 Baku TZ|[Togrul Samad](https://www.linkedin.com/in/togsam/?msgConversationId=6575044465281519616&msgOverlay=true)|Birləşmiş Ərəb Əmirlikləri|
 |3|Bəlkə öz biznesim?|N/A|[Session 03](https://www.youtube.com/watch?v=FsMBZDWG-mo)|22 September,12.00-13.00 Baku TZ|[Jasur Hasanov](https://www.linkedin.com/in/jasurhasanov/)|Azərbaycan|
+|4|İxtisas dəyişməkdən qorxaqmı?|N/A|TBD|29 September,12.00-13.00 Baku TZ|[Orkhan Gasimli](https://www.linkedin.com/in/ogasimli/)|Azərbaycan|
+
 
 © 2019 GOUP. Bütün hüquqlar qorunur.
 
@@ -62,4 +64,5 @@ https://goupaz.slack.com
 
 Slack Qrupuna Dəvət [link](https://join.slack.com/t/goupaz/shared_invite/enQtMjU1MjM5MDc2MzQxLWRjMDFlMTNhNjBhZWY4YWVlNThlNTY5NWJhNWY0NzA3ZDk5MTVjZDVhMGIyMGUyZWFlMDE1M2ZmYTBhYjRhYTI)
 
-Youtube Səhifəmiz: https://www.youtube.com/goupaz
+Youtube : https://www.youtube.com/goupaz
+Facebook: https://www.facebook.com/goupaz/
