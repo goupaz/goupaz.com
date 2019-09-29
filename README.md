@@ -27,10 +27,10 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 
 |No| Topic | PPT|Video |Tarix|Moderator|Ölkə|
 |------|----------------------|---------|---|-----|-----|------|
-|1|Proqramlaşdırmaya giriş |N/A|[Session01](https://www.youtube.com/watch?v=9Vr0ZdYCM70&feature=youtu.be)|08 September 2019, 12:00-13:00 Baku TZ|[Tural Ismayilzade](https://www.linkedin.com/in/turalismailzadeh/)|Estoniya|
-|2|Təhsil sisteminin uğursuzluğumuzda rolu|N/A|[Session02](https://www.youtube.com/watch?v=N9hCfpJ9zBQ)|15 September, 12.00-13.00 Baku TZ|[Togrul Samad](https://www.linkedin.com/in/togsam/?msgConversationId=6575044465281519616&msgOverlay=true)|Birləşmiş Ərəb Əmirlikləri|
-|3|Bəlkə öz biznesim?|N/A|[Session 03](https://www.youtube.com/watch?v=FsMBZDWG-mo)|22 September,12.00-13.00 Baku TZ|[Jasur Hasanov](https://www.linkedin.com/in/jasurhasanov/)|Azərbaycan|
-|4|İxtisas dəyişməkdən qorxaqmı?|N/A|TBD|29 September,12.00-13.00 Baku TZ|[Orkhan Gasimli](https://www.linkedin.com/in/ogasimli/)|Azərbaycan|
+|1|Proqramlaşdırmaya giriş |N/A|[Session01](https://www.youtube.com/watch?v=9Vr0ZdYCM70&feature=youtu.be)|08 September 2019, 12:00-13:00 Baku TZ|[Tural Ismayilzade](https://www.linkedin.com/in/turalismailzadeh/)|Estonia|
+|2|Təhsil sisteminin uğursuzluğumuzda rolu|N/A|[Session02](https://www.youtube.com/watch?v=N9hCfpJ9zBQ)|15 September, 12.00-13.00 Baku TZ|[Togrul Samad](https://www.linkedin.com/in/togsam/?msgConversationId=6575044465281519616&msgOverlay=true)|UAE|
+|3|Bəlkə öz biznesim?|N/A|[Session03](https://www.youtube.com/watch?v=FsMBZDWG-mo)|22 September,12.00-13.00 Baku TZ|[Jasur Hasanov](https://www.linkedin.com/in/jasurhasanov/)|AZE|
+|4|Huquqdan Uber de Muhendisliye kecid|N/A|[Session04]|29 September,12.00-13.00 Baku TZ|[Orkhan Gasimli](https://www.linkedin.com/in/ogasimli/)|US|
 
 
 © 2019 GOUP. Bütün hüquqlar qorunur.
