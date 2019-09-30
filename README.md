@@ -31,7 +31,7 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |2|Təhsil sisteminin uğursuzluğumuzda rolu|N/A|[Session02](https://www.youtube.com/watch?v=N9hCfpJ9zBQ)|15 September, 12.00-13.00 Baku TZ|[Togrul Samad](https://www.linkedin.com/in/togsam/?msgConversationId=6575044465281519616&msgOverlay=true)|UAE|
 |3|Bəlkə öz biznesim?|N/A|[Session03](https://www.youtube.com/watch?v=FsMBZDWG-mo)|22 September,12.00-13.00 Baku TZ|[Jasur Hasanov](https://www.linkedin.com/in/jasurhasanov/)|AZE|
 |4|Hüquqdan Uber Muhendisliyinə keçid|N/A|[Session04](https://studio.youtube.com/video/vusvbB1OfGs)|29 September,12.00-13.00 Baku TZ|[Orkhan Gasimli](https://www.linkedin.com/in/ogasimli/)|US|
-|5| |N/A|[Session 05]()| 06 October, 12.00 Baku TZ|[OrxanJafarov]()|Aze|
+|5| |N/A|[Session 05]()| 06 October, 12.00 Baku TZ|[Orxan Jafarov]()|Aze|
 
 
 © 2019 GOUP. Bütün hüquqlar qorunur.
