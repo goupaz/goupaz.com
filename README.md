@@ -31,8 +31,8 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |2|Təhsil sisteminin uğursuzluğumuzda rolu|N/A|[Session02](https://www.youtube.com/watch?v=N9hCfpJ9zBQ)|15 September, 12.00-13.00 Baku TZ|[Togrul Samad](https://www.linkedin.com/in/togsam/?msgConversationId=6575044465281519616&msgOverlay=true)|UAE|
 |3|Bəlkə öz biznesim?|N/A|[Session03](https://www.youtube.com/watch?v=FsMBZDWG-mo)|22 September,12.00-13.00 Baku TZ|[Jasur Hasanov](https://www.linkedin.com/in/jasurhasanov/)|AZE|
 |4|Hüquqdan Uber Muhendisliyinə keçid|N/A|[Session04](https://www.youtube.com/watch?v=vusvbB1OfGs)|29 September,12.00-13.00 Baku TZ|[Orkhan Gasimli](https://www.linkedin.com/in/ogasimli/)|US|
-|5|Happy Frontend |[slides](https://docs.google.com/presentation/d/10BxBnVWieEf7PAIb4U-jkGcivrUWtTZG/edit#slide=id.p1)|[Session 05]( https://youtu.be/5wsd_Yklzys)| 06 October, 12.00 Baku TZ|[Orkhan Jafarov](https://www.linkedin.com/in/orkhan-jafarov-b8792627/)|Aze|
-
+|5|Happy Frontend |[slides](https://docs.google.com/presentation/d/10BxBnVWieEf7PAIb4U-jkGcivrUWtTZG/edit#slide=id.p1)|[Session 05]( https://youtu.be/5wsd_Yklzys)| 06 October, 12.00 Baku TZ|[Orkhan Jafarov](https://www.linkedin.com/in/orkhan-jafarov-b8792627/)|AZE|
+|6|Software Design Patterns |[slides]()|[Session 06](https://www.youtube.com/watch?v=wx3q1tKI3bs)| 13 October, 12.00 Baku TZ|[Zeynal Zeynalov](https://www.linkedin.com/in/zeynal/)|Germany|
 
 © 2019 GOUP. Bütün hüquqlar qorunur.
 
