@@ -33,7 +33,7 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |4|Hüquqdan Uber Muhendisliyinə keçid|N/A|[Session04](https://www.youtube.com/watch?v=vusvbB1OfGs)|29 September,12.00-13.00 Baku TZ|[Orkhan Gasimli](https://www.linkedin.com/in/ogasimli/)|US|
 |5|Happy Frontend |[slides](https://docs.google.com/presentation/d/10BxBnVWieEf7PAIb4U-jkGcivrUWtTZG/edit#slide=id.p1)|[Session 05]( https://youtu.be/5wsd_Yklzys)| 06 October, 12.00 Baku TZ|[Orkhan Jafarov](https://www.linkedin.com/in/orkhan-jafarov-b8792627/)|AZE|
 |6|Software Design Patterns |[slides]()|[Session 06](https://www.youtube.com/watch?v=wx3q1tKI3bs)| 13 October, 12.00 Baku TZ|[Zeynal Zeynalov](https://www.linkedin.com/in/zeynal/)|Germany|
-|7|Stream Processing |[slides](https://github.com/goupaz/0-to-hero/commit/150f333ded25fa511e469c226027aa1197d8a0e1#diff-df4c21f86b40d85ba7b019327df34cb7)|[Session 07](https://youtu.be/RQBDicJkbIUs)| 20 October, 15.00 Baku TZ|[Elkhan Shahverdi](https://www.linkedin.com/in/elkhan-shahverdi-59356166/)|Estonia|
+|7|Stream Processing |[slides](slides/Ch02_Session07.pdf)|[Session 07](https://youtu.be/RQBDicJkbIUs)| 20 October, 15.00 Baku TZ|[Elkhan Shahverdi](https://www.linkedin.com/in/elkhan-shahverdi-59356166/)|Estonia|
 
 
 
