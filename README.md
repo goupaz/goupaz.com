@@ -2,7 +2,7 @@
 
 Dəyərli istifadəçilərimiz,
 
-IT üzrə "Open Source" layihəsinə xoş gəldiniz. 
+IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 
 - [Haqqımızda](#haqqımızda)
 - [Əlaqə](#Əlaqə)
@@ -30,7 +30,7 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |1|Proqramlaşdırmaya giriş |N/A|[Session01](https://www.youtube.com/watch?v=9Vr0ZdYCM70&feature=youtu.be)|08 September 2019, 12:00-13:00 Baku TZ|[Tural Ismayilzade](https://www.linkedin.com/in/turalismailzadeh/)|Estonia|
 |2|Təhsil sisteminin uğursuzluğumuzda rolu|N/A|[Session02](https://www.youtube.com/watch?v=N9hCfpJ9zBQ)|15 September, 12.00-13.00 Baku TZ|[Togrul Samad](https://www.linkedin.com/in/togsam/?msgConversationId=6575044465281519616&msgOverlay=true)|UAE|
 |3|Bəlkə öz biznesim?|N/A|[Session03](https://www.youtube.com/watch?v=FsMBZDWG-mo)|22 September,12.00-13.00 Baku TZ|[Jasur Hasanov](https://www.linkedin.com/in/jasurhasanov/)|AZE|
-|4|Hüquqdan Uber Muhendisliyinə keçid|N/A|[Session04](https://www.youtube.com/watch?v=vusvbB1OfGs)|29 September,12.00-13.00 Baku TZ|[Orkhan Gasimli](https://www.linkedin.com/in/ogasimli/)|US|
+|4|Hüquqdan Uber Muhendisliyinə keçid|[slides](slides/Session_4_2_Orkhan_Gasimli.pdf)|[Session04](https://www.youtube.com/watch?v=vusvbB1OfGs)|29 September,12.00-13.00 Baku TZ|[Orkhan Gasimli](https://www.linkedin.com/in/ogasimli/)|US|
 |5|Happy Frontend |[slides](https://docs.google.com/presentation/d/10BxBnVWieEf7PAIb4U-jkGcivrUWtTZG/edit#slide=id.p1)|[Session 05]( https://youtu.be/5wsd_Yklzys)| 06 October, 12.00 Baku TZ|[Orkhan Jafarov](https://www.linkedin.com/in/orkhan-jafarov-b8792627/)|AZE|
 |6|Software Design Patterns |[slides]()|[Session 06](https://www.youtube.com/watch?v=wx3q1tKI3bs)| 13 October, 12.00 Baku TZ|[Zeynal Zeynalov](https://www.linkedin.com/in/zeynal/)|Germany|
 |7|Stream Processing |[slides](slides/Ch02_Session07.pdf)|[Session 07](https://youtu.be/RQBDicJkbIUs)| 20 October, 15.00 Baku TZ|[Elkhan Shahverdi](https://www.linkedin.com/in/elkhan-shahverdi-59356166/)|Estonia|
@@ -43,19 +43,19 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 
 ### Biz kimik?
 
-GOUP layihəsi xaricdə yaşayan və IT sahəsində çalışan bir qrup  təcrübəli komandanın ideyasıdır. Layihənin əsas məqsədi Azərbaycanda "Open Source" resursların inkişafı, bu sahədə xaricdə əldə etdiyimiz təcrübənin sizlərlə paylaşılmasıdır.  
+GOUP layihəsi xaricdə yaşayan və IT sahəsində çalışan bir qrup  təcrübəli komandanın ideyasıdır. Layihənin əsas məqsədi Azərbaycanda "Open Source" resursların inkişafı, bu sahədə xaricdə əldə etdiyimiz təcrübənin sizlərlə paylaşılmasıdır.
 
 
 ### Missiya
 Xarici və yerli bazarda IT sahəsində çalışan mütəxəsislərimiz arasında körpülər qurmaq
 
 ### Vizyon
-Xarici bazarlara çıxacaq Azərbaycan Gəncliyini hazırlamaq. <br /> 
+Xarici bazarlara çıxacaq Azərbaycan Gəncliyini hazırlamaq. <br />
 Yerli Startup infrastrukturunun inkişafı
 Texnoloji yenilikləri isti-isti sizlərə çatdırmaq
 
 ### Obyektiv
-Hədəfimiz çox sadədir IT sahəsinin inkişafını surətləndirmək və ən böyük auditoriyanı toplamaq. 
+Hədəfimiz çox sadədir IT sahəsinin inkişafını surətləndirmək və ən böyük auditoriyanı toplamaq.
 
 
 ## Əlaqə
