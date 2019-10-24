@@ -32,7 +32,7 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |3|Bəlkə öz biznesim?|N/A|[Session03](https://www.youtube.com/watch?v=FsMBZDWG-mo)|22 September,12.00-13.00 Baku TZ|[Jasur Hasanov](https://www.linkedin.com/in/jasurhasanov/)|AZE|
 |4|Hüquqdan Uber Muhendisliyinə keçid|[slides](slides/Session_4_2_Orkhan_Gasimli.pdf)|[Session04](https://www.youtube.com/watch?v=vusvbB1OfGs)|29 September,12.00-13.00 Baku TZ|[Orkhan Gasimli](https://www.linkedin.com/in/ogasimli/)|US|
 |5|Happy Frontend |[slides](https://docs.google.com/presentation/d/10BxBnVWieEf7PAIb4U-jkGcivrUWtTZG/edit#slide=id.p1)|[Session 05]( https://youtu.be/5wsd_Yklzys)| 06 October, 12.00 Baku TZ|[Orkhan Jafarov](https://www.linkedin.com/in/orkhan-jafarov-b8792627/)|AZE|
-|6|Software Design Patterns |[slides]()|[Session 06](https://www.youtube.com/watch?v=wx3q1tKI3bs)| 13 October, 12.00 Baku TZ|[Zeynal Zeynalov](https://www.linkedin.com/in/zeynal/)|Germany|
+|6|Software Design Patterns |[slides](slides/Ch2_Session06.pdf)|[Session 06](https://www.youtube.com/watch?v=wx3q1tKI3bs)| 13 October, 12.00 Baku TZ|[Zeynal Zeynalov](https://www.linkedin.com/in/zeynal/)|Germany|
 |7|Stream Processing |[slides](slides/Ch02_Session07.pdf)|[Session 07](https://youtu.be/RQBDicJkbIUs)| 20 October, 15.00 Baku TZ|[Elkhan Shahverdi](https://www.linkedin.com/in/elkhan-shahverdi-59356166/)|Estonia|
 
 
