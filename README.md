@@ -38,9 +38,9 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |5|Happy Frontend |[slides](slides/chapter02/Session05_OrkhanJ.pdf)|[Session 05]( https://youtu.be/5wsd_Yklzys)| 06 October, 12.00 Baku TZ|[Orkhan Jafarov](https://www.linkedin.com/in/orkhan-jafarov-b8792627/)|Azərbaycan|
 |6|Software Design Patterns |[slides](slides/chapter02/Session06_ZeynalZ.pdf)|[Session 06](https://www.youtube.com/watch?v=wx3q1tKI3bs)| 13 October 2019|[Zeynal Zeynalov](https://www.linkedin.com/in/zeynal/)|Almaniya|
 |7|Stream Processing |[slides](slides/chapter02/Session07_ElkhanS.pdf)|[Session 07](https://youtu.be/RQBDicJkbIUs)| 20 October 2019|[Elkhan Shahverdi](https://www.linkedin.com/in/elkhan-shahverdi-59356166/)|Estoniya|
-|8|The Pragmatic Programmer |[slides](slides/chapter02/Session08_VugarG.pdf)|[Session 07](https://youtu.be/RQBDicJkbIUs)| 27 October 2019|[Vugar Gasimov](https://www.linkedin.com/in/vugargasimov/)|Estoniya|
-|9|XXX|[slides](slides/chapter02/Session09_.pdf)|[Session 09](XXX)| 03 November 2019[XXX](https://www.linkedin.com/in/elkhan-shahverdi-59356166/)||
-|XX|XXX |[slides](slides/chapter02/SessionXX_.pdf)|[Session XX](XXX)| 10 November 2019|[XXX](https://www.linkedin.com/in/elkhan-shahverdi-59356166/)||
+|8|The Pragmatic Programmer |[slides](slides/chapter02/Session08_VugarG.pdf)|[Session 08]()| 27 October 2019|[Vugar Gasimov](https://www.linkedin.com/in/vugargasimov/)|Estoniya|
+|9|XXX|[slides](slides/chapter02/Session09_.pdf)|[Session 09](XXX)| 03 November 2019 |[XXX](https://www.linkedin.com/in/)||
+|XX|XXX |[slides](slides/chapter02/SessionXX_.pdf)|[Session XX](XXX)| 10 November 2019|[XXX](https://www.linkedin.com/in/)||
 
 © 2019 GOUP. Bütün hüquqlar qorunur.
 
