@@ -1,5 +1,4 @@
-# GOUPAZ - _GO UP!_
-
+![alt text](img/banner02.png)
 ![alt text](img/banner.png)
 
 Dəyərli istifadəçilərimiz,
@@ -41,6 +40,8 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |9|XXX|[slides](slides/chapter02/Session09_.pdf)|[Session 09](XXX)| 03 November 2019[XXX](https://www.linkedin.com/in/elkhan-shahverdi-59356166/)||
 |XX|XXX |[slides](slides/chapter02/SessionXX_.pdf)|[Session XX](XXX)| 10 November 2019|[XXX](https://www.linkedin.com/in/elkhan-shahverdi-59356166/)||
 
+© 2019 GOUP. Bütün hüquqlar qorunur.
+
 # Haqqımızda
 
 ### Biz kimik?
@@ -70,4 +71,3 @@ Youtube : https://www.youtube.com/goupaz
 
 Facebook : https://www.facebook.com/goupaz
 
-© 2019 GOUP. Bütün hüquqlar qorunur.
