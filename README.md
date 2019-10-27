@@ -8,10 +8,9 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 - [Əlaqə](#Əlaqə)
 
 
+## Chapter01 June-August 2019
 
 ![alt text](img/chapter01.png)
-
-## Chapter01
 
 |No| Topic | PPT|Video |Tarix|Moderator|Ölkə|
 |------|----------------------|---------|---|-----|-----|------|
@@ -26,7 +25,9 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |9|Design ve Behave hazirligi|[Slides](slides/chapter01/Session09_EminG.pdf)|[Session09](https://youtu.be/z_O_AZhNqdQ)|03 Avqust 2019|[Emin Guliyev](https://www.linkedin.com/in/eminguliyev/)|Almaniya|
 |X| IT Security Texnologiyaları|[Slides](slides/chapter01/Session10_RashadS.pdf)|[SessionX](https://www.youtube.com/watch?v=njEZV81T4k4)|11 Avqust 2019|[Rashad Suleymanov](https://www.linkedin.com/in/rashad-suleymanov-b7293a41/)|Polşa|
 
-## Chapter02
+## Chapter02  September-November 2019
+
+![alt text](img/chapter02.png)
 
 |No| Topic | PPT|Video |Tarix|Moderator|Ölkə|
 |------|----------------------|---------|---|-----|-----|------|
