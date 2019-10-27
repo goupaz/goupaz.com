@@ -1,4 +1,3 @@
-![alt text](img/banner02.png)
 ![alt text](img/banner.png)
 
 Dəyərli istifadəçilərimiz,
