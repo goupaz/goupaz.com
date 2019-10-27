@@ -1,15 +1,17 @@
-![alt text](img/banner.png)
+# Azerbaijani TechMentors living across the world
 
-Dəyərli istifadəçilərimiz,
+![alt text](img/banner.png)
 
 IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 
 - [Haqqımızda](#haqqımızda)
 - [Əlaqə](#Əlaqə)
 
+
+
 ![alt text](img/chapter01.png)
 
-# Chapter01
+## Chapter01
 
 |No| Topic | PPT|Video |Tarix|Moderator|Ölkə|
 |------|----------------------|---------|---|-----|-----|------|
@@ -24,7 +26,7 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |9|Design ve Behave hazirligi|[Slides](slides/chapter01/Session09_EminG.pdf)|[Session09](https://youtu.be/z_O_AZhNqdQ)|03 Avqust 2019|[Emin Guliyev](https://www.linkedin.com/in/eminguliyev/)|Almaniya|
 |X| IT Security Texnologiyaları|[Slides](slides/chapter01/Session10_RashadS.pdf)|[SessionX](https://www.youtube.com/watch?v=njEZV81T4k4)|11 Avqust 2019|[Rashad Suleymanov](https://www.linkedin.com/in/rashad-suleymanov-b7293a41/)|Polşa|
 
-# Chapter02
+## Chapter02
 
 |No| Topic | PPT|Video |Tarix|Moderator|Ölkə|
 |------|----------------------|---------|---|-----|-----|------|
@@ -41,7 +43,7 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 
 © 2019 GOUP. Bütün hüquqlar qorunur.
 
-# Haqqımızda
+## Haqqımızda
 
 ### Biz kimik?
 GOUP layihəsi xaricdə yaşayan və IT sahəsində çalışan bir qrup  təcrübəli komandanın ideyasıdır. Layihənin əsas məqsədi Azərbaycanda "Open Source" resursların inkişafı, bu sahədə xaricdə əldə etdiyimiz təcrübənin sizlərlə paylaşılmasıdır.
