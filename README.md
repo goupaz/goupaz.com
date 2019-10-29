@@ -39,8 +39,8 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |6|Software Design Patterns |[slides](slides/chapter02/Session06_ZeynalZ.pdf)|[Session 06](https://www.youtube.com/watch?v=wx3q1tKI3bs)| 13 October 2019|[Zeynal Zeynalov](https://www.linkedin.com/in/zeynal/)|Almaniya|
 |7|Stream Processing |[slides](slides/chapter02/Session07_ElkhanS.pdf)|[Session 07](https://youtu.be/RQBDicJkbIUs)| 20 October 2019|[Elkhan Shahverdi](https://www.linkedin.com/in/elkhan-shahverdi-59356166/)|Estoniya|
 |8|The Pragmatic Programmer |[slides](slides/chapter02/Session08_VugarG.pdf)|[Session 08]()| 27 October 2019|[Vugar Gasimov](https://www.linkedin.com/in/vugargasimov/)|Estoniya|
-|9|XXX|[slides](slides/chapter02/Session09_.pdf)|[Session 09](XXX)| 02 November 2019 21:00|[Fikret Kerimli](https://www.linkedin.com/in/fikrat-karimli-msc-oscp-cissp-ccsp-67aa7a104/)|Amerika|
-|XX|XXX |[slides](slides/chapter02/SessionXX_.pdf)|[Session XX](XXX)| 03 November 2019 09:00|[Rustam Hashimov](https://www.linkedin.com/in/rustam-hashimov-2a05593a/)|Amerika|
+|9|IT Tehlukesizlik|[slides](slides/chapter02/Session09_.pdf)|[Session 09](XXX)| 02 November 2019 21:00|[Fikret Kerimli](https://www.linkedin.com/in/fikrat-karimli-msc-oscp-cissp-ccsp-67aa7a104/)|Amerika|
+|XX|Artificial Intelligence |[slides](slides/chapter02/SessionXX_.pdf)|[Session XX](XXX)| 03 November 2019 09:00|[Rustam Hashimov](https://www.linkedin.com/in/rustam-hashimov-2a05593a/)|Amerika|
 
 © 2019 GOUP. Bütün hüquqlar qorunur.
 
