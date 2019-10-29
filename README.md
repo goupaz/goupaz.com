@@ -67,7 +67,7 @@ Buyurub, aşağıdakı əlaqə vasitələri ilə bizimlə əlaqə saxlaya bilər
 
 Slack Qrupumuz : https://goupaz.slack.com
 
-Slack Qrupumuza [Qoşul](https://join.slack.com/t/goupaz/shared_invite/enQtMjU1MjM5MDc2MzQxLWRjMDFlMTNhNjBhZWY4YWVlNThlNTY5NWJhNWY0NzA3ZDk5MTVjZDVhMGIyMGUyZWFlMDE1M2ZmYTBhYjRhYTI)
+Slack Qrupumuza Qoşul! [link](https://join.slack.com/t/goupaz/shared_invite/enQtMjU1MjM5MDc2MzQxLWJkMTZiMGFhZDA3ZDkwZTgxMDNhMzc4YjFkZTBjZGMxZmQxYzA0NjEyMDM1ODVjMTBiYWUxN2UzMDVlNmYzMjU)
 
 Youtube : https://www.youtube.com/goupaz
 
