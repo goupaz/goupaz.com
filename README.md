@@ -40,7 +40,7 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |7|Stream Processing |[slides](slides/chapter02/Session07_ElkhanS.pdf)|[Session 07](https://youtu.be/RQBDicJkbIUs)| 20 October 2019|[Elkhan Shahverdi](https://www.linkedin.com/in/elkhan-shahverdi-59356166/)|Estoniya|
 |8|The Pragmatic Programmer |[slides](slides/chapter02/Session08_VugarG.pdf)|[Session 08](https://www.youtube.com/watch?v=Mb-o16zY2do)| 27 October 2019|[Vugar Gasimov](https://www.linkedin.com/in/vugargasimov/)|Estoniya|
 |9|IT Tehlukesizlik|[slides](slides/chapter02/Session09_.pdf)|[Session 09](https://www.youtube.com/watch?v=yrFyUEtjJBw)| 02 November 2019|[Fikret Kerimli](https://www.linkedin.com/in/fikrat-karimli-msc-oscp-cissp-ccsp-67aa7a104/)|Amerika|
-|XX|Artificial Intelligence |[slides](slides/chapter02/SessionXX_RustamH.pdf)|[Session XX](XXX)| 03 November 2019|[Rustam Hashimov](https://www.linkedin.com/in/rustam-hashimov-2a05593a/)|Amerika|
+|XX|Artificial Intelligence |[slides](slides/chapter02/SessionXX_RustamH.pdf)|[Session XX](https://youtu.be/Yv78-P9x3dw)| 03 November 2019|[Rustam Hashimov](https://www.linkedin.com/in/rustam-hashimov-2a05593a/)|Amerika|
 
 © 2019 GOUP. Bütün hüquqlar qorunur.
 
