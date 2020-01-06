@@ -42,7 +42,7 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |9|IT Tehlukesizlik|[slides](slides/chapter02/Session09_.pdf)|[Session 09](https://www.youtube.com/watch?v=yrFyUEtjJBw)| 02 November 2019|[Fikret Kerimli](https://www.linkedin.com/in/fikrat-karimli-msc-oscp-cissp-ccsp-67aa7a104/)|Amerika|
 |XX|Artificial Intelligence |[slides](slides/chapter02/SessionXX_RustamH.pdf)|[Session XX](https://youtu.be/Yv78-P9x3dw)| 03 November 2019|[Rustam Hashimov](https://www.linkedin.com/in/rustam-hashimov-2a05593a/)|Amerika|
 
-© 2019 GOUP. Bütün hüquqlar qorunur.
+© 2020 GOUP. Bütün hüquqlar qorunur.
 
 ## Haqqımızda
 
