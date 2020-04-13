@@ -1,4 +1,4 @@
-# Azerbaijani TechMentors living across the world
+# TechMentors living across the world
 
 ![alt text](img/banner.png)
 
