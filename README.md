@@ -16,11 +16,10 @@ Slide Language: English
 
 Coming Soon!
 
-![coming soon]()
 
 |No| Topic | PPT|Video |Date|Host|Country|
 |------|----------------------|---------|---|-----|-----|------|
-|1| Topic|[Slides](slides/chapter03)|[Session01](https://www.youtube.com/watch?
+|1| Topic|[Slides](slides/chapter03)|[Session01](https://www.youtube.com/watch?)
 
 ## Chapter02  September-November 2019
 
@@ -85,9 +84,7 @@ Our goal is simple to structure and index the data flow within communities.
 ## Contact
 You can join us:
 
-[Slack](https://goupaz.slack.com)
-
-Slack invite [link](https://join.slack.com/t/goupaz/shared_invite/enQtMjU1MjM5MDc2MzQxLWJkMTZiMGFhZDA3ZDkwZTgxMDNhMzc4YjFkZTBjZGMxZmQxYzA0NjEyMDM1ODVjMTBiYWUxN2UzMDVlNmYzMjU)
+[Slack](https://join.slack.com/t/goupaz/shared_invite/enQtMjU1MjM5MDc2MzQxLWJkMTZiMGFhZDA3ZDkwZTgxMDNhMzc4YjFkZTBjZGMxZmQxYzA0NjEyMDM1ODVjMTBiYWUxN2UzMDVlNmYzMjU)
 
 [Youtube](https://www.youtube.com/goupaz)
 
