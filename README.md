@@ -2,30 +2,31 @@
 
 ![alt text](img/banner.png)
 
-IT üzrə "Open Source" layihəsinə xoş gəldiniz.
+Welcome to experience sharing `02hero` project!
 
-- [Haqqımızda](#haqqımızda)
-- [Əlaqə](#Əlaqə)
+- [About Us](#aboutus)
+- [Contact](#contact)
 
 
-## Chapter01 June-August 2019
+## Chapter03 April-June 2020
 
-![alt text](img/chapter01.png)
+Video Language: English
 
-|No| Topic | PPT|Video |Tarix|Moderator|Ölkə|
+Slide Language: English
+
+Coming Soon!
+
+![coming soon]()
+
+|No| Topic | PPT|Video |Date|Host|Country|
 |------|----------------------|---------|---|-----|-----|------|
-|1| IT sahəsində global karyera|[Slides](slides/chapter01/Session01_SakoM.pdf)|[Session01](https://www.youtube.com/watch?v=Kvr1S4USXOI)|01 İyun 2019|[Sako M](https://www.linkedin.com/in/sakom/)|Amerika|
-|2| Bulud Texnologiyaları|[Slides](slides/chapter01/Session02_RovshanM.pdf)|[Session02](https://youtu.be/amnGyiPqJQ0)|15 İyun 2019|[Rovshan Musayev](https://www.linkedin.com/in/rovshan-musayev/)|Çexiya|
-|3| Database Texnologiyaları|[Slides](slides/chapter01/Session03_RamilR.pdf)|[Session03](https://www.youtube.com/watch?v=iDgi0R5HylE)|22 İyun 2019|[Ramil Rahimov](https://www.linkedin.com/in/ramilrahimov/)|Kanada|
-|4| Network Texnologiyaları|[Slides](slides/chapter01/Session04_FaridA.pdf)|[Session04 Part 1](https://www.youtube.com/watch?v=XEzTDyF5LGw)[Session04 Part 2](https://www.youtube.com/watch?v=B-FYFbIM6tw)|29 İyun 2019|[Farid Akhundov](https://www.linkedin.com/in/farid-akhundov-34925b4b/)|Avstraliya|
-|5| DevOps|[Slides](slides/chapter01/Session05_AlakbarM.pdf)|[Session05](https://www.youtube.com/watch?v=w4Qqg1DIOM0)|06 İyul 2019|[Alakbar Mammadov](https://www.linkedin.com/in/alakbarm/)|Norveç|
-|6| Microservices Architecture|[Slides](slides/chapter01/Session06_EminH.pdf)|[Session06](https://www.youtube.com/watch?v=YzXuyDpUo9E)|13 İyul 2019|[Emin Hasanov](https://www.linkedin.com/in/eminhasanov/)|Almaniya|
-|7| System Engineering/Software Architecture|[Slides](slides/chapter01/Session07_EminQ.pdf)|[Session07](https://youtu.be/s6FXRsO3mqs)|20 İyul 2019|[Emin Quliyev](https://www.linkedin.com/in/emin-ghuliev-461a22129/)|Azərbaycan|
-|8| Alqoritmlər, İnterviyu hazırlığı|[Slides](slides/chapter01/Session08_VusalH.pdf)|[Session08](https://www.youtube.com/watch?v=KoAuS2A1j9Y)|27 İyul 2019|[Vusal Ahmadoglu](https://www.linkedin.com/in/vusaldadalov/)|Hollandiya|
-|9|Design ve Behave hazirligi|[Slides](slides/chapter01/Session09_EminG.pdf)|[Session09](https://youtu.be/z_O_AZhNqdQ)|03 Avqust 2019|[Emin Guliyev](https://www.linkedin.com/in/eminguliyev/)|Almaniya|
-|X| IT Security Texnologiyaları|[Slides](slides/chapter01/Session10_RashadS.pdf)|[SessionX](https://www.youtube.com/watch?v=njEZV81T4k4)|11 Avqust 2019|[Rashad Suleymanov](https://www.linkedin.com/in/rashad-suleymanov-b7293a41/)|Polşa|
+|1| Topic|[Slides](slides/chapter03)|[Session01](https://www.youtube.com/watch?
 
 ## Chapter02  September-November 2019
+
+Video Language: Azeri
+
+Slide Language: English
 
 ![alt text](img/chapter02.png)
 
@@ -42,34 +43,52 @@ IT üzrə "Open Source" layihəsinə xoş gəldiniz.
 |9|IT Tehlukesizlik|[slides](slides/chapter02/Session09_.pdf)|[Session 09](https://www.youtube.com/watch?v=yrFyUEtjJBw)| 02 November 2019|[Fikret Kerimli](https://www.linkedin.com/in/fikrat-karimli-msc-oscp-cissp-ccsp-67aa7a104/)|Amerika|
 |XX|Artificial Intelligence |[slides](slides/chapter02/SessionXX_RustamH.pdf)|[Session XX](https://youtu.be/Yv78-P9x3dw)| 03 November 2019|[Rustam Hashimov](https://www.linkedin.com/in/rustam-hashimov-2a05593a/)|Amerika|
 
-© 2020 GOUP. Bütün hüquqlar qorunur.
+## Chapter01 June-August 2019 
 
-## Haqqımızda
+Video Language: Azeri
 
-### Biz kimik?
-GOUP layihəsi xaricdə yaşayan və IT sahəsində çalışan bir qrup  təcrübəli komandanın ideyasıdır. Layihənin əsas məqsədi Azərbaycanda "Open Source" resursların inkişafı, bu sahədə xaricdə əldə etdiyimiz təcrübənin sizlərlə paylaşılmasıdır.
+Slide Language: English
+
+![alt text](img/chapter01.png)
+
+|No| Topic | PPT|Video |Tarix|Moderator|Ölkə|
+|------|----------------------|---------|---|-----|-----|------|
+|1| IT sahəsində global karyera|[Slides](slides/chapter01/Session01_SakoM.pdf)|[Session01](https://www.youtube.com/watch?v=Kvr1S4USXOI)|01 İyun 2019|[Sako M](https://www.linkedin.com/in/sakom/)|Amerika|
+|2| Bulud Texnologiyaları|[Slides](slides/chapter01/Session02_RovshanM.pdf)|[Session02](https://youtu.be/amnGyiPqJQ0)|15 İyun 2019|[Rovshan Musayev](https://www.linkedin.com/in/rovshan-musayev/)|Çexiya|
+|3| Database Texnologiyaları|[Slides](slides/chapter01/Session03_RamilR.pdf)|[Session03](https://www.youtube.com/watch?v=iDgi0R5HylE)|22 İyun 2019|[Ramil Rahimov](https://www.linkedin.com/in/ramilrahimov/)|Kanada|
+|4| Network Texnologiyaları|[Slides](slides/chapter01/Session04_FaridA.pdf)|[Session04 Part 1](https://www.youtube.com/watch?v=XEzTDyF5LGw)[Session04 Part 2](https://www.youtube.com/watch?v=B-FYFbIM6tw)|29 İyun 2019|[Farid Akhundov](https://www.linkedin.com/in/farid-akhundov-34925b4b/)|Avstraliya|
+|5| DevOps|[Slides](slides/chapter01/Session05_AlakbarM.pdf)|[Session05](https://www.youtube.com/watch?v=w4Qqg1DIOM0)|06 İyul 2019|[Alakbar Mammadov](https://www.linkedin.com/in/alakbarm/)|Norveç|
+|6| Microservices Architecture|[Slides](slides/chapter01/Session06_EminH.pdf)|[Session06](https://www.youtube.com/watch?v=YzXuyDpUo9E)|13 İyul 2019|[Emin Hasanov](https://www.linkedin.com/in/eminhasanov/)|Almaniya|
+|7| System Engineering/Software Architecture|[Slides](slides/chapter01/Session07_EminQ.pdf)|[Session07](https://youtu.be/s6FXRsO3mqs)|20 İyul 2019|[Emin Quliyev](https://www.linkedin.com/in/emin-ghuliev-461a22129/)|Azərbaycan|
+|8| Alqoritmlər, İnterviyu hazırlığı|[Slides](slides/chapter01/Session08_VusalH.pdf)|[Session08](https://www.youtube.com/watch?v=KoAuS2A1j9Y)|27 İyul 2019|[Vusal Ahmadoglu](https://www.linkedin.com/in/vusaldadalov/)|Hollandiya|
+|9|Design ve Behave hazirligi|[Slides](slides/chapter01/Session09_EminG.pdf)|[Session09](https://youtu.be/z_O_AZhNqdQ)|03 Avqust 2019|[Emin Guliyev](https://www.linkedin.com/in/eminguliyev/)|Almaniya|
+|X| IT Security Texnologiyaları|[Slides](slides/chapter01/Session10_RashadS.pdf)|[SessionX](https://www.youtube.com/watch?v=njEZV81T4k4)|11 Avqust 2019|[Rashad Suleymanov](https://www.linkedin.com/in/rashad-suleymanov-b7293a41/)|Polşa|
+
+© 2020 GOUP. All rights reserved.
+
+## About Us
+
+### Who we are?
+The GOUP project is the idea of a Azeri tech community living abroad.
+
+### Mission
+Build bridges between tech professionals in a collaborative ways across the borders.
+
+### Vision
+Make the world better place to live, using technology and right culture.
+
+### Objectives
+Build egoless, collaborative, competent,  decentralized, scalable, fun community culture.
+Our goal is simple to structure and index the data flow within communities. 
 
 
-### Missiya
-Xarici və yerli bazarda IT sahəsində çalışan mütəxəsislərimiz arasında körpülər qurmaq
+## Contact
+You can join us:
 
-### Vizyon
-Xarici bazarlara çıxacaq Azərbaycan Gəncliyini hazırlamaq. <br />
-Yerli Startup infrastrukturunun inkişafı
-Texnoloji yenilikləri isti-isti sizlərə çatdırmaq
+[Slack](https://goupaz.slack.com)
 
-### Obyektiv
-Hədəfimiz çox sadədir IT sahəsinin inkişafını surətləndirmək və ən böyük auditoriyanı toplamaq.
+Slack invite [link](https://join.slack.com/t/goupaz/shared_invite/enQtMjU1MjM5MDc2MzQxLWJkMTZiMGFhZDA3ZDkwZTgxMDNhMzc4YjFkZTBjZGMxZmQxYzA0NjEyMDM1ODVjMTBiYWUxN2UzMDVlNmYzMjU)
 
+[Youtube](https://www.youtube.com/goupaz)
 
-## Əlaqə
-Buyurub, aşağıdakı əlaqə vasitələri ilə bizimlə əlaqə saxlaya bilərsiniz:
-
-Slack Qrupumuz : https://goupaz.slack.com
-
-Slack Qrupumuza Qoşul! [link](https://join.slack.com/t/goupaz/shared_invite/enQtMjU1MjM5MDc2MzQxLWJkMTZiMGFhZDA3ZDkwZTgxMDNhMzc4YjFkZTBjZGMxZmQxYzA0NjEyMDM1ODVjMTBiYWUxN2UzMDVlNmYzMjU)
-
-Youtube : https://www.youtube.com/goupaz
-
-Facebook : https://www.facebook.com/goupaz
-
+[Facebook](https://www.facebook.com/goupaz)
