@@ -17,12 +17,10 @@ Video Language: English
 
 Slide Language: English
 
-Coming Soon!
 
-
-|No| Topic | PPT|Video |Date|Mentor|Country|
-|------|----------------------|---------|---|-----|-----|------|
-|1| Topic|[Slides](slides/chapter03)|[Session01](https://www.youtube.com/watch?)
+|No| Topic | Slides|Video |Date|Mentor|Country|Co-host|
+|------|----------------------|---------|---|-----|-----|------|------|
+|1| 02 Open Source Hero|[Slides](slides/chapter03)|[Session01]()| 18 April 7:00-8:30 UTC | (Kamran Ahmed](https://www.linkedin.com/in/kaamranahmed)| Dubai| [expertech](https://expertech.az)|
 
 ## Chapter02  September-November 2019
 
