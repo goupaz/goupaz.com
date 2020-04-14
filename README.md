@@ -20,7 +20,7 @@ Slide Language: English
 
 |No| Topic | Slides|Video |Date|Mentor|Country|Co-host|
 |------|----------------------|---------|---|-----|-----|------|------|
-|1| 02 Open Source Hero|[Slides](slides/chapter03)|[Session01]()| 18 April 7:00-8:30 UTC | (Kamran Ahmed](https://www.linkedin.com/in/kaamranahmed)| Dubai| [expertech](https://expertech.az)|
+|1| 02 Open Source Hero|[Slides](slides/chapter03)|[Session01]()| 18 April 7:00-8:30 UTC | [Kamran Ahmed](https://www.linkedin.com/in/kaamranahmed)| Dubai| [expertech](https://expertech.az)|
 
 ## Chapter02  September-November 2019
 
