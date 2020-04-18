@@ -13,6 +13,8 @@ Welcome to experience sharing `02hero` project!
 
 ## Chapter03 April-June 2020
 
+Line: Open Source
+
 Webinar Language: English
 
 Slide Language: English
