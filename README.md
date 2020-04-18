@@ -22,7 +22,7 @@ Slide Language: English
 
 |No| Topic | Slides|MoM|Video |Date|Speaker|Country|Co-host|Register|
 |------|----------------------|---------|---|-----|-----|------|------|------|------|
-|1| 02 Open Source|[Slides](slides/chapter03/Session01_02_OpenSource.pdf)|[Logs](Session01_MeetingMinutes.pdf)|[Session01]()| 18 April 7:00-8:30 AM UTC | [Kamran Ahmed](https://www.linkedin.com/in/kaamranahmed)| Dubai| [expertech](https://expertech.az)|[Link](https://bit.ly/3c9RNCO)|
+|1| 02 Open Source|[Slides](slides/chapter03/Session01_02_OpenSource.pdf)|[Logs](slides/chapter03/Session01_MeetingMinutes.pdf)|[Session01]()| 18 April 7:00-8:30 AM UTC | [Kamran Ahmed](https://www.linkedin.com/in/kaamranahmed)| Dubai| [expertech](https://expertech.az)|[Link](https://bit.ly/3c9RNCO)|
 
 ## Chapter02  September-November 2019
 
