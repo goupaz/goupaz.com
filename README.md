@@ -9,6 +9,7 @@ Welcome to experience sharing `02hero` project!
 
 - [About Us](#aboutus)
 - [Contact](#contact)
+- [Host session](howto/hostsession.md)
 
 
 ## Chapter03 April-June 2020
