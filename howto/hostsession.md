@@ -23,7 +23,7 @@
    - [ ] Remind Speaker with direct message, if required
    - [ ] Start no later than 10 minutes past, buffer time for having fireside chat
    - [ ] Make sure attenders are enjoying and feeling some vibes, fun replicas could help
-   - [ ] Start recording
+   - [ ] Start recording, and inform attenders it will be shared in public after
    - [ ] Intro yourself
    - [ ] Intro speaker
    - [ ] Intro topic will be covered
