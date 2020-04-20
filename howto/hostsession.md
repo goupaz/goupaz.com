@@ -3,10 +3,10 @@
 - [ ] Pre session
   - [ ] Find a speaker who are top in their field 
   - [ ] Direct message a speaker, arrange Zoom call to go through details, concerns, outcomes, success criterias, risks
-  - [ ] Create slides and add speaker as a contributor in [GoolgeSlide](https://docs.google.com/presentation/u/0/)
+  - [ ] Create slides from template(../templates/02hero3_template.pptx) and add speaker as a contributor in [GoolgeSlide](https://docs.google.com/presentation/u/0/)
   - [ ] Create a register form in [GoogleForm](https://docs.google.com/forms/u/0/)
   - [ ] Create a feedback form in [GoogleForm](https://docs.google.com/forms/u/0/)
-  - [ ] Create MeetingMinutes doc in [GoogleDoc](https://docs.google.com/document/u/0/)
+  - [ ] Create MeetingMinutes doc from [template](../templates/MeetingMinutes_template.docx) in [GoogleDoc](https://docs.google.com/document/u/0/)
   - [ ] Create marketing post, after confirmed with speaker, included:
    - [ ] Topic Brief description: who should join and what they will get
    - [ ] Session Date, start-end hours
