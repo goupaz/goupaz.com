@@ -87,7 +87,7 @@ Our goal is simple to structure and index the data flow within communities.
 ## Contact
 You can join us:
 
-[Slack](https://join.slack.com/t/goupaz/shared_invite/enQtMjU1MjM5MDc2MzQxLWJkMTZiMGFhZDA3ZDkwZTgxMDNhMzc4YjFkZTBjZGMxZmQxYzA0NjEyMDM1ODVjMTBiYWUxN2UzMDVlNmYzMjU)
+[Slack](https://bit.ly/2wSJ5db)
 
 [Youtube](https://www.youtube.com/goupaz)
 
