@@ -16,7 +16,7 @@
   - [ ] Share in Linkedin, Twitter the post, include some statement which attractive, exciting, fun.
   - [ ] (Optional) Review and dry run slides with speaker
   - [ ] (Optional) Reach to Special Guests if any
-  - [ ] Create Google Calendar invite including Zoom meeting link at least 2 days in advance, and once reached 100 start adding to waiting list
+  - [ ] Create [Google Calendar invite](https://calendar.google.com/calendar) including Zoom meeting ID/password at least 2 days in advance, and once reached 100 start adding to waiting list
   
 - [ ] During session
    - [ ] Join to Zoom call, 15 mins in advance
@@ -26,7 +26,7 @@
    - [ ] Intro yourself
    - [ ] Intro speaker
    - [ ] Intro topic will be covered
-   - [ ] Go through agenda including: kick-off, intro, presentation, break, q&a and wrap up.
+   - [ ] Go through agenda including: kick-off, intro, presentation, break, q&a and wrap up, feedback
    - [ ] Kindly ask to obey Code of Conduct, and mute if not speaking
    - [ ] Kindly ask to fill in Meeting Minutes including fullname and linkedin, questions
    - [ ] Kindly ask to open camera & smile for photo shoot, to be the frontface of session
