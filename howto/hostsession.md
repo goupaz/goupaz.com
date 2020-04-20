@@ -1,4 +1,4 @@
-## How to host session
+## How to host a session/webinar
 
 - [ ] Pre session
   - [ ] Find a speaker who are top in their field 
