@@ -9,10 +9,10 @@
   - [ ] Create a feedback form in [GoogleForm](https://docs.google.com/forms/u/0/) including: what liked, disliked and how we can do better
   - [ ] Create MeetingMinutes doc from [template](../templates/MeetingMinutes_template.docx) in [GoogleDoc](https://docs.google.com/document/u/0/)
   - [ ] Create marketing post, after confirmed with speaker, included:
-   - [ ] Topic Brief description: who should join and what they will get
-   - [ ] Session Date, start/end hours
-   - [ ] Speaker, Role, Company
-   - [ ] Host, Role, Company 
+     - [ ] Topic Brief description: who should join and what they will get
+     - [ ] Session Date, start/end hours
+     - [ ] Speaker, Role, Company
+     - [ ] Host, Role, Company 
   - [ ] Share in Linkedin, Twitter, Slack the post, include some statement which attractive, exciting, fun.
   - [ ] (Optional) Review and dry run slides with speaker
   - [ ] (Optional) Reach to Special Guests if any
