@@ -2,7 +2,7 @@
 
 - [ ] Pre session
   - [ ] Find a speaker who are top in their field 
-  - [ ] Direct message a speaker
+  - [ ] Direct message a speaker in linkedin/twitter/email
   - [ ] (Optional) Arrange Zoom call to go through details, concerns, outcomes, success criterias, risks
   - [ ] Create slides from [template](../templates/02hero3_template.pptx) and add speaker as a contributor in [GoolgeSlide](https://docs.google.com/presentation/u/0/)
   - [ ] Create a register form in [GoogleForm](https://docs.google.com/forms/u/0/) including: FullName, Email, Linkedin, Github(optional), Country, Any Comments fields
