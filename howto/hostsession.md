@@ -37,6 +37,7 @@
 - [ ] Post session
    - [ ] Upload slides, MeetingMinutes to Github
    - [ ] Upload session to Youtube included: links to slides, MeetingMinutes, presenter, topic
+   - [ ] Update Sessions table in [Github](https://github.com/goupaz/02hero/README/md)
    - [ ] Share post in Linkedin, Twitter, Slack included photo and thank you to speaker, links to: recording, slides, MeetingMinutes
    - [ ] Send email to all registers included photo and thank you to speaker, links to: recording, slides, MeetingMinutes
 
