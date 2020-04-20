@@ -13,7 +13,7 @@
    - [ ] Session Date, start/end hours
    - [ ] Speaker, Role, Company
    - [ ] Host, Role, Company 
-  - [ ] Share in Linkedin, Twitter the post, include some statement which attractive, exciting, fun.
+  - [ ] Share in Linkedin, Twitter, Slack the post, include some statement which attractive, exciting, fun.
   - [ ] (Optional) Review and dry run slides with speaker
   - [ ] (Optional) Reach to Special Guests if any
   - [ ] Create [Google Calendar invite](https://calendar.google.com/calendar) including Zoom meeting ID/password at least 2 days in advance, and once reached 100 start adding to waiting list
@@ -21,6 +21,7 @@
 - [ ] During session
    - [ ] Join to Zoom call, 15 mins in advance
    - [ ] Remind Speaker with direct message, if required
+   - [ ] Start no later than 10 minutes past, buffer time for having fireside chat
    - [ ] Make sure attenders are enjoying and feeling some vibes, fun replicas could help
    - [ ] Start recording
    - [ ] Intro yourself
@@ -34,8 +35,8 @@
    - [ ] Make sure stop/start recording during break
        
 - [ ] Post session
-   - [ ] Upload session to Youtube
    - [ ] Upload slides, MeetingMinutes to Github
-   - [ ] Share post in Linkedin, Twitter included photo and thank you to speaker, links to: recording, slides, MeetingMinutes
+   - [ ] Upload session to Youtube included: links to slides, MeetingMinutes, presenter, topic
+   - [ ] Share post in Linkedin, Twitter, Slack included photo and thank you to speaker, links to: recording, slides, MeetingMinutes
    - [ ] Send email to all registers included photo and thank you to speaker, links to: recording, slides, MeetingMinutes
 
