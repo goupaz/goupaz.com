@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Facebook",
+        "link": "https://facebook.com/goupaz",
+        "image": "images/facebook.svg"
+    },
+    {
+        "name": "Linkedin",
+        "link": "https://linkedin.com/company/goupaz",
+        "image": "images/linkedin.svg"
+    },
+    {
+        "name": "Twitter",
+        "link": "https://twitter.com/goupaz",
+        "image": "images/twitter.svg"
+    },
+    {
+        "name": "Youtube",
+        "link": "https://youtube.com/goupaz",
+        "image": "images/youtube.svg"
+    },
+    {
+        "name": "Slack",
+        "link": "https://goupaz.slack.com",
+        "image": "images/slack.svg"
+    },
+    {
+        "name": "Github",
+        "link": "https://github.com/goupaz",
+        "image": "images/github.png"
+    }
+]

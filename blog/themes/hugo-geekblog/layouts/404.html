@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+
+<head>
+    {{ partial "head/meta" . }}
+    <title>{{ if not (eq .Kind "home") }}{{ partial "title" . }} | {{ end }}{{ .Site.Title }}</title>
+
+    {{ partial "head/favicons" . }}
+    {{ partial "head/others" . }}
+</head>
+
+<body>
+    {{ partial "svg-icon-symbols" . }}
+
+    <div class="wrapper">
+        {{ partial "site-header" . }}
+
+        <main class="gblog-error flex-even">
+            <div class="flex align-center justify-center">
+                <div class="gblog-error__icon">
+                    <svg class="icon telescope"><use xlink:href="#telescope"></use></svg>
+                </div>
+                <div class="gblog-error__message">
+                    <div class="gblog-error__line gblog-error__title">Lost?</div>
+                    <div class="gblog-error__line gblog-error__code">Error 404</div>
+                    <div class="gblog-error__line gblog-error__help">
+                        Seems like what you are looking for can't be found. Don't worry we can
+                        bring you back to the <a class="gblog-error__link" href="{{ .Site.BaseURL }}">homepage</a>.
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        {{ partial "site-footer" . }}
+
+    </div>
+</body>
+
+</html>

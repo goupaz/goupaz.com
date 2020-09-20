@@ -1,0 +1,35 @@
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
+
+
+[context.production.environment]
+    HUGO_VERSION = "0.74.3"
+    HUGO_ENV = "production"
+    HUGO_ENABLEGITINFO = "true"
+    HUGO_BASEURL = "/"
+
+
+[[redirects]]
+  from = "/community"
+  to = "https://community.goupaz.com"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+#  headers = {X-From = "Netlify"}
+#  signed = "API_SIGNATURE_TOKEN"
+
+[[redirects]]
+  from = "/blog"
+  to = "https://blog.goupaz.com"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+#  headers = {X-From = "Netlify"}
+#  signed = "API_SIGNATURE_TOKEN"
+
+[[redirects]]
+  from = "/courses"
+  to = "https://courses.goupaz.com"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+#  headers = {X-From = "Netlify"}
+#  signed = "API_SIGNATURE_TOKEN"

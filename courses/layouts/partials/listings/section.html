@@ -1,0 +1,35 @@
+<h2>Courses</h2>
+{{if .Sections}}
+     <div class="row">
+          {{ template "recursive-course-listing" . }}
+     </div>
+
+{{end}}
+
+{{if .Pages}}
+<h2>Articles & Videos</h2>
+     <div class="row">
+        {{ template "recursive-article-listing" . }}
+     </div>
+{{end}}
+
+{{define "recursive-course-listing"}}
+     {{if .Sections}}
+          {{range .Sections }}
+               <div class="col">
+                    {{ partial "listings/course-card" . }}
+               </div>
+               {{ template "recursive-course-listing" . }}
+          {{end}}
+
+     {{end}}
+{{end}}
+
+{{define "recursive-article-listing"}}
+    {{range .Pages }}
+        <div class="col">
+            {{ partial "listings/article-card" . }}
+        </div>
+        {{ template "recursive-article-listing" . }}
+    {{end}}
+{{end}}

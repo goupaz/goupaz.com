@@ -1,0 +1,29 @@
+<div style="margin-top: 25px;">
+     {{ $nextIndex := add 1 .Page.Params.weight }}
+     {{ $prevIndex := sub .Page.Params.weight 1 }}
+     {{ $currentPageWeight := .Page.Params.weight}}
+     {{if .Parent.Pages}}
+          {{if eq $currentPageWeight 2}}
+               <a class="waves-effect waves-light btn blue" href="{{.Parent.URL}}"><i class="material-icons left">chevron_left</i>Prev</a>
+          {{end}}
+          {{ range .Parent.Pages}}
+               {{if eq $prevIndex .Params.weight}}
+                    <a class="waves-effect waves-light btn blue" href="{{.URL}}"><i class="material-icons left">chevron_left</i>Prev</a>
+               {{end}}
+
+               {{if eq $nextIndex .Params.weight}}
+                    <a class="waves-effect waves-light btn blue right" href="{{.URL}}"><i class="material-icons right">chevron_right</i>Next</a>
+               {{end}}
+          {{ end }}
+     {{else}}
+          {{range .Pages}}
+               {{if eq .Params.weight 2}}
+                    <a style="visibility:hidden;" class="waves-effect waves-light btn blue" href="{{.URL}}"><i class="material-icons left">chevron_left</i>Prev</a>
+                    <a class="waves-effect waves-light btn blue right" href="{{.URL}}"><i class="material-icons right">chevron_right</i>Next</a>
+               {{end}}
+
+          {{end}}
+     {{end}}
+
+
+</div>

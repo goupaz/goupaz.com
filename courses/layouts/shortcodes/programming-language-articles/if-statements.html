@@ -1,0 +1,129 @@
+<p>Up to this point in the course we've written some pretty cool programs! But in this lesson I want to introduce you to a concept that will allow our programs to be even more powerful. </p>
+
+<p>If statements are a special structure in {{.Get "lang"}} where we can actually allow our programs to make decisions.</p>
+
+<p>By using an if statement, I could execute certain code when certain conditions are true, and I could execute other code when other conditions are true.</p>
+
+<h2 id="what-are-they">What are they?</h2>
+
+<p>Basically, if statements allow our programs to respond to the input that they are given. Depending on the state of the data in the program, {{.Get "lang"}} will be able to respond to it. So when certain data is certain values we can do certain things, and when other data is other values we can do other things. </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "With if statements, our programs are able to become a lot smarter and we're able to do more things with them (which is always a good thing)!" ) }}</p>
+
+<p>Now, one of the things you might not realize is that you're already an expert at dealing with if statements. Maybe not so much in {{.Get "lang"}}, but in everyday life. </p>
+
+<p>As you go throughout your day, you're confronted with countless if statements, I've included a few common one's below:</p>
+
+<pre><code class=" html language- html">I wake up
+If I'm hungry 
+  I eat breakfast 
+
+I leave my house
+if it's cloudy 
+  I bring an umbrella 
+otherwise 
+  I bring sunglasses 
+
+Im at a restaurant 
+if I want meat 
+  I order a steak 
+otherwise if I want pasta 
+  I order spaghetti &amp; meatballs 
+otherwise 
+  I order a salad. 
+</code></pre>
+
+<p>Above I've written out three if statements that you might encounter in your everyday life. While these aren't valid {{.Get "lang"}} code, they are very similar to what we'll be looking at when we eventually do get to some code. </p>
+
+<h2 id="if">If</h2>
+
+<p>All if statements are made up of two parts, a boolean expression and an action. Remember that boolean values are just true or false. Boolean expressions therefore are expressions which can be evaluated to either a true or a false value. </p>
+
+<ul>
+<li>Albert Einstein was a woman
+
+
+<ul>
+<li>Is a false Boolean expression</li></ul>
+</li>
+
+<li>Abraham Lincoln was president of the United States
+
+
+<ul>
+<li>Is a true Boolean expression</li></ul>
+</li>
+</ul>
+
+<p>In an If statement a boolean expression acts as a guard. Essentially its guarding a particular piece of code.</p>
+
+<p>So IF the Boolean expression is true, THEN we want to execute the code contained in the statement (the action). Whereas IF the boolean expression is false, THEN we want to skip over the code contained in the expression. The action can be any segment of valid code, and as long as the boolean expression concludes to true, then it will be executed. </p>
+
+<p>So taking for example the first if statement in the previous section:</p>
+
+<pre><code class=" html language- html">I wake up
+If I'm hungry 
+  I eat breakfast </code></pre>
+
+<p>Here the boolean expression <em>If i'm hungry</em> acts as the boolean guard. Only if this is true will you eat breakfast (i.e. the action).</p>
+
+<h3 id="why-are-they-useful?">Why are They Useful?</h3>
+
+<p>If statements are useful because they allow a programmer to build a certain level of intelligence and decision making into a program. When writing programs, there’s a bunch of situations where it can be useful to execute certain code when certain conditions are met, and skip over certain code when conditions aren’t met. </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "As our programs get more complex, we'll be dealing with more and more data, and we'll want to use that data to inform the program on what it should do in certain situations." ) }}</p>
+
+<p>If statements are super powerful and common in most programs. This website even, is build with hundreds of if statements (I should know I painstakingly wrote them all).</p>
+
+<p>One of the important learning curves that all new developers have to overcome is to begin thinking in terms of if statements. But don't worry, if this isn't coming super naturally to you right now you'll get the hang of it after some practice. </p>
+
+<h2 id="else">Else</h2>
+
+<p>Now that we’ve learned about IF statements let’s talk about another piece to the puzzle which are called Else statements. An Else statement basically specifies what to do when the if statement returns false.</p>
+
+<p>So IF a condition is false -> do something else. An else can only exist in combination with an if statement. Check out some real world Else statements below</p>
+
+<pre><code class=" html language- html">IF the road is open
+  drive down it
+ELSE
+  turn right
+
+IF they have vanilla icecream
+  buy me some
+ELSE
+  buy me chocolate icecream
+
+IF it is 3 oclock
+  call me
+ELSE
+  Text me
+</code></pre>
+
+<p>Else statements have the same basic concept as if statements, they just allow you to add more logic to the program.</p>
+
+<p>Also notice that an else statement doesn’t have a boolean expression guarding it. That’s because the code inside an else statement is always executed when the boolean expression in the if statement returns false. </p>
+
+<h2 id="if-else">If Else</h2>
+
+<p>Finally, we can add even more logic into these by utilizing If Else statements. An if else statement is very similar to an if statement, much like an if statement it will check a boolean expression. If that boolean expression is true it will allow some code to be executed.</p>
+
+<p>If else statement's boolean expressions are only evaluated however after all if statements or if else statements before them have evaluated to false. </p>
+
+<p>In the beginning of this lesson we saw an example of an if else in action: </p>
+
+<pre><code class=" html language- html">Im at a restaurant 
+if I want meat 
+  I order a steak 
+otherwise if I want pasta 
+  I order spaghetti &amp; meatballs 
+otherwise 
+  I order a salad. 
+</code></pre>
+
+<p>Notice the if else statement sand-witched in between the initial if statement and the final else statement. Much like the if statement it has a boolean guard, <em>if I want pasta</em>, but this is only checked if the original if statement is false. </p>
+
+<h2 id='{{.Get "lang"}}-if-statements'>{{.Get "lang"}} If Statements</h2>
+
+<p>So now that we have a grasp of the basic concepts, lets look at some code! Here's an example of an if statement in {{.Get "lang"}}. Take a look at the video above for more about how all of this comes together!</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.a ) }}</p>

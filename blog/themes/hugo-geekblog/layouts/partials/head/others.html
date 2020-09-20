@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="{{ "main.min.css" | relURL }}" media="screen">
+<link rel="stylesheet" href="{{ "custom.css" | relURL }}" media="screen">
+
+{{ with .OutputFormats.Get "atom" }}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end }}
+
+{{ printf "<!-- %s -->" "Made with Geekblog theme https://github.com/xoxys/hugo-geekblog" | safeHTML }}

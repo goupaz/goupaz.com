@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          {{ partial "head" . }}
+          {{ partial "js" . }}
+          {{ partial "google-analytics" . }}
+     </head>
+     <body>
+          {{ partial "markup/site" . }}
+          <header>{{ partial "header" . }}</header>
+          <main>
+               <div class="page-wrap">
+                    <div class="page-margin">
+                         <aside>{{ partial "breadcrumbs" . }}</aside>
+                         {{ block "main" . }}{{ end }}
+                    </div>
+               </div>
+          </main>
+          <footer>{{ partial "footer" . }}</footer>
+     </body>
+</html>

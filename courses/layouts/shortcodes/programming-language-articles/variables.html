@@ -1,0 +1,65 @@
+  <p>The topic of this lesson, is in fact one of the most fundamental and important topics in all of computer programming, and once you master it, you'll be well on your way to becoming a {{.Get "lang"}} developer!</p>
+  
+  <p>The topic I'm talking about is variables! Variables are a {{.Get "lang"}} developer's bread and butter. They make it really easy to write complex programs with lots and lots of instructions, and keep everything organized and straight.</p>
+  
+  <p>Often times when you're writing a program in {{.Get "lang"}}, there will be several pieces of data that you need to keep track of. Just like you're constantly keeping track of different pieces of information as you go about your day, like what you have to do at work, or when you're going to the gym, or what the name of the person who just moved in across the hall is, computers also need to keep track of various pieces of information. </p>
+  
+  <p>Think for example of Facebook. Facebook keeps track of tons of information and displays it on their websites and apps. Things like names, birthdays, status', etc. In order for us to write more complex programs like these, that do more than print text out onto the screen, we'll need to learn how to manage all of the information in our programs and use variables. </p>
+  
+  <p>Variables are essentially containers which allow a program to store different pieces of information inside of them. Once the information is stored inside the variable, that information can then be accessed throughout the program simply by referring to the variable's name.</p>
+  
+  <p>{{ partial "shortcodes/spotlight" (dict "Content" "Variables are containers where we can store pieces of data we want to work with in our programs" ) }}</p>
+  
+  <h2 id="writing-a-story">Writing a Story</h2>
+  
+  <p>To demonstrate let's take a look at a situation where variables would come in handy:</p>
+  
+  <p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.a ) }}</p>
+  
+  <p>The program above is very similar to the one we wrote in the previous lesson where we drew a shape. It's just printing out a little story about a man named George. </p>
+  
+  <p>But let's say we wanted to change the name of the character in the story. Well in order to do that we would have to look through all of the code we wrote, and find every place where we wrote the name George and individually change it to the new name (hoping we didn't make any spelling mistake along the way). </p>
+  
+  <p>Suppose that we also wanted to do the same thing with George's age. Maybe we wanted to make him a bit younger or older. Again we'd have to look through each line of code individually and change the age. </p>
+  
+  <p>In a small program like this, making changes like these is fairly manageable, after all our story is only 4 lines. But imagine if instead of 4 we had 400 or 4000 lines, where the character's name and age were mentioned dozens or hundreds of times. </p>
+  
+  <p>Going through and changing all of that would be a nightmare, and even if you used something like a find and replace, it wouldn't be reliable as it couldn't account for any misspellings or mis-agings. </p>
+  
+  <p>And in this case we're only keeping track of two pieces of information about the character, suppose we also wanted to keep track of (and potentially change) his birthday, favorite book, favorite color, and top 5 friends. The more information and data we want to keep track of, and the longer our programs get, the more difficult it is to mange all of it. That's where variables come it. </p>
+  
+  <h3 id="adding-variables-to-the-story">Adding Variables to the Story</h3>
+  
+  <p>Remember, variables are essentially containers where we can store pieces of information. And we can use them to store, for example, our character's name and age. Checkout the modified program below which stores the name and age into variables, and then interweaves them throughout the story. </p>
+  
+  <p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.b ) }}</p>
+  
+  <p>What we've done above is very powerful. We've replaced each instance of the character's name and age in the story, with the variable that we stored them in. The values for the name and age are actually stored inside of these variables which we've given descriptive names, and those values can then be accessed by simply referring to the variable's name. </p>
+  
+  <p>This is powerful for multiple reasons. First is that if we wanted to change the characters name, now all we have to do is simply change it up at the top of the program were we stored it in the variable.</p>
+  
+  <p> We've now eliminated the need for searching through the program and finding each instance of the name or age and manually changing it. All the print statements are doing is just printing out what's stored inside the variable. </p>
+  
+  <p>{{ partial "shortcodes/spotlight" (dict "Content" "So if this story eventually became 4000 lines, and mentioned the character's name 100 times, we could easily change it by making a small change in that one spot at the beginning of the program.")}}</p>
+  
+  <p>Variables also allow us to change the pieces of information we're keeping track of throughout our programs. So imagine if halfway though the story the character's age changed (maybe they suddenly aged 10 years?). We could simply update the value in the variable to the new age, and the age would automatically update everywhere thereafter!</p>
+  
+  <p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.c ) }}</p>
+  
+  <p>If you run the program now, the character's age will be different in the two places its printed out.</p>
+  
+  <h2 id="rules-for-variables">Rules for variables</h2>
+  
+  <p>Now before we get too ahead of ourselves, I want to share some rules and best practices, specifically for naming these variables. In {{.Get "lang"}} the naming rules are as follows:</p>
+  
+  <code><pre>{{ $.Page.Params.code.d }}</pre></code>
+  
+  <p>As long as you follow those rules you should be good to go. I'll also mention that you want to be as descriptive as possible when naming these variables. This is not only for your sake, but for the sake of everyone who has to read your code. </p>
+  
+  <p>{{ partial "shortcodes/spotlight" (dict "Content" "It's better to have a variable name that's long and descriptive (even though it might take more time to type out), than one that's just a single letter or confusing!" ) }}</p>
+  
+  <p>Trust me, do {{.Get "lang"}} programmers everywhere a favor and don't be the developer who's lazy and doesn't take the time to name their variables correctly!</p>
+  
+  <h2 id="language-programmers-love-variables">{{.Get "lang"}} Programmers Love Variables</h2>
+  
+  <p>As I said in the beginning of the lesson, variables are a programmers best friend! As we move on from here in the course we'll be using variables to store and keep track of all the different pieces of information we encounter. Keep practicing and soon enough variables will become an invaluable and second nature part of your programming repertoire!</p>

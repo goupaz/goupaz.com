@@ -1,0 +1,45 @@
+<p>Computers and numbers are like bread and butter. In fact the term computer actually used to refer to people who's job it was to do calculations and "compute" things all day. Needless to say we've come a long way since then, and modern computers are capable of performing billions of calculations in the time it takes a normal human to even write a number down. </p>
+
+<p>Not to nerd out here too much, but when you get down to it, all computer instructions, all the code that we've written in this course, and all the code that's currently running on your computer, is actually just a collection of complex patterns of 0s &amp; 1s running through your processor. And that same processor that's running everything on your computer is made up of a bunch of ALUs which stands for Arithmetic Logic Unit, basically a digital circuit which does basic math really really fast!</p>
+
+<p>It's because computers are good at math, that you're even able to read this website right now. So as we forge forward and learn to become {{.Get "lang"}} developers, it will help to spend some time learning how to leverage the amazing mathematical abilities of this awesome machine we're programming. </p>
+
+<h2 id="integers-vs-floats">Integers vs Floats</h2>
+
+<p>The first thing I'd like to discuss is a very fundamental concept which is integral to mathematics as well as computer programming, which is the difference between an integer and a float.</p>
+
+<p>These are two different types of numbers that we can work with in our programs, and it's important that you have a grasp of the differences so you can use them appropriately. </p>
+
+<p>Let's start with integers which are whole numbers, or counting numbers. That means both negative numbers, positive numbers and zero, as long as they don't have decimal places after them. </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "Integers are often used to store thing that can't be broken up, like the number of minutes in the hour (you wouldn't say it 10:42.5). They can also be used for counting the number of times something has happened. This in particular will come in handy when we look at loops later on in this course." ) }}</p>
+
+<p>Unlike integers, floats are any numbers <em>with</em> decimal places. Even if a float is technically a whole number like 42, in order for it to be a float it would have to have a .0 at the end of it 42.0. </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "Floats are often used when precision is a factor, like in scientific measurements, or in many cases when representing percentages (0.0 - 1.0)." ) }}</p>
+
+<p>Any time you're working with numbers in your programs, you always want to be aware of the <em>type</em> of number you're using, be it an integer or a float. Failure to do say may result in aspects of your program not performing as intended, or math calculations not giving precise enough answers. </p>
+
+<h2 id="math-operations">Math Operations</h2>
+
+<p>Now that we have a grasp on the different types of numbers, let use them! You can tell a computer to perform any of the 4 basic math operations, addition, subtraction, multiplication and division by simply writing out the problem like you would normally. </p>
+
+<p>Note that in {{.Get "lang"}} we use the <code>*</code> to indicate multiplication and the <code>/</code> to indicate division.  </p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.a ) }}</p>
+
+<p>Above are some common examples of math operation you might use.</p>
+
+<p>{{.Get "lang"}} will also respect order of operations, so you can group certain expressions using parenthesis to encode more complex math problems.</p>
+
+<h3>Modulo Operator</h3>
+
+<p>If you look in the code above you'll also notice an operator that you might not have seen before, indicated by a percent sign (%). This is what's referred to as the modulo operator and is a pretty common operation that is performed in {{.Get "lang"}} programs.</p>
+
+<p>The modulo operator will take the number on the left, divide it by the number on the right and then return the remainder. So if we ask the computer to perform <code>10 % 3</code> we would get back a 1, because 10/3 is 3 with a remainder of 1. </p>
+
+<p>In the code above we are not making use of variables, but often times it's extra useful to store numbers in variables because numbers, unlike strings don't give us any context. If I see a random string in my program I can at least try to infer what it's purpose is by reading the text, the same can't always be said about numbers. </p>
+
+<h2 id="advanced-math">Advanced Math</h2>
+
+<p>Aside from all of the basic math operations and the modulo operation, {{.Get "lang"}} also provides ways of doing more complex and difficult calculations with relative easy. Check out the video above for a full demonstration of advanced math in {{.Get "lang"}}!</p>

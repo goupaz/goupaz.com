@@ -1,0 +1,68 @@
+<p>There's an on-going gag on the popular show "The Simpsons", where Bart Simpson is forced to write lines on the chalkboard over and over agian to teach him a lesson. One of my favorites features Bart writing "I will not show off" on the blackboard hundreds of times.</p>
+
+<img class="materialboxed responsive-img center-media" src="https://img.buzzfeed.com/buzzfeed-static/static/2014-07/28/9/enhanced/webdr08/enhanced-buzz-13911-1406554976-10.jpg?downsize=700:*&output-format=auto&output-quality=auto" />
+
+<p>I've always liked this gag, and I'm excited to say that I can use it to help explain a programming concept.</p>
+
+<p>In the episode, when Bart wrote all those lines, he was literally writing the same thing 500 times for the whole afternoon. Now, imagine if instead of doing it himself, he asked a computer to do this same thing. After all computers can print out information to the screen a lot faster than humans can write it. </p>
+
+<p>So lets say we wanted to ask a computer to write “I will not show off” 500 times, how might we do that?</p>
+  
+<p>Well you might say that we need a print statement, and you’re right. If we’re going to ask the computer to print to the screen, our best bet is a print statement. But remember we don’t just want it to print once, we want it to print 500 times. So maybe let’s write a program that looks like this psudo-code (this is not real {{.Get "lang"}} code)</p>
+
+<pre><code class=" html language- html">  print "I will behave"
+  print "I will not show off"
+  print "I will not show off"
+  ... x500
+  print "I will not show off"
+</code></pre>
+
+<p>By writing out 500 print statements, we can accomplish our task of printing out 500 times. But to do it we need to write 500 individual lines of code. Imagine if we wanted to print something one thousand times, or even one million times, it seems unreasonable that we would write one million lines of the same thing right? </p>
+
+<p>Early programmers recognized this problem and created something called a loop.</p>
+
+<p>A loop is a structure that’s built into all programming languages which tells the computer to execute a certain block of code a certain number of times, or until a certain condition is met. Loops are useful for all types of tasks and like If statements, are used in almost every program you’ll find. </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "In the majority of programming languages there are two types of loops, a While Loop and a For Loop." ) }}</p>
+
+<p>In this lesson we’re going to take a look at while loops, learn how and when to use them, and how they can be used to create as efficient a program as possible.</p>
+
+<h2 id="how-do-they-work">How do they work?</h2>
+
+<p>While loops are the most basic type of loop available. A while loop, a lot like an If statement, is comprised of a Boolean expression and an action. </p>
+
+<p>Basically a while loop says:</p>
+
+<pre><code class=" html language- html">While something is true:
+    perform some action
+</code></pre>
+
+<p>Take the case of writing lines. A corresponding while loop might say something like this</p>
+
+<pre><code class=" html language- html">While you haven’t written 500 lines:
+    write “I will not show off"
+</code></pre>
+
+<p>You can see here that our boolean expression “You haven’t written 500 lines”, first gets tested, then, if it’s true, we execute the code in the loop. But the important thing to note is that once the code in the loop gets executed, the computer then checks the boolean expression again, to see if anything has changed. </p>
+
+<p>Following the execution of this loop we see that it will execute 500 times, and on the 501th iteration of the loop, it will terminate (by terminate I mean it will move onto the next line of code outside the loop).</p>
+
+<h2 id='while-loops-in-{{.Get "lang"}}'>While loops in {{.Get "lang"}}</h2>
+
+<p>That’s essentially how while loops work, pretty simple, but extremely powerful. Take a look at a loop in {{.Get "lang"}} below to get a feel for how a while loop is put together. </p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.a ) }}</p>
+
+<p>As you can see above, on each iteration of the loop a variable is incremented to keep track of how many times we’ve printed to the screen. </p>
+
+<p>The boolean expression, or the <em>loop guard</em> is exactly the same as we would write in an if statement, it's just that this boolean expression is evaluated before every iteration of the loop. </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "It basically determines whether or not we can keep looping again." ) }}</p>
+
+<h2 id="do-while-loops">Do While Loops</h2>
+
+<p>Do While loops are basically while loops but in reverse. In a While loop you check the boolean condition first and then, if it’s true you execute the code in the loop body. But in a Do While Loop you first execute the code in the loop body and then check the boolean expression. Check out an example below</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.b ) }}</p>
+
+<p>Do While Loops are not used very often, but they can be extremely useful when trying to solve specific problems. </p>

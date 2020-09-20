@@ -1,0 +1,20 @@
+{{$url := .URL}}
+{{if .IsNode }}
+     {{if .Pages }}
+          <ul class="grey lighten-5 table-of-contents z-depth-1" id="nav-side-single" style="overflow: scroll; padding-right:5px; padding-top:5px; padding-bottom:5px; padding-left:0px; line-height:25px;">
+               <li style="{{if eq $url .URL }}font-size:16px; margin-top:5px; margin-bottom:5px; margin-left:-10px;{{else}}font-size:14{{end}}"><a href="{{.Permalink}}" class="{{if eq $url .URL }}blue-text{{end}}">{{.Title}}</a></li>
+               {{ range  where .Pages ".Params.layout" "!=" "single"}}
+                    <li style="{{if eq $url .URL }}font-size:16px; margin-top:5px; margin-bottom:5px; margin-left:-10px;{{else}}font-size:14{{end}}"><a href="{{.Permalink}}" class="{{if eq $url .URL }}blue-text{{end}}">{{.Title}}</a></li>
+               {{end}}
+          </ul>
+     {{end}}
+{{else}}
+     {{if .Parent.Pages}}
+          <ul class="grey lighten-5 table-of-contents z-depth-1" id="nav-side-single" style="overflow: scroll; padding-right:5px; padding-top:5px; padding-bottom:5px; padding-left:0px; line-height:25px;">
+               <li style="{{if eq $url .Parent.URL }}font-size:16px; margin-top:5px; margin-bottom:5px; margin-left:-10px;{{else}}font-size:14{{end}}"><a href="{{.Parent.Permalink}}" class="{{if eq $url .Parent.URL }}blue-text{{end}}">{{.Parent.Title}}</a></li>
+               {{ range where .Parent.Pages ".Params.layout" "!=" "single" }}
+                    <li style="{{if eq $url .URL }}font-size:16px; margin-top:5px; margin-bottom:5px; margin-left:-10px;{{else}}font-size:14{{end}}"><a href="{{.Permalink}}" class="{{if eq $url .URL }}blue-text{{end}}">{{.Title}}</a></li>
+               {{end}}
+          </ul>
+     {{end}}
+{{end}}

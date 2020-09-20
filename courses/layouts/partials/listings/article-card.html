@@ -1,0 +1,12 @@
+<div class="card" style="max-width:307px;">
+        {{if .Params.image }}
+        <div class="card-image">
+             <a href="{{.Permalink}}"><img src="{{.URL}}{{.Params.image}}"></a>
+             <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </div>
+        {{ end }}
+        <div class="card-content">
+             <span class="card-title "><a href="{{.Permalink}}">{{.Title}}</a></span>
+             <p class="">{{.Description}}</p>
+        </div>
+   </div>

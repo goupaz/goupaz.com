@@ -1,0 +1,31 @@
+<p>Throughout this course we've taken a look at how we can make the computer give us information. We do this by using print statements. Print statements give us an idea of whats going on in the program at a given time, and are vital to writing good software. </p>
+
+<p>But what about the flip side, what happens when we want to give the computer some information? Almost all applications that you interact with on a daily basis will provide ways for you to give them information. Just look up at the browser search bar above this website.</p>
+
+<p>In this lesson we'll take a look at how to write programs in {{.Get "lang"}} which accept user input. </p>
+
+<h2 id="the-code">The Code</h2>
+
+<p>Programs which get input from the user need to be written in a specific way. The program will essentially prompt the user for information, and then when the user hits <em>enter</em>, will take whatever they entered and be able to use it going forward in it's execution.</p>
+
+<p>The code for accepting user input is actually not that much more complex than the code for printing. In {{.Get "lang"}}, we can get user input like this:</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.a ) }}</p>
+
+<p>The code above simply prompts the user for information, and the prints out what they entered in. </p>
+
+<p>One of the most important things to note here is that we're storing whatever the user entered into a variable. It's vital that we do this, after all, what's the point of asking the user for something if we're not gonna keep track of it. </p>
+
+<h2 id="execution-flow">Execution flow</h2>
+
+<p>As you play around with this program you'll notice that it actually stops it's flow of execution when awaiting input from the user. In pervious programs we're written they seem to execute and be done in a matter of milliseconds. But in this case if you wait 10 minutes before you decide to input something, the computer will wait along with you.</p>
+
+<p>This is because when the computer see's that it's supposed to accept input it stops everything it's doing and waits. In a lot of cases, the input that the computer receives from the user is vital to it being able to perform it's task, whatever that may be. </p>
+
+<p>Many programs you'll encounter (and eventually write) will rely on the user to tell them what to do and when it's okay for them to stop. Once we discover more advanced topics we'll eventually be able to write programs that have menus and give the user an option of what they want to do! But this is where it all starts. </p>
+
+<h2 id="wrapping-up">Wrapping Up</h2>
+
+<p>Now that you have the basics down, play around for a bit and try to change the prompt, or maybe try asking the user for multiple pieces of information and use some of the string functions we talked about in the previous lessons to modify it. </p>
+
+<p>There's still a lot to learn about getting user input. As of right now we're only receiving input in the form of strings. As we move forward in the course we'll take a look at how to allow the user to enter numbers, and other types of data. </p>

@@ -1,0 +1,12 @@
+[build]
+  # Directory to change to before starting a build.
+  # This is where we will look for package.json/.nvmrc/etc.
+  command = "yarn build"
+  publish = "build"
+
+
+[context.production.environment]
+  YARN_FLAGS = "--frozen-lockfile"
+  YARN_VERSION = "1.22.5"
+  NODE_VERSION = "14.11.0"
+

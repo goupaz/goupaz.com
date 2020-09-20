@@ -1,0 +1,45 @@
+{{ define "main" }}
+    <article class="gblog-post">
+        <header class="gblog-post__header">
+            {{ $source := ($.Resources.ByType "image").GetMatch "{*feature*,*cover*,*thumbnail*}" }}
+            {{ with $source }}
+            <div class="gblog-post__feature">
+                <picture>
+                    {{ $featured := .Fill (printf "910x280 %s" (default "Smart" .Params.anchor)) }}
+                    <source srcset="{{ $featured.Permalink }}">
+                    <img src="{{ $featured.Permalink }}" alt="{{ default $.Title .Params.description }}" >
+                </picture>
+                {{ with $source.Params.credits }}
+                <span>Credits: {{ . | markdownify | safeHTML }}</span>
+                {{ end }}
+            </div>
+            {{ end }}
+
+            <h1>{{ partial "title" . }}</h1>
+            {{ if eq .Type "posts" }}
+            <div class="gblog-post__meta">
+                <span class="no-wrap">
+                    <svg class="icon date"><use xlink:href="#date"></use></svg>
+                    <span class="gblog-post__tag">
+                        <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+                            {{ if ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }}
+                                Updated on
+                            {{ end }}
+                            {{ .Lastmod.Format "Jan 2, 2006" }}
+                        </time>
+                    </span>
+                </span>
+
+                <span class="no-wrap">
+                    <svg class="icon timer"><use xlink:href="#timer"></use></svg>
+                    <span class="gblog-post__tag">{{ .ReadingTime }} min read</span>
+                </span>
+            </div>
+            {{ end }}
+        </header>
+
+        <section class="gblog-markdown">
+            {{ partial "content" . }}
+        </section>
+    </article>
+{{ end }}

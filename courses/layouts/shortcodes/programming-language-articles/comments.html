@@ -1,0 +1,45 @@
+<p>As you continue to sharpen your {{.Get "lang"}} skills and get more and more comfortable writing programs, you'll eventually become really good at reading code. Just by looking at a line or two you'll be able to tell what the program is doing, and what's going to happen. </p>
+
+<p>But, in a lot of cases, merely relying on the code to properly explain or document itself can be ineffective, and often times in the course of writing a program you'll want to mark things down or explain why you're doing things a certain way. This is where comments can be your best friend. </p>
+
+<p>A comment is basically a piece of code in the program that {{.Get "lang"}} will ignore. Unlike all of the really cool and interesting commands we've learned so far, comment's actually don't do anything... Well at least not as far as the computer is concerned. </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "Comments are generally used to make small notes to yourself or other developers, explain particularly difficult sections of code, or even temporarily remove parts of the code altogether. " ) }}</p>
+
+<p>You can write a comment like so</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.a ) }}</p>
+
+<p>As you can see there's two basic types of comments: single line and multi line.</p>
+
+<h2 id="single-line-comments">Single Line Comments</h2>
+
+<p>In a single line comment the rules are that anything that comes after the {{ .Get "comment-sym" }} on the same line is ignored by {{.Get "lang"}} when it executes.  A lot of times developers will use these to temporarily remove a line of code by putting the {{ .Get "comment-sym" }} in front of it. </p>
+
+<p>These single line comments are also often used to describe or give more context to a line of code. As a general rule it's always preferred that you write clear, descriptive code so that comments like this aren't necessary, but every once in a while a well placed comment can clear up confusion. </p>
+
+<p>Generally a comment like the one described above, is placed either directly above the line of code it's describing, or immediately to the right of it. I always prefer to put these types of comments on top of the line of code because otherwise you'll find that one single line of code ends up being really long, which can get annoying. </p>
+
+<p>Single line comments are also commonly used as <strong>TODO</strong> markers. If you see a comment that says <code>TODO</code>, that generally means that this is a part of the code which has yet to be implemented, and therefore the developer who’s working on the program has TO DO it. </p>
+
+<h2 id="multi-line-comments">Multi line comments</h2>
+
+<p>Multi line comments have a starting and an ending tag, as you can see in the code above. These are generally more convenient for commenting out large blocks of code.</p>
+
+<p>A lot of times you’ll see developers put different kinds of documentation in comments like this. In fact, in many programs, comments are used to help generate documentation.</p><p>Sometimes you’ll encounter code files with more comments than actual executable code, and it’s because all of the official documentation for the codebase is generated in part from the comments in each file. </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "It’s important to distinguish between comments meant for documentation purposes, and comments meant to help explain messy code. Generally using a comment to cover up for bad code is a no no, but using comments in combination with some sort of documentation generating system is good!" ) }}</p>
+
+<h2 id="using-comments-wisely">Using Comments Wisely</h2>
+
+<p>There are no hard set rules for when you should and shouldn’t use comments when writing programs. In a lot of cases it’s just personal preference. </p>
+
+<p>As I mentioned above however it’s usually a bad idea to rely on comments to make your code understandable. If you’re looking at a line of code, and can’t tell what it’s doing without reading a corresponding comment, then, except for in rare cases, that line of code can probably be re-written. </p>
+
+<p>Personally, I really like using comments to <em>comment out</em> parts of my code when I’m writing it. As you write more and more complex programs, a lot of times you’ll run into problems where the code is crashing at certain points. In cases like this, I will generally <em>comment out</em>, that is to say, surround with comments, the code I think is causing the problem, and if the code starts working again then I’ve found the culprit. </p>
+
+<h2 id="wrapping-up">Wrapping Up</h2>
+
+<p>At the end of the day comments are a great tool which can help with documenting code and giving you an easy way to quickly remove code without actually deleting it. </p>
+
+<p>As we go forward in the course I would encourage you to start using comments to enhance your code and look for ways they can make your life easier as a developer!</p>

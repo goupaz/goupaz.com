@@ -1,0 +1,41 @@
+<nav>
+     <div class="navbar-fixed">
+          <nav class="blue">
+               <div class='nav-wrapper page-wrap'>
+                    <div class="page-margin">
+                         <a class='button-collapse' href='#' data-activates='slide-out'><i class='material-icons'>menu</i>
+                         <a id='logo-container' href='https://goupaz.com'>
+                              <img src="{{.Site.BaseURL}}logo-white.png" alt="GOUP Logo" style="display:inline-block; width: 50px; vertical-align: top; margin-top:6px;" class='hide-on-small-only' >
+                              <span style='font-size: 28px; margin-left: 10px;'>
+                                   Home
+                              </span>
+                         </a>
+                         <ul class='right hide-on-med-and-down'>
+                              <li><a href='{{.Site.BaseURL}}#courses'>Courses<i class='material-icons left'>library_books</i></a></li>
+                              <li class="{{if eq .URL `/about/` }}active{{end}}"><a href='{{.Site.BaseURL}}about'>About<i class='material-icons left'>info_outline</i></a></li>
+                              <li class="{{if eq .URL `/contribute/` }}active{{end}}"><a href='{{.Site.BaseURL}}contribute'>Contribute<i class='material-icons left'>attach_money</i></a></li>
+                         </ul>
+                    </div>
+               </div>
+          </nav>
+     </div>
+     <ul id='slide-out' class='side-nav'>
+          <li><a href='{{.Site.BaseURL}}#courses'>Courses<i class='material-icons left'>library_books</i></a></li>
+          <li><a href='{{.Site.BaseURL}}about'>About<i class='material-icons left'>info_outline</i></a></li>
+          <li><a href='{{.Site.BaseURL}}contribute'>Contribute<i class='material-icons left'>attach_money</i></a></li>
+          <hr>
+          {{ partial "nav/drawer-course-list" . }}
+     </ul>
+</nav>
+{{ if isset .Params "subheader" }}
+     {{ if or (.Params.subheader.greeting) (.Params.subheader.description) }}
+          <div class="hide-on-small-only card white-text blue lighten-1" style="margin-top:0px;">
+               <div style='padding-top:10px; padding-bottom:10px;' class="page-wrap">
+                    <div class="page-margin">
+                              <div style="font-size:22px;">{{.Params.subheader.greeting}}</div>
+                         <div>{{.Params.subheader.description}}</div>
+                    </div>
+               </div>
+          </div>
+     {{end}}
+{{ end }}

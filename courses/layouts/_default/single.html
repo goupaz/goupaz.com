@@ -1,0 +1,9 @@
+{{ define "main" }}
+     {{if and (.Layout) (eq .Layout "single")}}
+          {{ partial "markup/article" . }}
+          {{ partial "articles/single" . }}
+     {{else}}
+          {{ partial "markup/article" . }}
+          {{ partial "articles/lesson" . }}
+     {{end}}
+{{ end }}

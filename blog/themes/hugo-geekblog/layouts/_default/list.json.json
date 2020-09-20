@@ -1,0 +1,57 @@
+{{- $title := .Site.Title -}}
+{{- with .Title -}}
+    {{- if (not (eq . $title)) -}}
+        {{- $title = printf `%s on %s` . $title -}}
+    {{- end -}}
+{{- end -}}
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": {{ $title | jsonify }},
+    {{- with .Site.Params.subtitle }}
+    "description": {{ . | jsonify }},
+    {{- end }}
+    "home_page_url" : "{{ .Site.BaseURL }}",
+    {{- with .OutputFormats.Get "json" }}
+    "feed_url" : "{{ .Permalink }}",
+    {{- end }}
+    {{- with .Site.Params.GeekblogAuthor -}}
+    {{ with index $.Site.Data.authors . }}
+    "authors" : [
+        {
+            "name" : "{{ .name }}"{{ with .url }},
+            "url": "{{ . }}"{{ end }}{{ with .avatar }},
+            "avatar": "{{ . }}"{{ end }}
+        }
+    ],
+    {{- end }}
+    {{- end }}
+    "items" : [
+    {{- $pages := where .RegularPages "Type" "in" .Site.Params.mainSections -}}
+    {{- if (eq .Kind "home") -}}
+        {{- $pages = where .Site.RegularPages "Type" "in" .Site.Params.mainSections -}}
+    {{- end -}}
+    {{- $len := (len $pages) }}
+    {{- range $i, $page := $pages }}
+        {
+            "title" : {{ .Title | jsonify }},
+            "date_published" : {{ (.Date.Format "2006-01-02T15:04:05Z07:00") | jsonify }},
+            "date_modified" : {{ (.Lastmod.Format "2006-01-02T15:04:05Z07:00") | jsonify }},
+            "id" : "{{ .Permalink }}",
+            "url" : "{{ .Permalink }}",
+            {{- with .Params.authors -}}
+            "authors" : [
+                {{- $authors := (sort .) }}
+                {{- $authors_len := (len $authors) }}
+                {{- range $i, $element := $authors -}}
+                {{- $author := index $.Site.Data.authors $element }}
+                {
+                    "name" : "{{ $author.name }}"
+                }{{ if ne (add $i 1) $authors_len }},{{ end }}
+                {{- end }}
+            ],
+            {{- end }}
+            "content_html" : {{ .Content | jsonify }}
+        }{{ if ne (add $i 1) $len }},{{ end }}
+    {{- end }}
+    ]
+}

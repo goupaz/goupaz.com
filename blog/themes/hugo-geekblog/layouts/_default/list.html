@@ -1,0 +1,99 @@
+{{ define "main" }}
+    {{ $pages := where .RegularPages "Type" "in" .Site.Params.mainSections }}
+    {{ if (eq .Kind "home") }}
+        {{ $pages = where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+    {{ end }}
+
+    {{ $paginator := .Paginate $pages }}
+    {{ range $paginator.Pages }}
+    <article class="gblog-post">
+        <header class="gblog-post__header">
+            <h1><a href="{{ .RelPermalink }}">{{ partial "title" . }}</a></h1>
+        </header>
+
+        <section class="gblog-markdown">
+            {{ .Summary }}
+        </section>
+        <div class="gblog-post__readmore">
+            {{ if .Truncated }}
+            <a class="flex-inline align-center fake-link" title="Read full post" href="{{ .RelPermalink }}">Read full post</a>
+            {{ end }}
+        </div>
+
+        <footer class="gblog-post__footer">
+            <span class="no-wrap">
+                <svg class="icon date"><use xlink:href="#date"></use></svg>
+                <span class="gblog-post__tag">
+                    <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+                        {{ if .Lastmod.After (.Date.AddDate 0 0 1) }}
+                            Updated on
+                        {{ end }}
+                        {{ .Lastmod.Format "Jan 2, 2006" }}
+                    </time>
+                </span>
+            </span>
+
+            <span class="no-wrap">
+                <svg class="icon timer"><use xlink:href="#timer"></use></svg>
+                <span class="gblog-post__tag">{{ .ReadingTime }} min read</span>
+            </span>
+
+            {{ if .Params.weight }}
+            <span class="no-wrap">
+                <svg class="icon pin"><use xlink:href="#pin"></use></svg>
+                <span class="gblog-post__tag">Pinned</span>
+            </span>
+            {{ end }}
+
+            {{ $ac := 0 }}
+            {{ with .Params.authors }}
+            {{ range sort . }}
+                {{ $author := index $.Site.Data.authors . }}
+                {{ with $.Site.GetPage (printf "/authors/%s" $author.name | urlize) }}
+                    {{ if eq $ac 0 }}
+                    <span class="no-wrap">
+                    <svg class="icon person"><use xlink:href="#person"></use></svg>
+                    {{ template "post-author" dict "name" $author.name "page" . }}
+                    </span>
+                    {{ else }}
+                    {{ template "post-author" dict "name" $author.name "page" . }}
+                    {{ end }}
+                {{ end }}
+                {{ $ac = (add $ac 1) }}
+            {{ end }}
+            {{ end }}
+
+            {{ $tc := 0 }}
+            {{ with .Params.tags }}
+            {{ range sort . }}
+                {{ $name := . }}
+                {{ with $.Site.GetPage (printf "/tags/%s" $name | urlize) }}
+                    {{ if eq $tc 0 }}
+                    <span class="no-wrap">
+                    <svg class="icon bookmarks"><use xlink:href="#bookmarks"></use></svg>
+                    {{ template "post-tag" dict "name" $name "page" . }}
+                    </span>
+                    {{ else }}
+                    {{ template "post-tag" dict "name" $name "page" . }}
+                    {{ end }}
+                {{ end }}
+                {{ $tc = (add $tc 1) }}
+            {{ end }}
+            {{ end }}
+        </footer>
+    </article>
+    {{ end }}
+    {{ partial "pagination.html" . }}
+{{ end }}
+
+{{ define "post-tag" }}
+<span class="gblog-post__tag gblog-button">
+    <a class="gblog-button__link" href="{{ .page.RelPermalink }}" title="All posts tagged with '{{ .name }}'">{{ .name }}</a>
+</span>
+{{ end }}
+
+{{ define "post-author" }}
+<span class="gblog-post__tag gblog-button">
+    <a class="gblog-button__link" href="{{ .page.RelPermalink }}" title="All posts of this author">{{ .name }}</a>
+</span>
+{{ end }}

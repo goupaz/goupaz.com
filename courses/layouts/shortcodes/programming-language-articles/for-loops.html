@@ -1,0 +1,41 @@
+<p>The next type of loops were going to discuss are called for loops. </p>
+
+<p>For loops are actually just slightly modified versions of while loops which we looked at in a previous lesson. But for loops can make your life as a programmer a lot easier because they simplify a commonly used while loop structure. </p>
+
+<p>
+The concept is the same a while loop, you’re checking some boolean expression on each iteration of the loop and executing a block of code if it’s true. However a for loop gives us the added ability of being able to include an index variable.</p>
+
+<h2 id="for-loops-vs-while-loops">For Loops vs While Loops</h2>
+
+<p>To fully explain for loops it will help to compare them to while loops. Take a look at the while loop below that we wrote in a previous lesson:</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.a ) }}</p>
+
+<p>Notice how in the code above I've declared a variable, <code>index</code>. This variable is used to count the number of times the computer has printed to the screen.</p><p>Using counting variables like this is actually a very common and useful tactic. But when we use a while loop we have to go through the trouble of declaring the variable before the loop itself and then manually incrementing it inside the loop body. </p>
+
+<p>Because programmers used counting, or indexing variables like this so often, the for loop was created to simplify the process. Essentially a for loop is used to iterate through a block of code a specified number of times, with the use of an iterative variable (the index variable for example). </p>
+
+<h2 id="for-loop-structure">For Loop Structure</h2>
+
+<p>Check out this same program below, but this time written with a for loop instead of a while loop:</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.b ) }}</p>
+
+<p>First thing you should notice about the above code is the structure. The declaration of a for loop contains three main parts</p>
+
+<pre><code class=" html language- html">(declaring or specifying a counting variable ; boolean expression ; iterative action)
+</code></pre>
+
+<p>It starts, in the first segment by either declaring or specifying a counting variable. This is called the iterative variable and it is used for that purpose. This is the variable which counts how many times the computer has printed to the screen. It has become practice to name this variable <code>i</code>, which stands for iterator. </p>
+
+<p>The next section of the for loop declaration is the boolean expression. This boolean expression acts the same as it does in the while loop, ultimately this is going to determine whether or not the code inside the loop gets executed on each iteration. Most of the time this boolean expression is going to be checking the value of the iterative variable (i) against some other value.</p>
+
+<p>Finally the last section in the for loop declaration is a piece of code which gets executed at the end of each iteration. 99% of the time this is either going to increment (add to) or decrement (subtract from) the iterative variable.</p>
+
+<p>In our case we are incrementing the variable by one on each iteration, which makes sense. By placing this in the declaration we save space in the body of the loop and make the whole structure cleaner. </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "It's important to emphasize again that a for loop is just a specialized version of a while loop. There's nothing you can do with a for loop that you can't also do with a while loop. That being said, in my opinion for loops are used a lot more in programs because they are so convenient. " ) }}</p>
+
+<h2 id="wrapping-it-up">Wrapping It Up</h2>
+
+<p>Being able to write efficient and effective loops is a skill all programmers must master. Study the examples above and try some of your own and you’ll be on your way to success. </p>

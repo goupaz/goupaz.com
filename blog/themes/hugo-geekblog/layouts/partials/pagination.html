@@ -1,0 +1,15 @@
+{{ $pag := $.Paginator }}
+
+<nav class="gblog-paging flex flex-even align-center" role="navigation">
+    <div class="gblog-paging__item gblog-paging__item--prev">
+    {{ if $pag.HasPrev }}
+        <a class="flex-inline align-center fake-link no-wrap" href="{{ $pag.Prev.URL }}">PREV</a>
+    {{ end }}
+    </div>
+    <div class="gblog-paging__state">Page {{ $pag.PageNumber }} of {{ $pag.TotalPages }}</div>
+    <div class="gblog-paging__item gblog-paging__item--next">
+    {{ if $pag.HasNext }}
+        <a class="flex-inline align-center fake-link no-wrap" href="{{ $pag.Next.URL }}">NEXT</a>
+    {{ end }}
+    </div>
+</nav>

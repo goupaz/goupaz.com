@@ -1,0 +1,50 @@
+<p>As we begin our programming journey in {{.Get "lang"}}, we'll start by paying homage to a tradition widely shared among new programmers, which is learning how to print text out onto the screen. As we learn to talk to computers using a programming language like {{.Get "lang"}}, it will help to know how to get them to talk back to us in the form of output, so let's take a look!</p>
+
+<p>We can achieve this by using a print statement. All programming languages, {{.Get "lang"}} included, have some form of a print statement which is essentially an instruction that tells the computer to output some text. </p>
+
+<h2 id="a-simple-print-statement">A Simple Print Statement</h2>
+
+
+<p>For our first program we'll simply instruct the computer to output the phrase <code>Hello World!</code> in {{.Get "lang"}}.</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.a ) }}</p>
+
+<p>As you can see, this program isn't very complicated, in fact it's only one line, or instruction. All computer programs in {{.Get "lang"}} are essentially just made up of a bunch of these little instructions. It's the job of the programmer to take simple instructions like the one above, and chain them together into longer and longer programs, which in turn, the computer will follow. </p>
+
+<p>Just like you might write down the instructions for baking your favorite cookies (ie. a recipe), or you might give someone a set of directions to get to your house, you can also give a computer a set of instructions (ie. a program), and it will follow them. </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "If there's one thing you should take away from this lesson it's that programs are just long sets of instructions, it's as simple as that." ) }}</p>
+
+<p>All the <code>Hello World</code> program above actually does is output the text "Hello World" on to the screen (try running it). But as we learn more and more of these instructions in {{.Get "lang"}}, we can get the computer to do some truly amazing things. (To put it in perspective, this website is made up entirely of tiny instructions like the one above!).</p>
+
+<h2 id="more-complex-printing">More Complex Printing</h2>
+
+<p>Now that we've written our Hello World program and gotten our feet wet, let's combine a bunch of these print instructions together to draw a shape.</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.b ) }}</p>
+
+<p>As you can see the new program adds a few more instructions and even just by looking at the raw code, you can see how a shape might result from it. Run the program and check the output! </p>
+
+<p>In actuality what's happening here is the computer is starting with the first line of {{.Get "lang"}} code above and then continuing down from there. This is very important, the computer will always start with the first instruction we give it.</p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "Just like you wouldn't start a recipe half way through, the computer won't start the program somewhere in the middle.")}}</p>
+
+<p>The order here is important because if the computer doesn't execute these statements in order, then the shape won't look very good. The computer starts with the first line, executes it, thus printing <code>/|</code> onto the screen. Only once it's done with that first instruction will it move onto the second instruction, printing <code>/ |</code> out onto a new line.</p>
+
+<p>It will continue executing each instruction, one after the other until it gets to the end of the program, at which time it will stop!</p>
+
+<h3 id="know-the-code">Know the code</h3>
+
+<p>When you're starting out, it's often good to execute the code mentally in your head before you have the computer run it. Step through each instruction manually pretending you're the computer, and verify that it does what you want.</p>
+
+<p>As we go forward in the course there will be many instances where we want the computer to give us information. Maybe it's the answer to a question we ask it, or the result of adding two numbers together. These print statements will come in handy in almost every program we write!</p>
+
+<p>Especially as a beginner it's important to get comfortable writing code. As it's most likely new to you, the best thing you can do is just take these lessons as a starting out point and branch off on your own for additional practice. Above we drew a triangle, but now maybe try drawing a square, or printing out a poem, or doing anything else you can think of. </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "When it comes to programming, the only way to get better and more comfortable is to practice. " ) }}</p>
+
+<h2 id="advanced-instructions">Advanced Instructions</h2>
+
+<p>In this simple program we looked at the instructions for printing something out onto the screen. This is a good starting point, and is where most developers will start their journey in {{.Get "lang"}}. But as we go forward in the course, we'll slowly start to learn about more and more powerful and useful instructions, which in turn, will allow us to write even more powerful and useful programs. </p>
+
+<p>There's a lot more to see and learn, so let's head on to the next lesson and keep going!</p>

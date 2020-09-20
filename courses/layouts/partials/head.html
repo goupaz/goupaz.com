@@ -1,0 +1,18 @@
+<title>{{.Params.seo_title}}</title>
+<meta name="description" content="{{.Description}}" />
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow" />
+<meta name='author' content='{{- if .Params.author -}}{{- .Params.author -}}{{- else -}}GOUP{{- end -}}'>
+<meta property="og:title" content="{{.Params.seo_title}}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{.Permalink}}" />
+<meta property="og:description"content="{{.Description}}" />
+<meta property="og:site_name" content="GOUP" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{- if isset .Params "image" -}}<meta property="og:image" content="{{- substr .Site.BaseURL 0 -1 -}}{{- .Page.URL -}}{{.Params.image}}" />{{- end -}}
+{{- if isset .Params "video" -}}<meta property="og:video" content="https://www.youtube.com/watch?v={{.Params.video}}" />{{- end -}}
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+<link rel="stylesheet" href="{{.Site.BaseURL}}css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">

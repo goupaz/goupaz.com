@@ -1,0 +1,81 @@
+{{ define "title" }}{{ .Site.Title }}{{ end}}
+{{ define "body_classes" }}page-home{{ end }}
+
+{{ define "meta_tags" }}
+<meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}" />
+<meta property="og:title" content="{{ .Site.Params.homepage_meta_tags.meta_og_title }}" />
+<meta property="og:type" content="{{ .Site.Params.homepage_meta_tags.meta_og_type }}" />
+<meta property="og:url" content="{{ .Site.Params.homepage_meta_tags.meta_og_url }}" />
+<meta property="og:image" content="{{ .Site.Params.homepage_meta_tags.meta_og_image }}" />
+<meta property="og:description" content="{{ .Site.Params.homepage_meta_tags.meta_og_description }}" />
+<meta name="twitter:card" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_card }}" />
+<meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />
+<meta name="twitter:creator" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_creator }}" />
+{{ end }}
+
+{{ define "main" }}
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        {{ .Content }}
+        {{ if .Site.Params.homepage.show_call_box }}
+        {{ partial "call.html" (dict "site" .Site "context" . "show_button" "true") }}
+        {{ end }}
+      </div>
+      {{ if .Params.intro_image }}
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        <img alt={{ .Title }} class="intro-image{{ if .Params.intro_image_absolute }} intro-image-absolute{{ end }}{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}" src="{{ .Params.intro_image | relURL }}" />
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+{{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
+{{if gt (len $services) 0}}
+<div class="strip">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-start">
+      {{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
+      {{ range first 6 (sort $services ".Params.weight") }}
+      <div class="col-12 col-md-4 mb-1">
+        {{ .Render "summary" }}
+      </div>
+      {{ end }}
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <a class="button button-primary" href="{{ "services/" | relURL }}">View All Services</a>
+      </div>
+    </div>
+  </div>
+</div>
+{{end}}
+
+{{if .Site.Data.features}}
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-center">
+      {{ range .Site.Data.features }}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature">
+          {{ if .image }}
+          <div class="feature-image"><img alt="{{ .Title }} logo" src="{{ .image | relURL }}" /></div>
+          {{ end }}
+          <h2 class="feature-title">{{ .title }}</h2>
+          <div class="feature-content">
+            <p>{{ .description }}</p>
+          </div>
+        </div>
+      </div>
+      {{end}}
+    </div>
+  </div>
+</div>
+{{end}}
+
+{{ end }}
+
+{{ define "footer_js" }}
+{{ end }}

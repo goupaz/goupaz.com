@@ -1,0 +1,11 @@
+name = "Geekblog"
+license = "MIT"
+licenselink = "https://github.com/xoxys/hugo-geekblog/blob/master/LICENSE"
+description = "Hugo theme made for blogs"
+homepage = "https://hugo-geekblog.geekdocs.de/"
+tags = ["blog", "responsive", "simple"]
+min_version = "0.65.0"
+
+[author]
+    name = "Robert Kaussow"
+    homepage = "https://thegeeklab.de/"

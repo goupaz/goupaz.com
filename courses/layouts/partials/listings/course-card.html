@@ -1,0 +1,37 @@
+<div class="card" style="max-width:307px;">
+     <div class="card-image">
+          <a href="{{.Permalink}}"><img src="{{.URL}}{{.Params.image}}"></a>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+     </div>
+     <div class="card-content">
+          <span class="card-title truncate"><a href="{{.Permalink}}">{{.Title}}</a></span>
+          <p class="truncate">{{.Description}}</p>
+     </div>
+     <ul class="collapsible z-depth-0" style="border:0px;" data-collapsible="accordion">
+          <li >
+               <div class="collapsible-header z-depth-0 " ><i class="material-icons">add</i>Lessons</div>
+               {{if .Pages }}
+               <table class="collapsible-body z-depth-0 highlight" >
+                    <tbody style="display: block; max-height:300px; overflow-y:scroll" >
+                    {{ $course_link := .Permalink }}
+                    {{ range .Pages }}
+                         <tr style="cursor: pointer;" onclick="window.document.location='{{.Permalink}}';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">{{.Title}}</td>
+                         </tr>
+                    {{end}}
+                         <tr >
+                              <td class="truncate" style="max-width:100%">Go To Course<td>
+                         </tr>
+                         <tr style="cursor: pointer; position:absolute; bottom:0px; color:white; width:inherit" class="blue" onclick="window.document.location='{{$course_link}}'">
+                              <td class="center" style=" width: 307px;">Go To Course</td>
+                         </tr>
+                    </tbody>
+
+               </table>
+               {{end}}
+          </li>
+     </ul>
+</div>
+
+
+

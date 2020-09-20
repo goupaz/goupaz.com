@@ -1,0 +1,7 @@
+baseURL : https://goupaz.com/
+languageCode : en-us
+title : Home
+author : Home
+taxonomies: ""
+pygmentsstyle: default
+PygmentsCodeFences: true

@@ -1,0 +1,31 @@
+<p>As we write more and more complex programs in {{.Get "lang"}}, we'll want to work with different types of data (data types). Maybe in one program we'll print out someone's favorite movie, in another we'll keep track of how much money a particular product costs, and maybe in another we'll ask someone if they're an organ donor. In everyday life we deal with all different types of data, so why should it be any different for programs?</p>
+
+<p>Many programming languages, including {{.Get "lang"}} allow you to work with and keep track of only a specific few types of data. Now that might not sound like a lot, but when you think about it, almost all data can be broken down into one of three data types.</p>
+
+<ul>
+<li><strong>Text (often called strings or chars)</strong> - Names, addresses, the text on this page, etc. </li>
+
+<li><strong>Numbers</strong> - Monetary amounts, dates, distances, etc. 
+<ul>
+  <li>
+    <strong>integers</strong> - whole numbers and 
+  </li>
+  <li>
+    <strong>floats (also called doubles)</strong> - decimal numbers
+  </li>
+</ul>
+</li>
+
+<li><strong>True/False Values (often called booleans)</strong> - If someone is an Amazon Prime member, if someone is in the military, if a tv show has been cancelled, etc. This type of data may be less intuitive to a new programmer, but trust me you'll learn to love true/false logic.
+</li>
+</ul>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "With just these three fundamental types of data, we can keep track of almost anything. In fact these are the three fundamental types of data that make up just about every program you'll encounter as a software developer." ) }}</p>
+
+<p>Now because these are three distinct types of information, {{.Get "lang"}} is going to handle them a bit differently. There will be certain things we can do with numbers that we can't do with strings or text (like division, multiplication, etc). There will also be a whole range of things we can do with boolean values (true/false) that we can't do with strings or numbers. </p>
+
+<p>Anytime you're writing a program that's keeping track of different pieces of information, you always want to be aware of what data types you're using. For more specific information about how these data types work, and how to use them in {{.Get "lang"}}, check out the video above where we'll dive into them more specifically!</p>
+
+<h2 id="video-code">Video Code</h2>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.a ) }}</p>

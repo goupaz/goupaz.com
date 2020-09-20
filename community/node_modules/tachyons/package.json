@@ -1,0 +1,49 @@
+{
+  "name": "tachyons",
+  "version": "4.12.0",
+  "description": "Functional CSS for humans",
+  "author": "mrmrs",
+  "style": "css/tachyons.min.css",
+  "main": "css/tachyons.css",
+  "files": [
+    "css",
+    "src"
+  ],
+  "repository": "tachyons-css/tachyons",
+  "keywords": [
+    "css",
+    "oocss",
+    "postcss",
+    "functional css",
+    "design",
+    "responsive",
+    "performance"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "copy-files": "^0.1.0",
+    "immutable-css-cli": "^1.1.1",
+    "normalize.css": "^8.0.0",
+    "tachyons-modules": "^1.1.10",
+    "tachyons-cli": "^1.3.2",
+    "watch": "^1.0.2"
+  },
+  "contributors": [
+    {
+      "name": "adam morse",
+      "email": "hi@mrmrs.cc"
+    },
+    {
+      "name": "john otander",
+      "url": "http://johnotander.com"
+    }
+  ],
+  "scripts": {
+    "start": "npm run build:watch",
+    "mutations": "immutable-css src/tachyons.css --strict",
+    "build": "npm run build:css && npm run build:minify",
+    "build:css": "tachyons src/tachyons.css > css/tachyons.css",
+    "build:minify": "tachyons src/tachyons.css --minify > css/tachyons.min.css",
+    "build:watch": "watch \"npm run build\" ./src/"
+  }
+}

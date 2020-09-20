@@ -1,0 +1,32 @@
+<div class="row">
+     <aside class="col xl2 l2 hide-on-med-and-down right-col-article" i style="padding-left: 0px">
+        {{ partial "nav/course-list" . }}
+     </aside>
+     <div class="col xl8 l8 m12 s12" >
+          <article  class="white z-depth-1" style=" padding-left: 30px; padding-right: 30px; padding-bottom: 30px; margin-top:15px; padding-top:1px;">
+
+               <h1>{{.Title}}</h1>
+               {{ partial "articles/article-subheader" . }}
+               {{- if .Params.video -}}
+                    {{ partial "youtube-video" . }}
+               {{- end -}}
+               <div style="font-size:18px" class="{{if or (not (isset .Params `flow_text`)) (eq .Params.flow_text true)}}flow-text{{end}}">
+                    {{.Content}}
+               </div>
+               {{ partial "nav/pagination.html" . }}
+          </article>
+     </div>
+     <aside class="col xl2 l2 hide-on-med-and-down left-col-article" style="padding-right:0px;">
+          <div id="nav-side-article">
+               {{ partial "nav/table-of-contents" . }}
+               
+               {{- partial "social-icons/vertical" . -}}
+               {{- partial "mailchimp" . -}}
+               <br />
+               {{- partial "ads/sidebar" . -}}
+               <!-- {{- partial "ads/sidebar-custom" -}} -->
+               
+               
+          </div>
+     </aside>
+</div>

@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{.Permalink}}"
+  },
+  "headline": "{{.Params.seo_title}}",
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{- substr .Site.BaseURL 0 -1 -}}{{- .Page.URL -}}{{.Params.image}}",
+    "height": 512,
+    "width": 1024
+  },
+  "datePublished": "{{.Date}}",
+  "dateModified": "{{.Lastmod}}",
+  "author": {
+    "@type": "Person",
+    "name": "{{- if .Params.author -}}{{- .Params.author -}}{{- else -}}GOUP{{- end -}}"
+  },
+   "publisher": {
+    "@type": "Organization",
+    "name": "GOUP",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{- .Site.BaseURL -}}logo-blue.svg",
+      "width": 600,
+      "height": 60
+    }
+  },
+  "description": "{{- .Description -}}"
+}
+</script>

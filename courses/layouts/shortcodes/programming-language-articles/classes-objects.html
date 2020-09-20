@@ -1,0 +1,63 @@
+<p>One of the best things about {{.Get "lang"}} is it's ability to allow us to work with and keep track of a bunch of data. In fact data is the driving force behind most programs that you'll write. Programmers are constantly parsing strings, adding and subtracting numbers, counting things, and passing different pieces of data around. </p>
+
+<p>In all major applications, being able to work with data in an organized and structured way is extremely important. Large applications are often faced with displaying, storing and managing complex pieces of information about a variety of things. </p>
+
+<p>One of the limitations of our programming ability up to this point in the course is that we've only learned how to work with very limited <em>types</em> of data. In fact, if you think about it, we're only capable of representing and working with text, numbers and boolean values. </p>
+
+<p>These limited types of data are going to pose a problem to us if we want to write more and more complex programs going forward. The problem is that outside of actuall numbers, text and true/false information, most of the <em>things</em> that we interact with and use in the real world can't be easily stored in a string, number or boolean. </p>
+
+<h2 id="building-a-book">Building a book</h2>
+
+<p>Imagine for example if we were writing a program for a library. In this program we wanted to keep track of and work with a bunch of books. The question arises, how do we store these books?</p>
+
+<p>We can't store them in booleans, we might be able to store how many pages they have and their publishing dates as numbers, and maybe we could store the author's name and title in strings. But hopefully it's clear to you how there isn't an easy solution to representing a book with the limited data types we're giving. At the very least the book is spread out across several variables.</p>
+
+<h3 id="object-oriented-programming-oop">Object Oriented Programming (OOP)</h3>
+
+<p>In the early days of computer programming, developers just kinda bit the bullet and did their best to write programs in the way I just described. But eventually a better solution was devised called object oriented programming.</p>
+
+<p>Object oriented programming allows developers to create their own data types. So in addition to strings, booleans and numbers, a developer could create a custom <code>Book</code> data type. This book data type could then be stored in variables, passed into functions, printed out, and anything else that the other basic data types could do. </p>
+
+<p>By creating your own custom data types in your programs, you can theoretically model any real world item or entity and use it just like you would a string or a number.</p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "Most real world applications you see, whether it's facebook, google, gruhhub, or the small programs we'll write going forward in the course, will use these custom data types to better organize complex entities like books. " ) }}</p>
+
+<h2 id="classes">Classes</h2>
+
+<p>So how do we create these custom data types? It's actually pretty simple and we can do it by creating a class. A class is a specification for a data type in our program. Because we're creating custom data types, we first have to describe what they look like and how they behave so {{.Get "lang"}} knows what to do with them. </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "A good way to think of classes is as blueprints. They describe what the data type should look like and lay out all of the attributes and features that will be apart of the data type." ) }}</p>
+
+<p>{{.Get "lang"}} already provides us with our three base data types, booleans, strings (text) and numbers. When we create our custom data types, they will be made up of those base data types. Therefore when creating a class we can specify the attributes that the class will contain in terms of these base data types. </p>
+
+<p>Let's take a look at what a class would look like for our Book:</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.a ) }}</p>
+
+<p>Remember, a class is a specification, a blueprint, it describes the structure and makeup of this new book data type.</p>
+
+<p>In the above code, we've specified that a book is comprised of a title, author and number of pages. Notice how this book data type <em>is comprised of</em> the base data types that we've been provided by the language. Eventually we'll also be able to add functionality to this book class aswell, but let's save that for a future lesson. </p>
+
+<h2 id="objects">Objects</h2>
+
+<p>So now that we've created our book class, {{.Get "lang"}} knows what this new data type looks like, and we can start working with books in our program. </p>
+
+<p>Since the book class is just a specification though, we can't use it in our program, instead we have to create what are called objects. An object is an instance of a class. In this case an object will be an actual book, with an actual title, author and number of pages. </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "This is an important terminology point. A class is a blueprint of a data type, an object is an instance of that blueprint." ) }}</p>
+
+<p>Let's create a book object in {{.Get "lang"}}:</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.b ) }}</p>
+
+<p>So now, we've created an object. It's a book with a title, author and number of pages! As far as {{.Get "lang"}} is concerned this is basically the same as any of the other data types we've been working with throughout this course. </p>
+
+<p>In the case of the book object, we've assigned it a number of attributes, which we can then access and modify just like we normally would.</p>
+
+<p>The title and author are just strings, and the number of pages is a number. In order to access theses attributes we use a <code>.</code>. followed by the name of the attribute. This process is called de-referencing the book object. </p>
+
+<h2 id="wrapping-it-up">Wrapping it up</h2>
+
+<p>So there you have it! Classes and Objects are notorious for tripping up new programmers, but as long as you learn to see them as just more complex custom data types, then a lot of the mystery disappears. </p>
+
+<p>We created a book class and object, but remember that you can create classes to model anything. Try playing around with some of your own custom classes, or adding more attributes to our book! Also don't forget to check out the video above where I'll walk you through writing this code line by line!</p>

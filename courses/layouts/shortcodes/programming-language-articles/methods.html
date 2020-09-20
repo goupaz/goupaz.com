@@ -1,0 +1,81 @@
+<p>In this lesson I wanna talk to you about a really important concept in {{.Get "lang"}} which makes it really easy to keep our programs organized and re-usable. I'm talking of course about {{.Get "term"}}s!</p>
+
+ <p>Maybe you've heard the word {{.Get "term"}} floating around as you've begun your programming journey, but today we're gonna break down exactly what they are and I'll show you how to use them in {{.Get "lang"}}.</p>
+
+<h2 id="methods-and-organization">{{.Get "term"}}s and Organization</h2>
+
+<p>So far in this course we've written a lot of code. All sorts of code to do all sorts of different things. And as we go forward and begin to write more and more complex and time consuming programs, one thing that is going to be vitally important is that we have good organization. </p>
+
+<p>Without good organization a program can quickly get out of hand. Eventually you'll find that you're writing separate pieces of code in different parts of the file or project which do exactly the same thing!</p>
+
+<p>There's a principle in software development which all good programmers try to follow called the DRY principle. It stands for "Don't repeat yourself". In other words, it means, don't write the same code twice!</p>
+
+<p>As programmers, a {{.Get "term"}} is our best defence against violating the DRY principal. A {{.Get "term"}} is basically a collection of code which can be executed anywhere in our program and used over and over again. </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "In many programs there will be certain functionality that needs to be re-used multiple times." ) }}</p>
+
+<p>Maybe you want to format a string a specific way, or you want to perform some complex math calculation on two numbers, or you want to parse through an array looking for a particular element. All of these are situations where a {{.Get "term"}} can be written which encapsulates the code needed to do those things, and can then be re-used throughout the program again and again. </p>
+
+<h2 id="say-hi-method">sayHi() {{.Get "term"}}</h2>
+
+<p>To fully illustrate {{.Get "term"}}s lets take a look at an example of a simple {{.Get "term"}} which says hi to the user. Below is the {{.Get "lang"}} code for our <code>sayHi</code> {{.Get "term"}}.</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.a ) }}</p>
+
+<p>Right off the bat you'll notice a few things here. First is that just like variables we can actually give {{.Get "term"}}s descriptive names. In this case we've named the {{.Get "term"}} <code>sayHi</code> because that's what it's doing, that's the functionality that it's performing.</p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "It's really important that you give these good names, otherwise your program will be significantly less read-able." ) }}</p>
+
+<p>We follow the {{.Get "term"}} name with a set of open and closed parenthesis, and then below the top line (which we call the {{.Get "term"}} declaration), we can write some code. All of the code below the declaration is considered <em>inside</em> the {{.Get "term"}}.</p>
+
+<p>Once we've written the code inside the {{.Get "term"}} (note: you can write as much code as you like), we can then execute that code wherever and whenever we want in our programs by <em>calling</em> the {{.Get "term"}}. </p>
+
+<h3 id="calling-a-method">Calling a {{.Get "term"}}</h3>
+
+<p>When you call a {{.Get "term"}} you are essentially telling {{.Get "lang"}} that you want it to stop what it's doing and go execute all of the code contained in the {{.Get "term"}}. Then once it's done, to come back and keep going on with the normal flow of the program. Let's look at how we can call a {{.Get "term"}}:</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.b ) }}</p>
+
+<p>To call a {{.Get "term"}} we simple state the {{.Get "term"}}'s name and then directly after, place an open and closed parenthesis. The open and closed parenthesis tells {{.Get "lang"}} that you want to actually execute the {{.Get "term"}}.</p>
+
+<p>Like I mentioned above, when a {{.Get "term"}} is called {{.Get "lang"}} will stop what it's doing, and jump over to wherever that {{.Get "term"}} is and execute all of the code inside. Once it's finished with the code in the {{.Get "term"}} it will return to where it was and keep going. </p>
+
+<p>So if we wanted to <code>sayHi</code> in multiple places in our program, instead of having to duplicate the code for doing that multiple times, we could instead just call the <code>sayHi</code> {{.Get "term"}}.</p>
+
+<p>This is also advantageous because if we wanted to change the way our program said hi then we could just update the code in the {{.Get "term"}} body and the program would automatically update the way it's say hi all throughout our program!</p>
+
+<h3 id="parameters-and-arguments">Parameters and Arguments</h3>
+
+<p>{{.Get "term"}}s are powerful not only because they allow us to re-use the same code over and over, but because they also allow us to pass them information.</p>
+
+<p> When a {{.Get "term"}} is called in a program, the code calling it can supply it with information specific to it's wants and needs. For example let's say that we wanted to modify our <code>sayHi</code> to say hi to a specific person. The way it's written right now it can't do that, all it does it just say hello. </p>
+
+<p>In order to allow it to say hi to a specific person, we need to specify in the {{.Get "term"}} declaration that it accepts the name of a person from the caller. This is referred to as a parameter. Check out our updated <code>sayHi</code> {{.Get "term"}} below and see if you can spot the parameter. </p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.c ) }}</p>
+
+<p>I'll give you a hint, look inside the parenthesis, notice how we've declared a variable there called name.</p>
+
+<p>This variable is actually called a parameter, and it defines a piece of information that the {{.Get "term"}} accepts. Often times, {{.Get "term"}}s will accept parameters which help them to perform their task in a way that is more specific to the needs of the individual caller.</p>
+
+<p>With this {{.Get "term"}} the way it is now, we can actually call it and have it say hi to whomever we want. </p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.d ) }}</p>
+
+<p>Notice above that now when I call the <code>sayHi</code> {{.Get "term"}}, instead of leaving the parenthesis blank, I place a string inside <code>"Mike"</code>. This string is what's called an argument. This argument will get sent to the {{.Get "term"}} when it is called and be stored in the <code>name</code> parameter specified in the <code>sayHi</code> {{.Get "term"}}. </p>
+
+<p>This is an important point of terminology. </p>
+
+A parameter is a special variable that a {{.Get "term"}} will use to perform it's task in a way that is more specific to the needs of the caller. An argument is the value the caller gives to the {{.Get "term"}} which will get stored inside the parameter variable.
+
+<p>In the case above we only specified one single parameter, but you can specify as many as you want (although any more than 4 or 5 is generally considered too many). Let's take a look at this same {{.Get "term"}} but with an additional parameter <code>age</code>:</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.e ) }}</p>
+
+<p>This looks pretty similar to our previous example, but now in addition to the <code>name</code> parameter, I've also specified the <code>age</code> parameter. Multiple parameters are separated with a comma, and you can't have two parameters with the same name. </p>
+
+<p>When we call the {{.Get "term"}} now we can pass in the age as well. Notice that the position of the arguments matches the position of the parameters; The name is first and the age is second in both cases, this is crucial!</p>
+
+<h2 id="wrapping-it-up">Wrapping it up</h2>
+
+<p>So there you have it, an introduction to {{.Get "term"}}s. This is just the first step, but an important step towards mastering {{.Get "term"}}s and being able to really take advantage of them in our programs. Try writing some {{.Get "term"}}s of your own and see if you can come up with anything cool!</p>

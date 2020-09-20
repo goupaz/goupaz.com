@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="{{ .Site.Language.Lang }}">
+
+<head>
+    {{ partial "head/meta" . }}
+    <title>{{ if not (eq .Kind "home") }}{{ partial "title" . }} | {{ end }}{{ .Site.Title }}</title>
+
+    {{ partial "head/favicons" . }}
+    {{ partial "head/rel-me" . }}
+    {{ partial "head/microformats" . }}
+    {{ partial "head/others" . }}
+    {{ partial "head/schema.html" . }}
+</head>
+
+<body>
+    {{ partial "svg-icon-symbols" . }}
+
+    <div class="wrapper">
+        {{ partial "site-header" . }}
+
+        <main class="gblog-page container">
+            {{ template "main" . }}
+        </main>
+
+        {{ partial "site-footer" . }}
+    </div>
+
+    {{ partial "foot" . }}
+</body>
+</html>

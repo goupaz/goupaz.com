@@ -1,0 +1,21 @@
+<head>
+  <!-- Add other content here -->
+
+  {{ if .HasShortcode "github_button" }}
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  {{end}}
+</head>
+
+<div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="{{ .Site.BaseURL }}"><img height={{ .Site.Params.logo.desktop_height }} alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.desktop | relURL }}" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="{{ .Site.BaseURL }}"><img alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.mobile | relURL }}" /></a>
+    </div>
+    {{ partial "main-menu.html" . }}
+    {{ partial "hamburger.html" . }}
+  </div>
+</div>
+  

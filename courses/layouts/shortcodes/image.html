@@ -1,0 +1,1 @@
+<img class="{{- if .Get `class` -}}{{.Get `class`}}{{- end -}}" style="max-width: 10px;" src="{{- if eq (.Get `abs-path`) `true` }}{{- .Get `src`}}{{- else -}}{{- substr .Site.BaseURL 0 -1 -}}{{- .Page.URL -}}{{- .Get `src` -}}{{- end -}}" alt="{{- .Get `alt` -}}" />

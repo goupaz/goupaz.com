@@ -1,0 +1,75 @@
+baseURL = "goupaz.com"
+languageCode = "en-us"
+title = "Open Source Accelerator"
+themesDir = "themes"
+theme = "hugo-serif-theme"
+
+[params]
+  # In most cases you will only want to use either one of these. If you have Google Analytics included in your GTM tags don't put your GA ID here. Otherwise your data might be useless.
+  google_analytics_id = ""
+  google_tag_manager_id = ""
+
+  [params.homepage]
+    show_call_box = true
+
+  [params.logo]
+    mobile = "images/logo-mobile.svg"
+    desktop = "images/logo.svg"
+    desktop_height = "36px"
+    alt = "Serif - A Hugo Business Theme"
+
+  [params.homepage_meta_tags]
+    meta_description = "Serif is a modern business theme for Hugo. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated."
+    meta_og_title = "Hugo Serif Theme"
+    meta_og_type = "website"
+    meta_og_url = "https://hugo-serif.netlify.app"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-serif-theme/master/images/tn.png"
+    meta_og_description = "Serif is a modern business theme for Hugo. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@zerostaticio"
+    meta_twitter_creator = "@zerostaticio"
+
+  [params.footer]
+    copyright_text = 'Copyright © 2020 GOUP.  All rights reserved.'
+
+[menu] 
+  # Main Menu
+  [[menu.main]]
+    name = "Events"
+    url = "/events/"
+    identifier = "events"
+    weight = 1
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    identifier = "projects"
+    weight = 1
+
+   [[menu.main]]
+      name = "Blog"
+      url = "/blog/"
+      weight = 2
+
+  [[menu.main]]
+      name = "Community"
+      url = "/community"
+      weight = 2
+  
+  [[menu.main]]
+      name = "Courses"
+      url = "/courses"
+      weight = 2
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+      weight = 1
+
+  [[menu.footer]]
+    name = "Join"
+    url = "/join/"
+      weight = 2
+
+

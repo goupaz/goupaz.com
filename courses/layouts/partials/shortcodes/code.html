@@ -1,0 +1,12 @@
+<pre class="" style="font-size:18px; position:relative;" {{- if not (.file) -}}onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'" {{- end -}}>
+  {{- if .file }}<div class="blue  white-text truncate" style="font-family:arial; padding-left:15px;" >{{- .file -}}<span id="copyBtn" onclick="copyTextToClipboard(this, {{trim .Content `\n`}})" onmouseover="this.className = 'red darken-2 white-text right' " onmouseout="this.className = 'red  white-text right'" style="  padding-left:10px; padding-right:10px; cursor:pointer;" class="red white-text right">Copy</span></div>{{- else -}}<span id="copyBtn" onclick="copyTextToClipboard(this, {{trim .Content `\n`}})" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span>{{- end -}}
+  {{- if .lang -}}
+       {{- if eq .lang "html" -}}
+            <code id="code" style="padding:15px;" class="html">{{- trim (htmlUnescape .Content) "\n" -}}</code>
+       {{- else -}}
+            <code id="code" style="padding:15px;" class="{{- .lang -}}">{{- trim .Content "\n" -}}</code>
+       {{- end -}}
+  {{- else -}}
+       <code id="code" style="padding:15px;">{{- trim .Content "\n" -}}</code>
+  {{- end -}}
+  </pre>

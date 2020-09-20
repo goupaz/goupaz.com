@@ -1,0 +1,33 @@
+<header class="gblog-header">
+    <div class="container flex align-center justify-center">
+        <a class="gblog-header__link" rel="me" href="{{ .Site.BaseURL }}">
+            <span class="gblog-brand flex align-center justify-center">
+                <img class="gblog-brand__img" title="Branding of {{ .Site.Title }}" src="{{ (default "brand.svg" .Site.Params.logo) | relURL }}" alt="{{ .Site.Title }}" width=60 height=60>
+                {{ .Site.Title }}
+            </span>
+            {{ with .Site.Params.subtitle }}
+            <span class="gblog-brand__subtitle flex align-center justify-center">{{ . }}</span>
+            {{ end }}
+        </a>
+    </div>
+</header>
+<nav class="gblog-nav">
+    <input type="checkbox" id="menu-control" class="hidden">
+    <div class="gblog-nav__control">
+        <label for="menu-control"  class="flex align-center justify-center">
+            <svg class="icon menu"><use xlink:href="#menu"></use></svg>
+            <svg class="icon clear"><use xlink:href="#clear"></use></svg>
+            <span>Nav</span>
+        </label>
+    </div>
+    <ul class="gblog-nav__list container flex flex-wrap justify-center menu-content">
+        {{ $currentPage := .RelPermalink }}
+        {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+        {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+        <li>
+            <a class="gblog-nav__entry {{ if eq $currentPage .RelPermalink }} is-active {{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+        {{ end }}
+    </ul>
+</nav>

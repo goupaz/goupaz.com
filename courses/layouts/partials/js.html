@@ -1,0 +1,21 @@
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="{{.Site.BaseURL}}js/sticky-kit.js"></script>
+<script src="{{.Site.BaseURL}}js/init.js"></script>
+<script>
+function copyTextToClipboard(button, text) {
+var textArea = document.createElement("textarea");
+textArea.style.opacity = 0.1;
+textArea.value = text;
+document.body.appendChild(textArea);
+textArea.select();
+try {
+    var successful = document.execCommand('copy');
+    button.innerHTML = successful ? 'Copied' : 'Copy Error';
+} catch (err) {
+       button.innerHTML = 'Copy Error';
+}
+document.body.removeChild(textArea);
+}
+</script>

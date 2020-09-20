@@ -1,0 +1,20 @@
+{{$url := .URL}}
+{{ if not (eq .Kind "home") }}
+     {{if .IsNode }}
+          {{if .Pages }}
+                    <li><a href="{{.Permalink}}" class="{{if eq $url .URL }}blue-text{{end}}">{{.Title}}</a></li>
+                    {{ range  where .Pages ".Params.layout" "!=" "single"}}
+                         <li ><a href="{{.Permalink}}" class="{{if eq $url .URL }}blue-text{{end}}">{{.Title}}</a></li>
+                    {{end}}
+          {{end}}
+     {{else}}
+          {{if .Parent }}
+               {{if .Parent.Pages}}
+                         <li ><a href="{{.Parent.Permalink}}" class="{{if eq $url .Parent.URL }}blue-text{{end}}">{{.Parent.Title}}</a></li>
+                         {{ range where .Parent.Pages ".Params.layout" "!=" "single" }}
+                              <li ><a href="{{.Permalink}}" class="{{if eq $url .URL }}blue-text{{end}}">{{.Title}}</a></li>
+                         {{end}}
+               {{end}}
+          {{end}}
+     {{end}}
+{{end}}

@@ -1,0 +1,14 @@
+---
+date: {{ .Date }}
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
+seo_title: "{{ replace .TranslationBaseName "-" " " | title }} | Giraffe Academy"
+description: This tutorial covers how to use {{ replace .TranslationBaseName "-" " " }}.
+author: GOUP
+image: {{ .TranslationBaseName }}.png
+video: {{ .TranslationBaseName }}.mp4
+url: /{{.Dir}}{{ .TranslationBaseName }}/
+subheader:
+     greeting:
+     description:
+weight: 18
+---

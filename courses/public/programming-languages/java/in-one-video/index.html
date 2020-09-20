@@ -1,0 +1,352 @@
+<!doctype html><html><head><title>In One Video | Java | GOUP</title><meta name=description content="This tutorial covers the Java programming language in one video."><meta name=robots content="index, follow"><meta name=googlebot content="index, follow"><meta name=author content="GOUP"><meta property="og:title" content="In One Video | Java | GOUP"><meta property="og:type" content="website"><meta property="og:url" content="https://courses.goupaz.com/programming-languages/java/in-one-video/"><meta property="og:description" content="This tutorial covers the Java programming language in one video."><meta property="og:site_name" content="GOUP"><meta name=viewport content="width=device-width,initial-scale=1"><meta property="og:image" content="https://courses.goupaz.com/programming-languages/java/in-one-video/creating-a-calculator.png"><meta property="og:video" content="https://www.youtube.com/watch?v=kJ0PKUMWnQI"><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel=stylesheet><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css><link rel=stylesheet href=https://courses.goupaz.com/css/style.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css><script src=https://code.jquery.com/jquery-3.2.1.min.js integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js></script><script src=https://courses.goupaz.com/js/sticky-kit.js></script><script src=https://courses.goupaz.com/js/init.js></script><script>function copyTextToClipboard(button,text){var textArea=document.createElement("textarea");textArea.style.opacity=0.1;textArea.value=text;document.body.appendChild(textArea);textArea.select();try{var successful=document.execCommand('copy');button.innerHTML=successful?'Copied':'Copy Error';}catch(err){button.innerHTML='Copy Error';}
+document.body.removeChild(textArea);}</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-101690476-1','auto');ga('send','pageview');</script></head><body><script type=application/ld+json>{"@context":"http://schema.org","@type":"WebSite","name":"GOUP","url":"https:\/\/courses.goupaz.com\/"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Organization","name":"GOUP","url":"https:\/\/courses.goupaz.com\/","logo":"https:\/\/courses.goupaz.com\/logo-blue.svg","email":"giraffeacademy@gmail.com","description":"MikeDane.com is home to high quality online courses and content","founder":{"@type":"Person","name":"GOUP"},"sameAs":["https://www.facebook.com/giraffeacademy/","https://twitter.com/GiraffeAcademy","https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw"]}</script><header><nav><div class=navbar-fixed><nav class=blue><div class="nav-wrapper page-wrap"><div class=page-margin><a class=button-collapse href=# data-activates=slide-out><i class=material-icons>menu</i>
+<a id=logo-container href=https://courses.goupaz.com/><img src=https://courses.goupaz.com/logo-white.png alt="GOUP Logo" style=display:inline-block;width:50px;vertical-align:top;margin-top:6px class=hide-on-small-only>
+<span style=font-size:28px;margin-left:10px>GOUP</span></a><ul class="right hide-on-med-and-down"><li><a href=https://courses.goupaz.com/#courses>Courses<i class="material-icons left">library_books</i></a></li><li><a href=https://courses.goupaz.com/about>About<i class="material-icons left">info_outline</i></a></li><li><a href=https://courses.goupaz.com/contribute>Contribute<i class="material-icons left">attach_money</i></a></li></ul></div></div></nav></div><ul id=slide-out class=side-nav><li><a href=https://courses.goupaz.com/#courses>Courses<i class="material-icons left">library_books</i></a></li><li><a href=https://courses.goupaz.com/about>About<i class="material-icons left">info_outline</i></a></li><li><a href=https://courses.goupaz.com/contribute>Contribute<i class="material-icons left">attach_money</i></a></li><hr><li><a href=https://courses.goupaz.com/programming-languages/java/>Java</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/installing-jdk/>Installing Jdk</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/hello-world/>Hello World</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/drawing-a-shape/>Drawing A Shape</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/variables/>Variables</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/data-types/>Data Types</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/strings/>Strings</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/math/>Math</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/getting-user-input/>Getting User Input</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/creating-a-calculator/>Creating A Calculator</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/building-a-mad-libs-game/>Building A Mad Libs Game</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/arrays/>Arrays</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/functions/>Methods</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/return/>Return</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/if-statements/>If Statements</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/if-statements-cont/>If Statements (Cont)</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/better-calculator/>Better Calculator</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/switch-statements/>Switch Statements</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/while-loops/>While Loops</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/building-a-guessing-game/>Building A Guessing Game</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/for-loops/>For Loops</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/exponent-function/>Exponent Function</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/2d-arrays-nested-loops/>2d Arrays & Nested Loops</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/comments/>Comments</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/try-catch/>Try Catch</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/classes-objects/>Classes & Objects</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/classes-objects-cont/>Classes & Objects (Cont)</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/constructor-function/>Constructor Function</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/creating-a-quiz/>Creating A Quiz</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/class-methods/>Class Methods</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/getters-and-setters/>Getters And Setters</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/static-class-attributes/>Static Class Attributes</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/static-methods-in-classes/>Static Methods In Classes</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/inheritance-extends/>Inheritance (Extends)</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/inheritance-implements/>Inheritance (Implements)</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/access-modifiers/>Access Modifiers</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/main-method/>Main Method</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/packages-imports/>Packages & Imports</a></li><li><a href=https://courses.goupaz.com/programming-languages/java/in-one-video/ class=blue-text>In One Video</a></li></ul></nav><div class="hide-on-small-only card white-text blue lighten-1" style=margin-top:0><div style=padding-top:10px;padding-bottom:10px class=page-wrap><div class=page-margin><div style=font-size:22px>Java - Programming Language</div><div>This course covers the basics of programming in Java. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!</div></div></div></div></header><main><div class=page-wrap><div class=page-margin><aside><br><a href=https://courses.goupaz.com/programming-languages/>Programming Languages</a>
+&nbsp;&nbsp;<i class="fa fa-angle-right fa-lg" aria-hidden=true></i>&nbsp;&nbsp;<a href=https://courses.goupaz.com/programming-languages/java/>Java</a>
+&nbsp;&nbsp;<i class="fa fa-angle-right fa-lg" aria-hidden=true></i>&nbsp;&nbsp;<span class=grey-text>In One Video</span></aside><script type=application/ld+json>{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/courses.goupaz.com\/programming-languages\/java\/in-one-video\/"},"headline":"In One Video | Java | GOUP","image":{"@type":"ImageObject","url":"https:\/\/courses.goupaz.com\/programming-languages\/java\/in-one-video\/creating-a-calculator.png","height":512,"width":1024},"datePublished":"2017-10-22 11:34:28 -0400 -0400","dateModified":"2017-10-22 11:34:28 -0400 -0400","author":{"@type":"Person","name":"GOUP"},"publisher":{"@type":"Organization","name":"GOUP","logo":{"@type":"ImageObject","url":"https:\/\/courses.goupaz.com\/logo-blue.svg","width":600,"height":60}},"description":"This tutorial covers the Java programming language in one video."}</script><div class=row><aside class="col xl2 l2 hide-on-med-and-down right-col-article" i style=padding-left:0><ul class="grey lighten-5 table-of-contents z-depth-1" id=nav-side-single style=overflow:scroll;padding-right:5px;padding-top:5px;padding-bottom:5px;padding-left:0;line-height:25px><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/>Java</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/installing-jdk/>Installing Jdk</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/hello-world/>Hello World</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/drawing-a-shape/>Drawing A Shape</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/variables/>Variables</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/data-types/>Data Types</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/strings/>Strings</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/math/>Math</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/getting-user-input/>Getting User Input</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/creating-a-calculator/>Creating A Calculator</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/building-a-mad-libs-game/>Building A Mad Libs Game</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/arrays/>Arrays</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/functions/>Methods</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/return/>Return</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/if-statements/>If Statements</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/if-statements-cont/>If Statements (Cont)</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/better-calculator/>Better Calculator</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/switch-statements/>Switch Statements</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/while-loops/>While Loops</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/building-a-guessing-game/>Building A Guessing Game</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/for-loops/>For Loops</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/exponent-function/>Exponent Function</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/2d-arrays-nested-loops/>2d Arrays & Nested Loops</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/comments/>Comments</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/try-catch/>Try Catch</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/classes-objects/>Classes & Objects</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/classes-objects-cont/>Classes & Objects (Cont)</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/constructor-function/>Constructor Function</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/creating-a-quiz/>Creating A Quiz</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/class-methods/>Class Methods</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/getters-and-setters/>Getters And Setters</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/static-class-attributes/>Static Class Attributes</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/static-methods-in-classes/>Static Methods In Classes</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/inheritance-extends/>Inheritance (Extends)</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/inheritance-implements/>Inheritance (Implements)</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/access-modifiers/>Access Modifiers</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/main-method/>Main Method</a></li><li style=font-size:14><a href=https://courses.goupaz.com/programming-languages/java/packages-imports/>Packages & Imports</a></li><li style=font-size:16px;margin-top:5px;margin-bottom:5px;margin-left:-10px><a href=https://courses.goupaz.com/programming-languages/java/in-one-video/ class=blue-text>In One Video</a></li></ul></aside><div class="col xl8 l8 m12 s12"><article class="white z-depth-1" style=padding-left:30px;padding-right:30px;padding-bottom:30px;margin-top:15px;padding-top:1px><h1>In One Video</h1><span class=grey-text>Lesson 39<br>Author : GOUP<br>Last Updated : October, 2017</span><br><br><div class=video-container><iframe src="https://www.youtube.com/embed/kJ0PKUMWnQI?rel=0" width=854 height=480 frameborder=0 allowfullscreen></iframe></div><div style=font-size:18px class=flow-text><h2 id=java-overview>Java Overview</h2><p>Java is a general purpose, staticly typed, object oriented programming language
+that was founded in June 1991. The project was initiated by three
+developers - James Gosling, Mike Sheridan, and Patrick Naughton, but
+was officially released by Sun Microsystems in 1995.</p><p>Java&rsquo;s tagline is &ldquo;Write once, run anywhere&rdquo;, and the language was
+founded on 5 principles</p><ol><li>It must be &ldquo;simple, object-oriented, and familiar&rdquo;.</li><li>It must be &ldquo;robust and secure&rdquo;.</li><li>It must be &ldquo;architecture-neutral and portable&rdquo;.</li><li>It must execute with &ldquo;high performance&rdquo;.</li><li>It must be &ldquo;interpreted, threaded, and dynamic&rdquo;.</li></ol><h3 id=how-java-runs>How Java Runs</h3><p>All java code is compiled down into java byte code which is then
+run on the Java Virtual Machine (JVM). This ensures that java programs
+can be run on virtually any combination of hardware and operating
+system.</p><p>Java uses an automatic garbage collector to manage memory, and the
+syntax of java is largly influenced by c & c++.</p><p>Java is perhaps best known for being the language in which android
+apps are written, and also seves as the basis for several popular
+frameworks including Spring and Hibernate. Java is also known for
+having an extensive ecosystem, with libraries and API&rsquo;s to do just
+about anything.</p><h3 id=choosing-an-ide>Choosing an IDE</h3><p>Many developers choose to write java using a specilized integrated
+development enviornment. Three of the most popular are Eclipse,
+NetBeans and IntelliJ.</p><h2 id=code>Code</h2><h3 id=printing>Printing</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\nSystem.out.println(\"Hello\");\nSystem.out.print(\"World\");\nSystem.out.println(\"!\");\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>System.out.println(&#34;Hello&#34;);
+System.out.print(&#34;World&#34;);
+System.out.println(&#34;!&#34;);</code></pre><h3 id=variables-and-data-types>Variables and Data Types</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\n/*\n Names are case-sensitive and may begin with:\n     letters, $, _\n After, may include\n     letters, numbers, $, _\n Convention says\n     Start with a lowercase word, then additional words are capitalized\n     ex. myFirstVariable\n*/\nString name = \"Mike\";    // String&#39;s are objects not primitives\nchar testGrade = &#39;A&#39;;    // single 16-bit Unicode character.\n\nbyte age0 = 0;           // 8-bit signed two&#39;s complement integer\nshort age1 = 10;         // 16-bit signed two&#39;s complement integer.\nint age2 = 20;           // 32-bit signed two&#39;s complement integer\nlong age3 = 30L;          // 64-bit optionally signed two&#39;s complement integer\n\nfloat gpa0 = 2.5f;       // 32-bit floating point\ndouble gpa1 = 3.5;       // double-precision 64-bit floating point\n\nboolean isTall;          // 1 bit -\u003e true/false\nisTall = true;\n\nname = \"John\";\n\nSystem.out.println(\"Your name is \" + name);\nSystem.out.printf(\"Your name is %s \\n\", name);\n/*\n%f -\u003e double or float\n%d -\u003e Integer\n%s -\u003e string\n%c -\u003e character\n%b -\u003e boolean\n*/\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>/*
+ Names are case-sensitive and may begin with:
+     letters, $, _
+ After, may include
+     letters, numbers, $, _
+ Convention says
+     Start with a lowercase word, then additional words are capitalized
+     ex. myFirstVariable
+*/
+String name = &#34;Mike&#34;;    // String&#39;s are objects not primitives
+char testGrade = &#39;A&#39;;    // single 16-bit Unicode character.
+
+byte age0 = 0;           // 8-bit signed two&#39;s complement integer
+short age1 = 10;         // 16-bit signed two&#39;s complement integer.
+int age2 = 20;           // 32-bit signed two&#39;s complement integer
+long age3 = 30L;          // 64-bit optionally signed two&#39;s complement integer
+
+float gpa0 = 2.5f;       // 32-bit floating point
+double gpa1 = 3.5;       // double-precision 64-bit floating point
+
+boolean isTall;          // 1 bit -&gt; true/false
+isTall = true;
+
+name = &#34;John&#34;;
+
+System.out.println(&#34;Your name is &#34; &#43; name);
+System.out.printf(&#34;Your name is %s \n&#34;, name);
+/*
+%f -&gt; double or float
+%d -&gt; Integer
+%s -&gt; string
+%c -&gt; character
+%b -&gt; boolean
+*/</code></pre><h3 id=casting-and-converting>Casting and Converting</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\nSystem.out.println( (int)3.14 );\nSystem.out.println( (double)3 );\n\nint intFromString = Integer.parseInt(\"50\");\ndouble doubleFromString = Double.parseDouble(\"50.99\");\n\nSystem.out.println(100 + intFromString);\nSystem.out.println( 100 + doubleFromString );\n\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>System.out.println( (int)3.14 );
+System.out.println( (double)3 );
+
+int intFromString = Integer.parseInt(&#34;50&#34;);
+double doubleFromString = Double.parseDouble(&#34;50.99&#34;);
+
+System.out.println(100 &#43; intFromString);
+System.out.println( 100 &#43; doubleFromString );</code></pre><h3 id=strings>Strings</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\nString greeting = \"Hello\";\n//      indexes:   01234\n\nSystem.out.println( greeting.length() );\nSystem.out.println( greeting.charAt(0) );\nSystem.out.println( greeting.indexOf(\"llo\") );\nSystem.out.println( greeting.indexOf(\"z\") );\nSystem.out.println( greeting.substring(2) );\nSystem.out.println( greeting.substring(1, 3) );\n\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>String greeting = &#34;Hello&#34;;
+//      indexes:   01234
+
+System.out.println( greeting.length() );
+System.out.println( greeting.charAt(0) );
+System.out.println( greeting.indexOf(&#34;llo&#34;) );
+System.out.println( greeting.indexOf(&#34;z&#34;) );
+System.out.println( greeting.substring(2) );
+System.out.println( greeting.substring(1, 3) );</code></pre><h3 id=numbers>Numbers</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\nSystem.out.println( 2 * 3 );       // Basic Arithmetic: +, -, /, *\nSystem.out.println( 10 % 3 );      // Modulus Op. : returns remainder of 10/3\nSystem.out.println( 1 + 2 * 3 );   // order of operations\nSystem.out.println(10 / 3.0);      // int&#39;s and doubles\n\n\nint num = 10;\nnum += 100; // +=, -=, /=, *=\nSystem.out.println(num);\n\nnum++;\nSystem.out.println(num);\n\n// Math class has useful math methods\nSystem.out.println( Math.pow(2, 3) );\nSystem.out.println( Math.sqrt(144) );\nSystem.out.println( Math.round(2.7) );\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>System.out.println( 2 * 3 );       // Basic Arithmetic: &#43;, -, /, *
+System.out.println( 10 % 3 );      // Modulus Op. : returns remainder of 10/3
+System.out.println( 1 &#43; 2 * 3 );   // order of operations
+System.out.println(10 / 3.0);      // int&#39;s and doubles
+
+
+int num = 10;
+num &#43;= 100; // &#43;=, -=, /=, *=
+System.out.println(num);
+
+num&#43;&#43;;
+System.out.println(num);
+
+// Math class has useful math methods
+System.out.println( Math.pow(2, 3) );
+System.out.println( Math.sqrt(144) );
+System.out.println( Math.round(2.7) );</code></pre><h3 id=user-input>User Input</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\n// import java.util.Scanner;\nScanner keyboardInput = new Scanner(System.in);\n\nSystem.out.print(\"Enter username: \");\nString username = keyboardInput.nextLine(); // .nextDouble(), .nextInt()\nSystem.out.println(\"Hello, \" + username);\n\n// System.out.println( keyboardInput.hasNextLine() ); // .hasNextDouble(), .hasNextInt()\n\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>// import java.util.Scanner;
+Scanner keyboardInput = new Scanner(System.in);
+
+System.out.print(&#34;Enter username: &#34;);
+String username = keyboardInput.nextLine(); // .nextDouble(), .nextInt()
+System.out.println(&#34;Hello, &#34; &#43; username);
+
+// System.out.println( keyboardInput.hasNextLine() ); // .hasNextDouble(), .hasNextInt()</code></pre><h3 id=arrays>Arrays</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\n// int [] luckyNumbers = new int[10];\nint [] luckyNumbers = {4, 8, 15, 16, 23, 42};\n//         indexes:    0  1  2   3   4   5\n\nluckyNumbers[0] = 90;\nSystem.out.println(luckyNumbers[0]);\nSystem.out.println(luckyNumbers[1]);\nSystem.out.println(luckyNumbers.length);\n\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>// int [] luckyNumbers = new int[10];
+int [] luckyNumbers = {4, 8, 15, 16, 23, 42};
+//         indexes:    0  1  2   3   4   5
+
+luckyNumbers[0] = 90;
+System.out.println(luckyNumbers[0]);
+System.out.println(luckyNumbers[1]);
+System.out.println(luckyNumbers.length);</code></pre><h3 id=2-dimensional-arrays>2 Dimensional Arrays</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\n// int [][] numberGrid = new int[2][3];\nint [][] numberGrid = { {1, 2}, {3, 4} };\nnumberGrid[0][1] = 99;\n\nSystem.out.println(numberGrid[0][0]);\nSystem.out.println(numberGrid[0][1]);\n\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>// int [][] numberGrid = new int[2][3];
+int [][] numberGrid = { {1, 2}, {3, 4} };
+numberGrid[0][1] = 99;
+
+System.out.println(numberGrid[0][0]);
+System.out.println(numberGrid[0][1]);</code></pre><h3 id=arraylist>ArrayList</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\nArrayList\u003cString\u003e friends = new ArrayList\u003cString\u003e();\nfriends.add(\"Oscar\");\nfriends.add(\"Angela\");\nfriends.add(\"Kevin\");\n\n// friends.remove(\"Oscar\");\nSystem.out.println( friends.toString() );\nSystem.out.println( friends.get(0) );\nSystem.out.println( friends.contains(\"Oscar\") );\nSystem.out.println( friends.size() );\n\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>ArrayList&lt;String&gt; friends = new ArrayList&lt;String&gt;();
+friends.add(&#34;Oscar&#34;);
+friends.add(&#34;Angela&#34;);
+friends.add(&#34;Kevin&#34;);
+
+// friends.remove(&#34;Oscar&#34;);
+System.out.println( friends.toString() );
+System.out.println( friends.get(0) );
+System.out.println( friends.contains(&#34;Oscar&#34;) );
+System.out.println( friends.size() );</code></pre><h3 id=methods>Methods</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\npublic static void main(String [] args){\n     int sum = addNumbers(4, 60);\n     System.out.println(sum);\n}\n\npublic static int addNumbers(int num1, int num2){\n     return num1 + num2;\n}\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>public static void main(String [] args){
+     int sum = addNumbers(4, 60);
+     System.out.println(sum);
+}
+
+public static int addNumbers(int num1, int num2){
+     return num1 &#43; num2;
+}</code></pre><h3 id=if-statements>If Statements</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\nboolean isStudent = false;\nboolean isSmart = false;\n\nif(isStudent \u0026\u0026 isSmart){\n     System.out.println(\"You are a student\");\n} else if(isStudent \u0026\u0026 !isSmart){\n     System.out.println(\"You are not a smart student\");\n} else {\n     System.out.println(\"You are not a student and not smart\");\n}\n\n// \u003e, \u003c, \u003e=, \u003c=, !=, ==, String.equals()\nif(1 \u003e 3){\n     System.out.println(\"number omparison was true\");\n}\n\nif(&#39;a&#39; \u003e &#39;b&#39;){\n     System.out.println(\"character omparison was true\");\n}\n\nif(\"dog\".equals(\"cat\")){\n     System.out.println(\"string omparison was true\");\n}\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>boolean isStudent = false;
+boolean isSmart = false;
+
+if(isStudent &amp;&amp; isSmart){
+     System.out.println(&#34;You are a student&#34;);
+} else if(isStudent &amp;&amp; !isSmart){
+     System.out.println(&#34;You are not a smart student&#34;);
+} else {
+     System.out.println(&#34;You are not a student and not smart&#34;);
+}
+
+// &gt;, &lt;, &gt;=, &lt;=, !=, ==, String.equals()
+if(1 &gt; 3){
+     System.out.println(&#34;number omparison was true&#34;);
+}
+
+if(&#39;a&#39; &gt; &#39;b&#39;){
+     System.out.println(&#34;character omparison was true&#34;);
+}
+
+if(&#34;dog&#34;.equals(&#34;cat&#34;)){
+     System.out.println(&#34;string omparison was true&#34;);
+}</code></pre><h3 id=switch-statements>Switch Statements</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\nchar myGrade = &#39;A&#39;;\nswitch(myGrade){\n     case &#39;A&#39;:\n          System.out.println(\"You Pass\");\n          break;\n     case &#39;F&#39;:\n          System.out.println(\"You fail\");\n          break;\n     default:\n          System.out.println(\"Invalid grade\");\n}\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>char myGrade = &#39;A&#39;;
+switch(myGrade){
+     case &#39;A&#39;:
+          System.out.println(&#34;You Pass&#34;);
+          break;
+     case &#39;F&#39;:
+          System.out.println(&#34;You fail&#34;);
+          break;
+     default:
+          System.out.println(&#34;Invalid grade&#34;);
+}</code></pre><h3 id=while-loops>While Loops</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\nint index = 1;\nwhile(index \u003c= 5){\n     System.out.println(index);\n     index++;\n}\n\nindex = 1;\ndo{\n     System.out.println(index);\n     index++;\n}while(index \u003c= 5);\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>int index = 1;
+while(index &lt;= 5){
+     System.out.println(index);
+     index&#43;&#43;;
+}
+
+index = 1;
+do{
+     System.out.println(index);
+     index&#43;&#43;;
+}while(index &lt;= 5);</code></pre><h3 id=for-loops>For Loops</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\nfor(int i = 0; i \u003c 5; i++){\n     System.out.println(i);\n}\n\nint luckyNums[] = {4, 8, 15, 16, 23, 42};\nfor(int luckyNum : luckyNums){\n     System.out.println(luckyNum);\n}\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>for(int i = 0; i &lt; 5; i&#43;&#43;){
+     System.out.println(i);
+}
+
+int luckyNums[] = {4, 8, 15, 16, 23, 42};
+for(int luckyNum : luckyNums){
+     System.out.println(luckyNum);
+}</code></pre><h3 id=exception-catching>Exception Catching</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\ntry{\n     int division = 10/0;\n}catch(ArithmeticException e){\n     System.out.println(e);\n}catch(Exception e){\n     // Not best practice to use general Exception\n}\n\nthrow new ArithmeticException(\"can&#39;t add numbers\");\n\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>try{
+     int division = 10/0;
+}catch(ArithmeticException e){
+     System.out.println(e);
+}catch(Exception e){
+     // Not best practice to use general Exception
+}
+
+throw new ArithmeticException(&#34;can&#39;t add numbers&#34;);</code></pre><h3 id=classes-and-objects>Classes and Objects</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\npublic class Book{\n     public String title;\n     public String author;\n     public static String staticAttribute = \"My Static Attribute\";\n\n     public void readBook(){\n          System.out.println(\"Reading \" + this.title + \" by \" + this.author);\n     }\n}\n\nBook book1 = new Book();\nbook1.title = \"Harry Potter\";\nbook1.author = \"JK Rowling\";\n\nbook1.readBook();\nSystem.out.println(book1.title);\n\nBook book2 = new Book();\nbook2.title = \"Lord of the Rings\";\nbook2.author = \"JRR Tolkien\";\n\nbook2.readBook();\nSystem.out.println(book2.title);\nSystem.out.println(Book.staticAttribute)\n\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>public class Book{
+     public String title;
+     public String author;
+     public static String staticAttribute = &#34;My Static Attribute&#34;;
+
+     public void readBook(){
+          System.out.println(&#34;Reading &#34; &#43; this.title &#43; &#34; by &#34; &#43; this.author);
+     }
+}
+
+Book book1 = new Book();
+book1.title = &#34;Harry Potter&#34;;
+book1.author = &#34;JK Rowling&#34;;
+
+book1.readBook();
+System.out.println(book1.title);
+
+Book book2 = new Book();
+book2.title = &#34;Lord of the Rings&#34;;
+book2.author = &#34;JRR Tolkien&#34;;
+
+book2.readBook();
+System.out.println(book2.title);
+System.out.println(Book.staticAttribute)</code></pre><h3 id=constructors>Constructors</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\npublic class Book{\n     public String title;\n     public String author;\n\n     public Book(){\n          this.title = \"no title\";\n          this.author = \"no author\";\n     }\n\n     public Book(String title, String author){\n          this.title = title;\n          this.author = author;\n     }\n\n     public void readBook(){\n          System.out.println(\"Reading \" + this.title + \" by \" + this.author);\n     }\n}\n\nBook book1 = new Book(\"Harry Potter\", \"JK Rowling\");\nSystem.out.println(book1.title);\n\nBook book2 = new Book(\"Lord of the Rings\", \"JRR Tolkien\");\nSystem.out.println(book2.title);\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>public class Book{
+     public String title;
+     public String author;
+
+     public Book(){
+          this.title = &#34;no title&#34;;
+          this.author = &#34;no author&#34;;
+     }
+
+     public Book(String title, String author){
+          this.title = title;
+          this.author = author;
+     }
+
+     public void readBook(){
+          System.out.println(&#34;Reading &#34; &#43; this.title &#43; &#34; by &#34; &#43; this.author);
+     }
+}
+
+Book book1 = new Book(&#34;Harry Potter&#34;, &#34;JK Rowling&#34;);
+System.out.println(book1.title);
+
+Book book2 = new Book(&#34;Lord of the Rings&#34;, &#34;JRR Tolkien&#34;);
+System.out.println(book2.title);</code></pre><h3 id=getters-and-setters>Getters and Setters</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\n\n public class Book\n {\n     private String title;\n     private String author;\n\n     public Book()\n     {\n         this.title = \"no title\";\n         this.author = \"no author\";\n     }\n\n     public Book(String title, String author)\n     {\n         this.Title = title;\n         this.Author = author;\n     }\n\n     public string Title\n     {\n         get { return this.title; }\n         set { this.title = value; }\n\n     }\n     public string Author\n     {\n         get { return this.author; }\n         set { this.author = value; }\n\n     }\n }\n\nBook book1 = new Book(\"Harry Potter\", \"JK Rowling\");\nConsole.WriteLine(book1.Title);\n\nBook book2 = new Book(\"Lord of the Rings\", \"JRR Tolkien\");\nConsole.WriteLine(book1.Author);\n\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java> public class Book
+ {
+     private String title;
+     private String author;
+
+     public Book()
+     {
+         this.title = &#34;no title&#34;;
+         this.author = &#34;no author&#34;;
+     }
+
+     public Book(String title, String author)
+     {
+         this.Title = title;
+         this.Author = author;
+     }
+
+     public string Title
+     {
+         get { return this.title; }
+         set { this.title = value; }
+
+     }
+     public string Author
+     {
+         get { return this.author; }
+         set { this.author = value; }
+
+     }
+ }
+
+Book book1 = new Book(&#34;Harry Potter&#34;, &#34;JK Rowling&#34;);
+Console.WriteLine(book1.Title);
+
+Book book2 = new Book(&#34;Lord of the Rings&#34;, &#34;JRR Tolkien&#34;);
+Console.WriteLine(book1.Author);</code></pre><h3 id=inheritance>Inheritance</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\nclass Chef{\n\n     public String name;\n     public int age;\n\n     public Chef(String name, int age){\n          this.name = name;\n          this.age = age;\n     }\n\n\n     public void makeChicken(){\n          System.out.println(\"The chef makes chicken\");\n     }\n\n     public void makeSalad(){\n          System.out.println(\"The chef makes salad\");\n     }\n\n     public void makeSpecialDish(){\n          System.out.println(\"The chef makes a special dish\");\n     }\n}\n\nclass ItalianChef extends Chef{\n\n     public String countryOfOrigin;\n\n     public ItalianChef(String name, int age, String countryOfOrigin){\n          super(name, age);\n          this.countryOfOrigin = countryOfOrigin;\n     }\n\n     public void makePasta(){\n          System.out.println(\"The chef makes pasta\");\n     }\n\n     @Override\n     public void makeSpecialDish(){\n          System.out.println(\"The chef makes chicken parm\");\n     }\n}\n\nChef myChef = new Chef(\"Gordon Ramsay\", 50);\nmyChef.makeChicken();\n\nItalianChef myItalianChef = new ItalianChef(\"Massimo Bottura\", 55, \"Italy\");\nmyItalianChef.makeChicken();\nSystem.out.println(myItalianChef.age);\n\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>class Chef{
+
+     public String name;
+     public int age;
+
+     public Chef(String name, int age){
+          this.name = name;
+          this.age = age;
+     }
+
+
+     public void makeChicken(){
+          System.out.println(&#34;The chef makes chicken&#34;);
+     }
+
+     public void makeSalad(){
+          System.out.println(&#34;The chef makes salad&#34;);
+     }
+
+     public void makeSpecialDish(){
+          System.out.println(&#34;The chef makes a special dish&#34;);
+     }
+}
+
+class ItalianChef extends Chef{
+
+     public String countryOfOrigin;
+
+     public ItalianChef(String name, int age, String countryOfOrigin){
+          super(name, age);
+          this.countryOfOrigin = countryOfOrigin;
+     }
+
+     public void makePasta(){
+          System.out.println(&#34;The chef makes pasta&#34;);
+     }
+
+     @Override
+     public void makeSpecialDish(){
+          System.out.println(&#34;The chef makes chicken parm&#34;);
+     }
+}
+
+Chef myChef = new Chef(&#34;Gordon Ramsay&#34;, 50);
+myChef.makeChicken();
+
+ItalianChef myItalianChef = new ItalianChef(&#34;Massimo Bottura&#34;, 55, &#34;Italy&#34;);
+myItalianChef.makeChicken();
+System.out.println(myItalianChef.age);</code></pre><h3 id=abstract-classes-and-methods>Abstract Classes and Methods</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\nabstract class Vehicle{\n     public abstract void move();\n     public void getDescription(){\n          System.out.println(\"Vehicles are used for transportation\");\n     }\n}\n\nclass Bicycle extends Vehicle{\n     @Override\n     public void move(){\n          System.out.println(\"The bicycle pedals forward\");\n     }\n}\n\nclass Plane extends Vehicle{\n     @Override\n     public void move(){\n          System.out.println(\"The plane flys through the sky\");\n     }\n}\n\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>abstract class Vehicle{
+     public abstract void move();
+     public void getDescription(){
+          System.out.println(&#34;Vehicles are used for transportation&#34;);
+     }
+}
+
+class Bicycle extends Vehicle{
+     @Override
+     public void move(){
+          System.out.println(&#34;The bicycle pedals forward&#34;);
+     }
+}
+
+class Plane extends Vehicle{
+     @Override
+     public void move(){
+          System.out.println(&#34;The plane flys through the sky&#34;);
+     }
+}</code></pre><h3 id=interface-inheritance>Interface Inheritance</h3><pre style=font-size:18px;position:relative onmouseover="this.childNodes[0].className='red white-text right';" onmouseout="this.childNodes[0].className='red lighten-2 white-text right hide'"><span id=copyBtn onclick='copyTextToClipboard(this,"\ninterface Animal{\n     public void speak();\n}\n\nclass Cat implements Animal{\n     @Override\n     public void speak(){\n          System.out.println(\"Meow Meow\");\n     }\n}\n\nclass Dog implements Animal{\n     @Override\n     public void speak(){\n          System.out.println(\"Woof Woof\");\n     }\n}\n\n\nAnimal [] animals = {\n     new Dog(),\n     new Cat()\n};\nfor(Animal animal : animals){\n     animal.speak();\n}\n")' style=font-family:arial;position:absolute;right:10px;top:10px;padding-left:10px;padding-right:10px;cursor:pointer;font-size:18px class="red lighten-2 white-text right hide">Copy</span><code id=code style=padding:15px class=java>interface Animal{
+     public void speak();
+}
+
+class Cat implements Animal{
+     @Override
+     public void speak(){
+          System.out.println(&#34;Meow Meow&#34;);
+     }
+}
+
+class Dog implements Animal{
+     @Override
+     public void speak(){
+          System.out.println(&#34;Woof Woof&#34;);
+     }
+}
+
+
+Animal [] animals = {
+     new Dog(),
+     new Cat()
+};
+for(Animal animal : animals){
+     animal.speak();
+}</code></pre></div><div style=margin-top:25px><a class="waves-effect waves-light btn blue" href=/programming-languages/java/packages-imports/><i class="material-icons left">chevron_left</i>Prev</a></div></article></div><aside class="col xl2 l2 hide-on-med-and-down left-col-article" style=padding-right:0><div id=nav-side-article><h5>On This Page</h5><div class=table-of-contents id=table-of-contents style=margin-left:-20px><ul><ul><a href=/programming-languages/java/in-one-video/#java-overview><li>Java Overview</li></a></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#how-java-runs><li>How Java Runs</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#choosing-an-ide><li>Choosing an IDE</li></a></ul></ul></ul><ul><ul><a href=/programming-languages/java/in-one-video/#code><li>Code</li></a></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#printing><li>Printing</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#variables-and-data-types><li>Variables and Data Types</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#casting-and-converting><li>Casting and Converting</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#strings><li>Strings</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#numbers><li>Numbers</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#user-input><li>User Input</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#arrays><li>Arrays</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#2-dimensional-arrays><li>2 Dimensional Arrays</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#arraylist><li>ArrayList</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#methods><li>Methods</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#if-statements><li>If Statements</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#switch-statements><li>Switch Statements</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#while-loops><li>While Loops</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#for-loops><li>For Loops</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#exception-catching><li>Exception Catching</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#classes-and-objects><li>Classes and Objects</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#constructors><li>Constructors</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#getters-and-setters><li>Getters and Setters</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#inheritance><li>Inheritance</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#abstract-classes-and-methods><li>Abstract Classes and Methods</li></a></ul></ul></ul><ul><ul><ul><a href=/programming-languages/java/in-one-video/#interface-inheritance><li>Interface Inheritance</li></a></ul></ul></ul></div><br><br><h5>Share This Page</h5><ul><div class=row><li class="col xl4 l12"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fcourses.goupaz.com%2fprogramming-languages%2fjava%2fin-one-video%2f" target=_blank><span class="fa-stack fa-2x"><i class="fa fa-circle-thin fa-stack-2x" style=background-color:#3b5998;border-radius:50%;color:#3b5998></i><i class="fa fa-facebook fa-stack-1x" style=color:#fff></i></span></a></li><li class="col xl4 l12"><a href="https://twitter.com/home?status=https%3a%2f%2fcourses.goupaz.com%2fprogramming-languages%2fjava%2fin-one-video%2f" target=_blank><span class="fa-stack fa-2x"><i class="fa fa-circle-thin fa-stack-2x" style=background-color:#00aced;border-radius:50%;color:#00aced></i><i class="fa fa-twitter fa-stack-1x" style=color:#fff></i></span></a></li><li class="col xl4 l12"><a href="https://plus.google.com/share?url=https%3a%2f%2fcourses.goupaz.com%2fprogramming-languages%2fjava%2fin-one-video%2f" target=_blank><span class="fa-stack fa-2x"><i class="fa fa-circle-thin fa-stack-2x" style=background-color:#dd4b39;border-radius:50%;color:#dd4b39></i><i class="fa fa-google-plus fa-stack-1x" style=color:#fff></i></span></a></li><li class="col xl4 l12"><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fcourses.goupaz.com%2fprogramming-languages%2fjava%2fin-one-video%2f&title=In%20One%20Video&summary=This%20tutorial%20covers%20the%20Java%20programming%20language%20in%20one%20video.&source=https://courses.goupaz.com/" target=_blank><span class="fa-stack fa-2x"><i class="fa fa-circle-thin fa-stack-2x" style=background-color:#0077b5;border-radius:50%;color:#0077b5></i><i class="fa fa-linkedin fa-stack-1x" style=color:#fff></i></span></a></li></div></ul><div id=mc_embed_signup><form action="//giraffeacademy.us16.list-manage.com/subscribe/post?u=ddae06c14d9d23cc3973d5008&id=cbec4abdba&LESSON=%2fprogramming-languages%2fjava%2fin-one-video%2f" method=post id=mc-embedded-subscribe-form name=mc-embedded-subscribe-form class=validate target=_blank novalidate><div id=mc_embed_signup_scroll><h5>Subscribe To Get Course Updates</h5><div class="mc-field-group input-field"><label for=mce-EMAIL>Email Address</label>
+<input type=email name=EMAIL class="required email" class=validate id=mce-EMAIL></div><div id=mce-responses class=clear><div class=response id=mce-error-response style=display:none></div><div class=response id=mce-success-response style=display:none></div></div><div style=position:absolute;left:-5000px aria-hidden=true><input type=text name=b_ddae06c14d9d23cc3973d5008_cbec4abdba tabindex=-1></div><div class=clear><input class="waves-effect waves-light btn blue" type=submit value=Subscribe name=subscribe id=mc-embedded-subscribe class=button></div></div></form></div><br><div><script async src=//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js></script><ins class=adsbygoogle style=display:block data-ad-client=ca-pub-8421251020677378 data-ad-slot=7322741423 data-ad-format=auto data-full-width-responsive=true></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div><br></div></aside></div></div></div></main><footer><div class="page-footer grey darken-1" style=position:relative;z-index:100><div class=page-wrap><div class="row page-margin"><div class="col xl4 l4 m12 s12"><h5 class=white-text>Help GOUP Community Grow</h5><p class=white-text>If you're enjoying our content, consider contributing to the website and investing in the future!</p><a class="waves-effect waves-light btn blue" href=https://courses.goupaz.com/contribute>Contribute Now</a></div><div class="col xl1 l1 hide-on-med-and-down"></div><div class="col xl2 l2 m12 s12"><h5 class=white-text>Site Links</h5><ul><li><a class="grey-text text-lighten-3" href=https://courses.goupaz.com/#courses id=courses>Courses<i class="material-icons left">library_books</i></a></li><br><li><a class="grey-text text-lighten-3" href=https://courses.goupaz.com/about id=about>About<i class="material-icons left">info_outline</i></a></li><br><li><a class="grey-text text-lighten-3" href=https://courses.goupaz.com/contribute id=contribute>Contribute<i class="material-icons left">attach_money</i></a></li></ul></div><div class="col xl2 l2 hide-on-med-and-down"></div><div class="col xl3 l3 m12 s12"><h5 class=white-text>Social Media</h5><ul><li><a class="grey-text text-lighten-3" href=https://www.youtube.com/goupaz target=_blank>YouTube<i class="material-icons left">videocam</i></a></li><br><li><a class="grey-text text-lighten-3" href=https://twitter.com/goupaz target=_blank>Twitter<i class="material-icons left">account_circle</i></a></li></ul></div></div></div><div class=footer-copyright><div class="container center">© 2020 GOUP. All Rights Reserved</div></div></div></footer></body></html>

@@ -1,0 +1,1 @@
+<img class="materialboxed responsive-img center-media {{- if .Get `class` -}}{{.Get `class`}}{{- end -}}" src="{{- if eq (.Get `abs-path`) `true` }}{{- .Get `src`}}{{- else -}}{{- substr .Site.BaseURL 0 -1 -}}{{- .Page.URL -}}{{- .Get `src` -}}{{- end -}}" alt="{{- .Get `alt` -}}" />

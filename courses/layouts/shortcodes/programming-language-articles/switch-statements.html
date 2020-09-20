@@ -1,0 +1,45 @@
+<p>Much like if statements, which give your program the ability to make decision, switch statements can be used to infuse a bit of intelligence into any program. In fact, a switch statement is essentially a specialized version of an if statement which would otherwise have an excessive amount of <code>ELSE IF</code> type statements. </p>
+
+<p>Let's take a look at why they're used. </p>
+
+<p>Sometimes, when infusing logic into your programs you'll run into a situation where given the value of a certain piece of data, you'll want to do something different. Normally this could be covered with an if statement, but what if you want to account for 5, 10 , even 20 possible situations?</p>
+
+<p>Using an if statement, your program would soon become a mess of if statement syntax, and it wouldn't be very read-able or clear what's going on. Programmers realized this and thus Switch Statements were born!</p>
+
+<h2 id="switch-statement-structure">Switch Statement Structure</h2>
+
+<p>A switch statement takes a single value, then compares it to a bunch of other values using a boolean expression. When one of these boolean expressions is true then a specific piece of code will execute. </p>
+
+<p>This structure allows you to easily map a value to a piece of code that should be executed. Take a look at a simple switch statement below to get a handle on the syntax in {{.Get "lang"}}:</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.a ) }}</p>
+
+<p>As you can see above, we start with a value <code>myGrade</code>. Essentially we want to print out whether the student passed or failed given their grade (A or F). </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "Instead of resorting to an if statement we can employ the switch. Unlike if statements which need boolean expressions inside their parenthesis, with the switch statement we're just gonna pass in a value. In this case we're passing in myGrade." ) }}</p>
+
+<p>Now that we have our value, we want to set up a series of case statements. These case statements are essentially the right side of a boolean expression for equality. {{.Get "lang"}} will compare <code>myGrade</code> to each of the values in the case statements ('A' and 'F') for equality. If there's a match then the code directly below the case statement will be executed.</p>
+
+<h2 id="breaks">Breaks</h2>
+
+<p>One thing that's important to keep in mind with switch statements is that by default, {{.Get "lang"}} will try to check all of them for equality, even if it gets a match. This is different from an <code>ELSE IF</code> structure where once a condition is true it stops checking the ones below. </p>
+
+<p>Because {{.Get "lang"}} will automatically check every case no matter what, we need a way to prevent this (most of the time you want to prevent this). In the case of a match, I want the switch statement to stop checking the other cases.</p>
+
+<p>That's where the <code>break</code> keyword comes in. The break keyword tells {{.Get "lang"}} that we're done with the switch statement, and it should <em>break</em> out of it and move on. </p>
+
+<p>Personally I've run into my fair share of bugs in programs I've written from forgetting to put break statements in. So keep this in the back of your mind. </p>
+
+<h2 id="default">Default</h2>
+
+<p>If you examine the switch statement above you'll also notice the <code>default</code> keyword. This keyword acts a lot like an <code>ELSE</code> in an if statement structure. Any code below the default statement will be executed if none of the other cases get a match. Notice also that we don't need a break statement inside the default. </p>
+
+<p>Generally when you have a situation where you're using a switch the default will just catch any situations that you don't want to specify in a case statement.</p>
+
+<p>In the case of the program above it's printing out <code>Invalid Grade</code> for any grade that's not an <code>A</code> or an <code>F</code>. </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "Most of the time you'll want to include a default statement." ) }}</p>
+
+<h2 id="wrapping-it-up">Wrapping it up</h2>
+
+<p>In practice, switch statement are used far less frequently than if statements. The reason is that there's far fewer situations where a switch statement is appropriate over an if statement. A good rule of thumb though is that if you need to check one value against a bunch of other values for equality, then you might need a switch!</p>

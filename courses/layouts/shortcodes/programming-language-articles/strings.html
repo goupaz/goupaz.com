@@ -1,0 +1,49 @@
+<p>Let's talk about text, or as it's known to programmers, strings! In this lesson we'll take a look at one of {{.Get "lang"}}'s most powerful data types and how you can use them to write awesome programs. </p>
+
+<p>As you continue on your journey to becoming a {{.Get "lang"}} developer, one really useful skill you'll want to pickup along the way is the ability to work with strings in a variety of ways. Text is an important component of the programs we'll be writing in this course, so I want to introduce you to how strings are structured in {{.Get "lang"}}, and show you some cool and interesting ways we can manipulate and utilize them. </p>
+
+<h2 id="string-basics">String basics</h2>
+
+<p>First let's take a look at how we might store a string inside a variable:</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.a ) }}</p>
+
+<p>Notice first the way the string is formatted. Whenever we create strings in {{.Get "lang"}} we want to surround them with quotation marks. Any text inside the quotation marks is considered part of the string.</p>
+
+<p>A string can contain any characters you want, including spaces, numbers, special characters, and even quotation marks (if you prefix them with a backslash <code>\"</code>). Strings can also be as long as you want, in fact many programs you'll encounter as a developer might have strings with thousands or even millions of characters in them!</p>
+
+<h3 id="indexes">Indexes</h3>
+
+<p>No converstaion about strings would be complete without talking about string indexes.</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.b ) }}</p>
+
+<p>All characters in a string have specific indexes associated to them, it's basically their location from the start of the string. Notice above I've labeled each character in the string with it's corresponding index (the line of code with the indexes is a comment, it doesn't get executed by the computer).</p>
+
+<p>If you look closely though you might notice something weird. The first letter of the string has an index of 0, not as you might have expected 1. This isn't a mistake on my part, in fact all string indexes start at 0. So we would say that the first character of the string is at index position 0, the second character is at index position 1, etc. </p>
+
+<p>This is something that tends to trip up new developers (myself included when I learned it). This way of indexing things, where you start at 0 instead of 1, is common across most programming languages, and is something you'll get used to over time. </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "Almost all counting in programming will start with 0 instead of 1, it's just something you have to get used to." ) }}</p>
+
+<p>If you know the index of a character in a string, or want to know the character at a give index you can access one single character like so:</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.c ) }}</p>
+
+<p>In the code above, we're accessing a character in the string at the specified index. You can use this syntax to access any of the characters in the string as long as a valid index is used.</p>
+
+<h3 id="length">Length</h3>
+
+<p>So now that we have a handle on string indexes, I'll show you how you can get the length of a string. Knowing the length of a particular string can come in handy in many circumstances:</p>
+
+<p>{{ partial "shortcodes/code" (dict "lang" (.Get "code-lang") "file" "" "Content" $.Page.Params.code.d ) }}</p>
+
+<p>If you execute the program above, you'll see the length of the string printed out. </p>
+
+<p>Now there's one thing you need to understand which is the relationship between string length and string indexes. In {{.Get "lang"}}, a string's length will always be one more than the index of it's last character. This is because we start the indexes at 0. So the string <code>Hello</code> has a length of 5, but the index of the <code>o</code> at the end is at position 4. </p>
+
+<p>{{ partial "shortcodes/spotlight" (dict "Content" "Understanding this relationship between string length and string indexes is really important, and will be necessary later on in the course when we dive into more advanced topics!" ) }}</p>
+
+<h2 id="more-fun-with-strings">More fun with strings</h2>
+
+<p>Now that we've talked about how strings are structured and learned about the relationship between string length &amp; indexes, we can build off these concepts to continue learning. Check out the video above for an explanation of some more cool things you can do with strings in {{.Get "lang"}}. </p>
