@@ -22,4 +22,4 @@ Hey, join us, it's fun :)
 
 [Twitter](https://www.twitter.com/goupaz)
 
-[IRC] (https://webchat.freenode.net/?channel=#lowempire)
+[IRC](https://webchat.freenode.net/?channel=#lowempire)
