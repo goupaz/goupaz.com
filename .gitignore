@@ -1,0 +1,73 @@
+# Eclipse artifacts
+.project
+.pydevproject
+*.iml
+.idea/
+.vscode
+tmp/
+*.bak
+.DS_Store
+.tools
+.htmlproofer
+main/public
+blog/public
+courses/public
+resources
+node_modules
+generated
+
+# install generated files
+install/**
+
+# contains samples to demo allmytaxes
+samples/**
+
+# copied from allmytaxes repository
+tests/integration/**
+manifests/**
+
+# contains the built artifacts
+out/**
+
+# contains cloned allmytaxes repository
+go/**
+
+# archived site version
+archived_version
+
+
+#### 
+
+# See https:/community//community/help.github.com/community/ignore-files/community/ for more about ignoring files.
+
+# dependencies
+/community/node_modules
+
+# vscode settings
+.vscode
+
+# testing
+/community/coverage
+
+# production
+/community/build
+/community/src/community/**/community/*.css
+/community/src/community/**/community/*.css.map
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/community/1
+.idea/community/
+1
+
+debug.log
+# Local Netlify folder
+.netlify
