@@ -21,3 +21,5 @@ Hey, join us, it's fun :)
 [Linkedin](https://www.linkedin.com/company/goupaz)
 
 [Twitter](https://www.twitter.com/goupaz)
+
+[IRC] (Hey, join us, it’s fun :))
