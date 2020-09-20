@@ -2,7 +2,7 @@
     <div class="container flex align-center justify-center">
         <a class="gblog-header__link" rel="me" href="{{ .Site.BaseURL }}">
             <span class="gblog-brand flex align-center justify-center">
-                <img class="gblog-brand__img" title="Branding of {{ .Site.Title }}" src="{{ (default "brand.svg" .Site.Params.logo) | relURL }}" alt="{{ .Site.Title }}" width=60 height=60>
+                <img class="gblog-brand__img" title="Branding of {{ .Site.Title }}" src="{{ (default "brand.png" .Site.Params.logo) | relURL }}" alt="{{ .Site.Title }}" width=60 height=60>
                 {{ .Site.Title }}
             </span>
             {{ with .Site.Params.subtitle }}

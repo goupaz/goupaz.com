@@ -220,7 +220,7 @@ enableGitInfo = true
   keywords = []
   images = []
 
-  # (Optional, default static/brand.svg) Set the path to a logo for the Geekblog
+  # (Optional, default static/brand.png) Set the path to a logo for the Geekblog
   # relative to your 'static/' folder.
   logo = "logo.png"
 
@@ -328,7 +328,7 @@ params:
   keywords: []
   images: []
 
-  # (Optional, default static/brand.svg) Set the path to a logo for the Geekblog
+  # (Optional, default static/brand.png) Set the path to a logo for the Geekblog
   # relative to your 'static/' folder.
   logo: logo.png
 
