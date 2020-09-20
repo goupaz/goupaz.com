@@ -16,6 +16,7 @@ resources
 node_modules
 generated
 
+
 # install generated files
 install/**
 
