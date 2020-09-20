@@ -7,7 +7,7 @@ intro_image_hide_on_mobile: false
 
 # What?
 
-Onboard Open Source community spirit to enterprises.
+Onboard Open Source community spirit!
 
 # Why?
 Standart resume based, human prone hiring system does not work. There is a need for predictable & accountable fair approach.
