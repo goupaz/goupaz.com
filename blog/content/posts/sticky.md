@@ -1,11 +1,11 @@
 ---
-title: "Simple sticky posts"
+title: "Software Engineer Handbook"
 weight: 1
-date: 2020-06-13T00:06:00+02:00
+date: 2020-09-24T00:06:00+02:00
 authors:
-  - sako-m
+  - Heller-Vargas
 tags:
-  - Open Source
+  - Software Engineering
 ---
 
-Sticky (or pinned) posts implementation is currently really simple and handled by `weight: 1` in a post front matter.
+# TODO: Add here
