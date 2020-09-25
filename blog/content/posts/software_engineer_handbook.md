@@ -8,7 +8,4 @@ tags:
   - Software Engineering
 ---
 
-# Software Engineer Handbook
-
-
 Original source in Azerbaijani: [link](https://github.com/Software-Engineering-Reading/proqramci-muhendislerin-el-kitabcasi)
