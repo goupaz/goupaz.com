@@ -24,7 +24,7 @@ $colors: (
   secondary-dark: $color--secondary-dark,
   additional1: $color--additional1,
   additional2: $color--additional2,
-  additional3: $color--additional3
+  additional3: $color--additional3,
 );
 
 .leaflet-container {
@@ -53,10 +53,6 @@ $colors: (
 
 /* ==================================================================================================== */
 
-::selection {
-  background-color: rgba(21, 169, 189, 0.897);
-}
-
 * {
   transition: color 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
     background-color 280ms cubic-bezier(21, 169, 189, 0.897) 0ms,
@@ -74,7 +70,7 @@ svg {
 
 body {
   min-width: 22.25rem;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: default;
 }
 
@@ -311,7 +307,7 @@ main {
       max-height: 4.5rem;
       min-height: 5rem;
       width: auto;
-      padding: 1.5rem 1rem 2rem  !important;
+      padding: 1.5rem 1rem 2rem !important;
       margin: 0;
       white-space: nowrap;
       overflow: hidden;
@@ -325,7 +321,7 @@ main {
       max-height: 4.5rem;
       min-height: 5rem;
       width: auto;
-      padding: 1.2rem 1rem 2rem  !important;
+      padding: 1.2rem 1rem 2rem !important;
       font-size: 18px;
       margin: 0;
       white-space: nowrap;

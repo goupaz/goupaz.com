@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState, Suspense } from "react"
 import { Map as LeafletMap, Marker, Popup, TileLayer } from "react-leaflet"
 
 import { countriesWithNumOfDevsObj } from "../util/UsersDataCleanup"
+import { BaseLayout } from "./BaseLayout"
 
 // Array of country names and number of devs in those countries
 /* Needed to match country names from countriesWithNumOfDevsObj against 
@@ -120,27 +121,43 @@ function SimpleMap({ zoom = 3 }) {
       : [55.378052, -3.435973]
 
   return (
-    <div style={{ height: "90vh", width: "100%", margin: 0 }}>
-      <LeafletMap
-        center={center}
-        zoom={zoom}
-        minZoom={1}
-        maxZoom={10}
-        attributionControl={true}
-        zoomControl={true}
-        doubleClickZoom={true}
-        scrollWheelZoom={true}
-        dragging={true}
-        animate={true}
-        easeLinearity={0.35}
+    <BaseLayout>
+      <Suspense
+        fallback={
+          <div>
+            <p>Loading Map...</p>
+            <p>
+              Try refreshing if it doesn't load or check internet connection and
+              try again later.
+            </p>
+          </div>
+        }
       >
-        <TileLayer
-          attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
-        {markersArray}
-      </LeafletMap>
-    </div>
+        <div
+          style={{ height: "calc(100vh - 170px)", width: "100%", margin: 0 }}
+        >
+          <LeafletMap
+            center={center}
+            zoom={zoom}
+            minZoom={1}
+            maxZoom={10}
+            attributionControl={true}
+            zoomControl={true}
+            doubleClickZoom={true}
+            scrollWheelZoom={true}
+            dragging={true}
+            animate={true}
+            easeLinearity={0.35}
+          >
+            <TileLayer
+              attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            {markersArray}
+          </LeafletMap>
+        </div>
+      </Suspense>
+    </BaseLayout>
   )
 }
 

@@ -1,85 +1,70 @@
 import React, { useState } from "react"
-import CountUp from "react-countup"
 
 import CardList from "./CardList"
-import BasicButton from "./BasicButton"
-import { countriesWithNumOfDevsObj } from "../util/UsersDataCleanup"
-const countryNamesAndNumOfDevsArr = Object.entries(countriesWithNumOfDevsObj)
+import { Button } from "./Button"
+import { styled } from "../theme"
+import { Sidebar } from "./Sidebar"
 
-const BatchCards = ({ persons, numberPerBatch = 16 }: any) => {
+export const BatchCards = ({ persons, numberPerBatch = 16 }: any) => {
   const [batch, setBatch] = useState(1)
+  const [loading, setLoading] = useState(false)
 
   const addToBatch = () => {
     if (persons.length > batch * numberPerBatch) {
-      setBatch(batch + 1)
+      setLoading(true)
+      setTimeout(() => {
+        setBatch(batch + 1)
+        setLoading(false)
+      }, 600)
     }
   }
 
-  const infoCardContainer: object = {
-    padding: 20,
-    backgroundColor: "#42a5f5",
-    borderRadius: 10,
-    flexDirection: "row",
-    display: "flex",
-    justifyContent: "space-between",
-  }
-  const infoView: object = {
-    background: "#212121",
-    padding: 10,
-    borderRadius: 10,
-  }
-  const infoLabel: object = {
-    fontSize: 20,
-    margin: 0,
-    padding: 0,
-    color: "white",
-  }
-  const infoValue: object = {
-    fontSize: 25,
-    margin: 0,
-    padding: 0,
-    color: "white",
-  }
-
   return (
-    <div>
-      <div style={{ flex: 1 }}>
-        <div style={infoCardContainer}>
-          <div style={infoView}>
-            <p style={infoLabel}>Total Profiles</p>
-            <p style={infoValue}>
-              <CountUp end={persons.length} delay={1} />
-            </p>
-          </div>
-          <div style={infoView}>
-            <p style={infoLabel}>Total Countries</p>
-            <p style={infoValue}>
-              <CountUp end={countryNamesAndNumOfDevsArr.length} delay={1} />
-            </p>
-          </div>
-        </div>
-      </div>
+    <Wrapper>
+      <Sidebar persons={persons} />
 
-      <div className="flex flex-wrap justify-center">
-        <CardList
-          persons={persons.slice(0, batch * numberPerBatch)}
-          card
-          ma4
-          w5
-          tc
-          bg-white
-          br2
-          custom--shadow-2
-          custom--shadow-hover-8
-          custom--o-95
-          z-1
-        />
-      </div>
-      {persons.length >= batch * numberPerBatch && (
-        <BasicButton action={addToBatch}>Show More</BasicButton>
-      )}
-    </div>
+      <Content>
+        <CardList persons={persons.slice(0, batch * numberPerBatch)} />
+        {persons.length >= batch * numberPerBatch && (
+          <ButtonWrapper>
+            <Button
+              onClick={addToBatch}
+              mode="contained"
+              color="snow2"
+              loading={loading}
+            >
+              Show More
+            </Button>
+          </ButtonWrapper>
+        )}
+      </Content>
+    </Wrapper>
   )
 }
 
-export default BatchCards
+const Wrapper = styled.div`
+  display: flex;
+
+  ${(props) => props.theme.screen.mobile} {
+    flex-direction: column;
+  }
+`
+
+const Content = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 200px);
+
+  ${(props) => props.theme.screen.mobile} {
+    width: 100%;
+  }
+`
+
+const ButtonWrapper = styled.div`
+  width: 100%;
+  text-align: center;
+
+  button {
+    width: 300px;
+  }
+`
