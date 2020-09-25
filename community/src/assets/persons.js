@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from "uuid"
 
 export const data = {
   people: [
-    ...Array(100).fill({
+{
       id: uuidv4(),
       name: "Sako M",
       img: "https://avatars3.githubusercontent.com/u/43357548?v=4",
@@ -17,6 +17,6 @@ export const data = {
         state: "California",
         country: "USA",
       },
-    }),
+    },
   ],
 }
