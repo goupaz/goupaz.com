@@ -2,7 +2,7 @@ import React from "react"
 
 import "../styles/BasicButton.scss"
 
-const BasicButton = ({ action, children, disabled }: any) => {
+export const BasicButton = ({ action, children, disabled }: any) => {
   return (
     <div className="flex items-center justify-center pa4 custom--basic-button">
       <button
@@ -18,5 +18,3 @@ const BasicButton = ({ action, children, disabled }: any) => {
     </div>
   )
 }
-
-export default BasicButton

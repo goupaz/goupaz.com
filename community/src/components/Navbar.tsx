@@ -1,45 +1,102 @@
 import React from "react"
-import Search from "./Search"
-import "../styles/SearchBarDesktopView.scss"
-import { pageNames } from "../util/pageNames"
+import styled from "styled-components"
+import { Link, useLocation } from "react-router-dom"
+import { ReactComponent as LogoSvg } from "../assets/logo.svg"
+import { ReactComponent as MapSvg } from "../assets/map.svg"
 
-const Navbar = ({
-  onSearchChange,
-  onMapClick,
-  onLogoClick,
-  mapOrHomeTitle,
-}: any) => {
+import "../styles/SearchBarDesktopView.scss"
+import { SearchBox } from "./SearchBox"
+import { Copy } from "./Copy"
+
+export const Navbar = () => {
+  const { pathname } = useLocation()
   return (
-    <div className="header-items flex flex-wrap justify-between">
-      <h1
-        onClick={onLogoClick}
-        id="title"
-        className="relative ma0 pa0 fl-l pointer"
-      >
-        <svg className="w2 h2 mr2 v-top" viewBox="0 0 24 24">
-          <path d="M12,6A3,3 0 0,0 9,9A3,3 0 0,0 12,12A3,3 0 0,0 15,9A3,3 0 0,0 12,6M6,8.17A2.5,2.5 0 0,0 3.5,10.67A2.5,2.5 0 0,0 6,13.17C6.88,13.17 7.65,12.71 8.09,12.03C7.42,11.18 7,10.15 7,9C7,8.8 7,8.6 7.04,8.4C6.72,8.25 6.37,8.17 6,8.17M18,8.17C17.63,8.17 17.28,8.25 16.96,8.4C17,8.6 17,8.8 17,9C17,10.15 16.58,11.18 15.91,12.03C16.35,12.71 17.12,13.17 18,13.17A2.5,2.5 0 0,0 20.5,10.67A2.5,2.5 0 0,0 18,8.17M12,14C10,14 6,15 6,17V19H18V17C18,15 14,14 12,14M4.67,14.97C3,15.26 1,16.04 1,17.33V19H4V17C4,16.22 4.29,15.53 4.67,14.97M19.33,14.97C19.71,15.53 20,16.22 20,17V19H23V17.33C23,16.04 21,15.26 19.33,14.97Z" />
-        </svg>
-        <span className="fw3">Community</span>
-        <span className="fw7 custom--text-primary">Board</span>
-      </h1>
-     
-      <div className="flex items-center">
-        <span className="f3 mr4 pointer" onClick={onMapClick}>
-          {mapOrHomeTitle}
-        </span>
-       <span className="f3 mr4 pointer"> <a href="https://goupaz.com"  style={{ color: '#FFF'}} >Home</a></span> 
-        {mapOrHomeTitle === pageNames.map && (
-          <div
-            style={{ margin: 0, padding: 0 }}
-            className="visible-on-desktopview-only"
-          >
-            
-            <Search onSearchChange={onSearchChange} />
-          </div>
-        )}
-      </div>
-    </div>
+    <NavWrapper>
+      <Container>
+        <Link to="/">
+          <Logo />
+        </Link>
+
+        <Menu>
+          <Copy display="body" color="grey1">
+            <a href="https://goupaz.com/">Back to goupaz.com</a>
+          </Copy>
+        </Menu>
+
+        <SearchBox />
+        <Link to="/map">
+          <MapIcon active={pathname.includes("/map")} />
+        </Link>
+      </Container>
+    </NavWrapper>
   )
 }
 
-export default Navbar
+const NavWrapper = styled.div`
+  padding: 15px 20px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  z-index: 999999;
+
+  &::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+    top: 0;
+    z-index: -1;
+    background-color: white;
+    border-bottom: 1px solid ${(props) => props.theme.colors.snow2};
+  }
+
+  ${(props) => props.theme.screen.mobile} {
+    background-color: white;
+    border-bottom: 1px solid ${(props) => props.theme.colors.snow3};
+
+    &:before {
+      display: none;
+    }
+  }
+`
+
+const Container = styled.div`
+  display: flex;
+  width: 100%;
+  align-items: center;
+`
+
+const Menu = styled.div`
+  display: flex;
+  padding: 10px;
+  margin-left: 10px;
+
+  a {
+    text-decoration: none;
+    border-bottom: 1px solid ${(props) => props.theme.colors.snow3};
+  }
+
+  ${(props) => props.theme.screen.mobile} {
+    margin-left: auto;
+  }
+`
+
+const Logo = styled(LogoSvg)`
+  width: 240px;
+  height: 24px;
+  margin-top: 6px;
+`
+
+const MapIcon = styled(MapSvg)<any>`
+  fill: ${(props) =>
+    props.active ? props.theme.colors.primary : props.theme.colors.grey2};
+  padding: 10px 20px;
+
+  &:hover {
+    fill: ${(props) => props.theme.colors.primary};
+  }
+`
