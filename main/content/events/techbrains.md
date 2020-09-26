@@ -13,6 +13,9 @@ The moment silence is not gold.
 > ## [Chapter01: 18 January, 2020](/techbrains/chapter01)
 > **Line**: Intro - Video: Azerbaijani - Slides: English
 
+> ## [Chapter02: 26 September, 2020](/techbrains/chapter02)
+> **Line**: Community Managers + Startup Demos - Video: English - Slides: English
+
 ## Motivation
 - Onboard Open Source community spirit
 - Good Leaders talk about it
