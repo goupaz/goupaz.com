@@ -32,5 +32,21 @@ export const data = {
         city: "Baku",
         country: "Azerbaijan",
       },
-    }, ],
+    },
+ {
+      id: uuidv4(),
+      name: "Emin Ghuliev",
+      img: "https://i.imgur.com/ijV4k9L.jpg",
+      links: {
+        website: "https://goupaz.com",
+        linkedin: "https://www.linkedin.com/in/emin-ghuliev-461a22129/",
+        github: "https://github.com/eminghuliev",
+      },
+      jobTitle: "Community Leader",
+      location: {
+        city: "Baku",
+        country: "Azerbaijan",
+      },
+    },
+  ],
 }
