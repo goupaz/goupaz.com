@@ -25,7 +25,7 @@ export const data = {
       links: {
         website: "https://goupaz.com",
         linkedin: "https://www.linkedin.com/in/nurlana1/",
-        github: "https://github.com/Nurlana1",
+        github: "https://github.com/Nurlana01",
       },
       jobTitle: "Community Manager",
       location: {
