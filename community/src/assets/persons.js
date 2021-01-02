@@ -18,5 +18,19 @@ export const data = {
         country: "USA",
       },
     },
-  ],
+ {
+      id: uuidv4(),
+      name: "Nurlana Mollayeva",
+      img: "https://avatars0.githubusercontent.com/u/71228751?v=4",
+      links: {
+        website: "https://goupaz.com",
+        linkedin: "https://www.linkedin.com/in/nurlana1/",
+        github: "https://github.com/Nurlana1",
+      },
+      jobTitle: "Community Manager",
+      location: {
+        city: "Baku",
+        country: "Azerbaijan",
+      },
+    }, ],
 }
