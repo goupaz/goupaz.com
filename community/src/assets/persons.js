@@ -13,7 +13,7 @@ export const data = {
       },
       jobTitle: "DevOps",
       location: {
-        city: "Redwood",
+        city: "San Francisco",
         state: "California",
         country: "USA",
       },
