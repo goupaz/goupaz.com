@@ -48,5 +48,20 @@ export const data = {
         country: "Azerbaijan",
       },
     },
+{
+      id: uuidv4(),
+      name: "Rasim Abdullayev",
+      img: "hhttps://avatars2.githubusercontent.com/u/56521004?v=4",
+      links: {
+        website: "https://goupaz.com",
+        linkedin: "https://www.linkedin.com/in/abdullayevrs/",
+        github: "https://github.com/rasimab",
+      },
+      jobTitle: "Community Leader",
+      location: {
+        city: "Baku",
+        country: "Azerbaijan",
+      },
+    },
   ],
 }
