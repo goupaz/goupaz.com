@@ -64,5 +64,19 @@ export const data = {
                 country: "Azerbaijan",
             },
         },
+        {
+            id: uuidv4(),
+            name: "Nihad Abbasov",
+            img: "https://avatars2.githubusercontent.com/u/253398?v=4",
+            links: {
+                linkedin: "https://www.linkedin.com/in/nihadabbasov/",
+                github: "https://github.com/NARKOZ",
+            },
+            jobTitle: "Software Architect",
+            location: {
+                city: "Kyiv",
+                country: "Ukraine",
+            },
+        },
     ],
 }
