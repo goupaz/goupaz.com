@@ -66,6 +66,21 @@ export const data = {
         },
         {
             id: uuidv4(),
+            name: "Efkan Isazade",
+            img: "https://avatars3.githubusercontent.com/u/39097733?v=4",
+            links: {
+                website: "https://efkan-isazade.com",
+                linkedin: "https://www.linkedin.com/in/efkan-isazade/",
+                github: "https://github.com/efe136",
+      },
+           jobTitle: "DevOps",
+           location: {
+              city: "Baku",
+              country: "Azerbaijan",
+      },
+    },
+    {
+            id: uuidv4(),
             name: "Nihad Abbasov",
             img: "https://avatars2.githubusercontent.com/u/253398?v=4",
             links: {
