@@ -16,7 +16,7 @@
             {{ end }}
 
             <h1>{{ partial "title" . }}</h1>
-            {{ if eq .Type "posts" }}
+            {{ if or (eq .Type (default "posts" .Site.Params.GeekblogContentSection)) (eq .Type "post") }}
             <div class="gblog-post__meta">
                 <span class="no-wrap">
                     <svg class="icon date"><use xlink:href="#date"></use></svg>

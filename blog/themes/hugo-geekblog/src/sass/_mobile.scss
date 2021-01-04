@@ -1,0 +1,86 @@
+@media screen and (max-width: $sm-breakpoint) {
+  .gblog-brand {
+    font-size: $font-size-32 * 1.1;
+  }
+
+  .gblog-nav {
+    .container {
+      padding: 0;
+    }
+
+    &__list {
+      background: $white;
+      flex-direction: column;
+      justify-content: center;
+      max-height: 0;
+      overflow: hidden;
+    }
+
+    &__entry {
+      padding: $padding-16 0;
+      border: 0;
+      border-radius: 0;
+      display: block;
+      margin: 0;
+      text-align: center;
+
+      &:hover,
+      &.is-active {
+        background: $white;
+
+        &:after {
+          bottom: 0px;
+        }
+      }
+    }
+
+    &__control {
+      display: block;
+      text-align: center;
+      user-select: none;
+
+      label {
+        padding: $padding-16 0;
+      }
+    }
+  }
+
+  .gblog-error {
+    padding: $padding-16 * 6 $padding-16;
+
+    .icon {
+      font-size: $font-size-32 * 2.5;
+    }
+
+    &__message {
+      padding-left: $padding-16 * 2;
+    }
+
+    &__line {
+      padding: $padding-4 0;
+    }
+
+    &__title {
+      font-size: $font-size-16 * 2;
+    }
+  }
+
+  .gblog-footer {
+    &__item {
+      width: 100%;
+    }
+  }
+}
+
+#menu-control:checked ~ .gblog-nav__list {
+  max-height: 100%;
+}
+
+#menu-control:checked ~ .gblog-nav__control {
+  .icon.menu {
+    display: none;
+  }
+  .icon.clear {
+    display: inline-block;
+  }
+}

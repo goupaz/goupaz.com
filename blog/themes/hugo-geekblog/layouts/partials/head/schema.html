@@ -1,5 +1,5 @@
 {{ if .IsHome -}}
-{{ $thumbnail := default (default "brand.png" .Site.Params.logo) (index (default slice .Site.Params.images) 0) | absURL }}
+{{ $thumbnail := default (default "brand.svg" .Site.Params.logo) (index (default slice .Site.Params.images) 0) | absURL }}
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -65,7 +65,7 @@
         "url": {{ .Site.BaseURL }},
         "logo": {
             "@type": "ImageObject",
-            "url": "{{ (default "brand.png" .Site.Params.logo) | absURL }}",
+            "url": "{{ (default "brand.svg" .Site.Params.logo) | absURL }}",
             "width":"32",
             "height":"32"
         }

@@ -1,6 +1,6 @@
 name = "Geekblog"
 license = "MIT"
-licenselink = "https://github.com/xoxys/hugo-geekblog/blob/master/LICENSE"
+licenselink = "https://github.com/thegeeklab/hugo-geekblog/blob/master/LICENSE"
 description = "Hugo theme made for blogs"
 homepage = "https://hugo-geekblog.geekdocs.de/"
 tags = ["blog", "responsive", "simple"]
