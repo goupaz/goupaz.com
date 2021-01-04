@@ -68,7 +68,7 @@ outputs:
 enableRobotsTXT: true
 
 params:
-  subtitle: By GOUP with love
+  subtitle: by GOUP with love ❤
   description: >
     hugo-geekblog is a simple Hugo theme for personal blogs. This page is theme documentation
     and powered by the latest version of hugo-geekblog itself.

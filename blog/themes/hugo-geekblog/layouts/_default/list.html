@@ -49,7 +49,7 @@
             {{ with .Params.authors }}
             {{ range sort . }}
                 {{ $author := index $.Site.Data.authors . }}
-                {{ with $.Site.GetPage (printf "/authors/%s" $author.name | urlize) }}
+                {{ with $.Site.GetPage (printf "/authors/%s" . | urlize) }}
                     {{ if eq $ac 0 }}
                     <span class="no-wrap">
                     <svg class="icon person"><use xlink:href="#person"></use></svg>

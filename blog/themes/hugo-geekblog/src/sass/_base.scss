@@ -1,0 +1,457 @@
+html {
+  font-size: $font-size-base;
+  letter-spacing: 0.33px;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  min-width: $body-min-width;
+  overflow-x: hidden;
+}
+
+body {
+  color: $body-font-color;
+  background: $body-background;
+
+  font-weight: $body-font-weight;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  box-sizing: border-box;
+  * {
+    box-sizing: inherit;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+
+  > code {
+    border-top: 3px solid $gray-300;
+    font-size: 0.75em !important;
+  }
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1rem !important;
+}
+
+a {
+  text-decoration: underline;
+  color: $color-link;
+
+  &:hover {
+    background: $color-link;
+    color: $white !important;
+    text-decoration: none;
+  }
+
+  &:visited {
+    color: $color-link;
+  }
+}
+
+img {
+  vertical-align: middle;
+}
+
+.fake-link {
+  background-image: linear-gradient($color-link, $color-link);
+  background-position: 0 100%;
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding: $padding-16;
+}
+
+.icon {
+  display: inline-block;
+  width: 1.3em;
+  height: 1.3em;
+  vertical-align: middle;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  position: relative;
+}
+
+.gblog-header {
+  background: $white;
+  color: $main-color;
+  padding: $padding-16 0;
+
+  &__link,
+  &__link:visited {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    color: $main-color !important;
+    background: none;
+  }
+}
+
+.gblog-brand {
+  font-size: $font-size-32 * 1.5;
+
+  &__subtitle_link {
+    text-decoration: none;
+  }
+
+  &__subtitle {
+    margin-top: $padding-16;
+    font-size: $font-size-14 * 1.2;
+    color: $main-color;
+  }
+
+  &__img {
+    margin-right: $padding-16;
+  }
+}
+
+.gblog-nav {
+  background: $white;
+  color: $main-color;
+  min-height: $padding-4;
+  border-top: $gray-200 1px solid;
+  border-bottom: $gray-200 1px solid;
+
+  .container {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  &__entry {
+    color: $main-color;
+    text-decoration: none;
+    padding: $padding-8 $padding-16;
+    display: inline-block;
+    margin: $padding-4;
+    position: relative;
+
+    &:hover {
+      color: lighten($second-color, 10%) !important;
+      background: none;
+    }
+    &.is-active {
+      color: $second-color !important;
+      background: none;
+
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: $second-color;
+      }
+    }
+
+    &:visited {
+      color: inherit;
+    }
+  }
+
+  &__control {
+    display: none;
+
+    label {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .icon {
+      margin-right: $padding-4;
+    }
+
+    .icon.menu {
+      display: inline-block;
+    }
+    .icon.clear {
+      display: none;
+    }
+  }
+}
+
+.gblog-page {
+  min-width: $body-min-width;
+  flex-grow: 1;
+}
+
+.gblog-post {
+  word-wrap: break-word;
+  border-top: 1px solid $gray-200;
+  padding: $padding-32 0;
+
+  &__header {
+    h1 {
+      margin-top: 0;
+    }
+
+    a,
+    a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background: none;
+      text-decoration: underline;
+      color: $body-font-color !important;
+    }
+  }
+
+  &:first-child {
+    border-top: 0;
+  }
+
+  &__readmore {
+    margin: 1.5rem 0 $padding-32 0;
+
+    a:after {
+      font-family: GeekblogIcons;
+      content: "\ea02";
+    }
+  }
+
+  &__tag {
+    margin: $padding-4 0 !important;
+
+    .gblog-button__link {
+      padding: $padding-4 $padding-8;
+
+      &:hover {
+        background: none;
+      }
+    }
+  }
+
+  &__anchorwrap {
+    &:hover .gblog-post__anchor {
+      background: none;
+      color: $gray-500 !important;
+    }
+  }
+
+  &__anchor {
+    min-width: 30px;
+    color: transparent;
+
+    &--left {
+      position: absolute;
+      margin-left: -25px;
+      text-align: left;
+    }
+
+    &--right {
+      text-align: right;
+    }
+
+    .icon {
+      font-size: $font-size-16 * 1.3;
+    }
+  }
+
+  &__feature {
+    position: relative;
+    margin-bottom: $padding-32;
+
+    img {
+      width: 100%;
+      min-height: 180px;
+      object-fit: cover;
+      overflow: hidden;
+      border-radius: 3px;
+    }
+
+    span {
+      background: rgba($gray-900, 0.8);
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding: $padding-4;
+      font-size: 0.8em;
+      color: $gray-200;
+      border-radius: 3px 0;
+    }
+
+    a:hover,
+    a:visited {
+      color: $gray-200 !important;
+    }
+  }
+
+  &__meta {
+    padding-bottom: $padding-16;
+
+    .icon {
+      font-size: 1.2em;
+    }
+  }
+
+  &__figure {
+    padding: $padding-4 $padding-4 0 $padding-4;
+    margin: $padding-16 0;
+    background-color: $gray-300;
+    display: table;
+
+    figcaption {
+      display: table-caption;
+      caption-side: bottom;
+      background-color: $gray-300;
+      padding: $padding-4;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  &__footer {
+    color: $gray-600;
+    :not(:first-child).no-wrap {
+      margin-left: $padding-8;
+    }
+
+    .icon {
+      font-size: 1.2em;
+      fill: $gray-400;
+    }
+  }
+}
+
+.gblog-footer {
+  background: $second-color;
+  color: $gray-100;
+
+  &__item {
+    margin: $padding-8 $padding-8 $padding-8 0;
+  }
+
+  &__link {
+    color: $color-link-footer;
+
+    &:hover {
+      background: $color-link-footer;
+      color: $body-font-color !important;
+    }
+
+    &:visited {
+      color: $color-link-footer;
+    }
+  }
+}
+
+.gblog-paging {
+  padding: $padding-16 0;
+
+  &__item {
+    flex: 1 1 0;
+
+    &--next {
+      text-align: right;
+
+      a:after {
+        font-family: GeekblogIcons;
+        content: "\ea17";
+        margin-top: -0.125em;
+      }
+    }
+
+    &--prev {
+      text-align: left;
+
+      a::before {
+        font-family: GeekblogIcons;
+        content: "\ea18";
+        margin-top: -0.125em;
+      }
+    }
+  }
+}
+
+.gblog-error {
+  padding: $padding-16 * 6 $padding-16;
+  margin: 0 auto;
+  max-width: 45em;
+
+  .icon {
+    font-size: $font-size-32 * 4;
+    color: $gray-700;
+  }
+
+  &__link,
+  &__link:visited {
+    color: $color-link;
+  }
+
+  &__message {
+    padding-left: $padding-16 * 4;
+  }
+
+  &__line {
+    padding: $padding-8 0;
+  }
+
+  &__title {
+    font-size: $font-size-16 * 4;
+  }
+
+  &__code {
+    font-weight: bolder;
+  }
+}
+
+.gblog-toc {
+  // Classes to hide nested levels of ToC/Menu
+  &__level--1 ul ul,
+  &__level--2 ul ul ul,
+  &__level--3 ul ul ul ul,
+  &__level--4 ul ul ul ul ul,
+  &__level--5 ul ul ul ul ul ul,
+  &__level--6 ul ul ul ul ul ul ul {
+    display: none;
+  }
+
+  a,
+  a:visited {
+    color: $color-link;
+    text-decoration: none;
+  }
+}

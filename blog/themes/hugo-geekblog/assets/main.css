@@ -344,8 +344,8 @@ img {
   position: relative
 }
 .gblog-header {
-  background: #4186c9;
-  color: #fff;
+  background: #fff;
+  color: #525c7a;
   padding: 1rem 0
 }
 .gblog-header__link,
@@ -354,42 +354,64 @@ img {
   text-decoration: none
 }
 .gblog-header__link:hover {
+  color: #525c7a!important;
   background: 0 0
 }
 .gblog-brand {
   font-size: 3rem
 }
+.gblog-brand__subtitle_link {
+  text-decoration: none
+}
 .gblog-brand__subtitle {
   margin-top: 1rem;
-  font-size: 1.2rem;
-  font-weight: bolder
+  font-size: 1.05rem;
+  color: #525c7a
 }
 .gblog-brand__img {
   margin-right: 1rem
 }
 .gblog-nav {
-  background: #2f333e;
-  color: #e9ecef
+  background: #fff;
+  color: #525c7a;
+  min-height: .25rem;
+  border-top: #edf0f5 1px solid;
+  border-bottom: #edf0f5 1px solid
 }
 .gblog-nav .container {
-  padding-top: .5rem;
-  padding-bottom: .5rem
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0
 }
 .gblog-nav li {
   display: inline-block
 }
 .gblog-nav__entry {
-  color: #f8f9fa;
+  color: #525c7a;
   text-decoration: none;
-  padding: .25rem .5rem;
-  border: 1px solid;
-  border-radius: .3rem;
+  padding: .5rem 1rem;
   display: inline-block;
-  margin: .25rem
+  margin: .25rem;
+  position: relative
 }
-.gblog-nav__entry.is-active,
 .gblog-nav__entry:hover {
-  background: #454b5b
+  color: #076bc3!important;
+  background: 0 0
+}
+.gblog-nav__entry.is-active {
+  color: #055092!important;
+  background: 0 0
+}
+.gblog-nav__entry.is-active:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #055092
 }
 .gblog-nav__entry:visited {
   color: inherit
@@ -415,7 +437,7 @@ img {
 }
 .gblog-post {
   word-wrap: break-word;
-  border-top: 1px dashed #868e96;
+  border-top: 1px solid #edf0f5;
   padding: 2rem 0
 }
 .gblog-post__header h1 {
@@ -488,12 +510,12 @@ img {
   right: 0;
   padding: .25rem;
   font-size: .8em;
-  color: #e9ecef;
+  color: #edf0f5;
   border-radius: 3px 0
 }
 .gblog-post__feature a:hover,
 .gblog-post__feature a:visited {
-  color: #e9ecef!important
+  color: #edf0f5!important
 }
 .gblog-post__meta {
   padding-bottom: 1rem
@@ -518,28 +540,32 @@ img {
   max-width: 100%;
   height: auto
 }
+.gblog-post__footer {
+  color: #868e96
+}
 .gblog-post__footer :not(:first-child).no-wrap {
   margin-left: .5rem
 }
 .gblog-post__footer .icon {
-  font-size: 1.2em
+  font-size: 1.2em;
+  fill: #ced4da
 }
 .gblog-footer {
-  background: #2f333e;
+  background: #055092;
   color: #f8f9fa
 }
 .gblog-footer__item {
   margin: .5rem .5rem .5rem 0
 }
 .gblog-footer__link {
-  color: #ffa31e
+  color: #fff
 }
 .gblog-footer__link:hover {
-  background: #ffa31e;
+  background: #fff;
   color: #343a40!important
 }
 .gblog-footer__link:visited {
-  color: #ffa31e
+  color: #fff
 }
 .gblog-paging {
   padding: 1rem 0
@@ -601,83 +627,6 @@ img {
   color: #0a539a;
   text-decoration: none
 }
-@media screen and (max-width:45rem) {
-  .gblog-brand {
-    font-size: 2.2rem
-  }
-  .gblog-nav .container {
-    padding: 0
-  }
-  .gblog-nav__list {
-    background: #454b5b;
-    flex-direction: column;
-    justify-content: center;
-    max-height: 0;
-    overflow: hidden
-  }
-  .gblog-nav__entry {
-    padding: 1rem 0;
-    border: 0;
-    border-radius: 0;
-    display: block;
-    margin: 0;
-    text-align: center
-  }
-  .gblog-nav__entry.is-active,
-  .gblog-nav__entry:hover {
-    background: #3a3f4d
-  }
-  .gblog-nav__control {
-    display: block;
-    text-align: center
-  }
-  .gblog-nav__control label {
-    padding: 1rem 0
-  }
-  .gblog-error {
-    padding: 6rem 1rem
-  }
-  .gblog-error .icon {
-    font-size: 5rem
-  }
-  .gblog-error__message {
-    padding-left: 2rem
-  }
-  .gblog-error__line {
-    padding: .25rem 0
-  }
-  .gblog-error__title {
-    font-size: 2rem
-  }
-  .gblog-footer__item {
-    width: 100%
-  }
-}
-#menu-control:checked ~ .gblog-nav__list {
-  max-height: 100%
-}
-#menu-control:checked ~ .gblog-nav__control .icon.menu {
-  display: none
-}
-#menu-control:checked ~ .gblog-nav__control .icon.clear {
-  display: inline-block
-}
-@media print {
-  .gblog-footer,
-  .gblog-nav {
-    display: none
-  }
-  main {
-    flex-direction: column-reverse
-  }
-  .gblog-toc {
-    flex: none
-  }
-  .gblog-toc nav {
-    position: relative;
-    width: auto
-  }
-}
 .gblog-markdown {
   line-height: 1.6em
 }
@@ -701,7 +650,7 @@ img {
 .gblog-markdown blockquote {
   margin: 1rem 0;
   padding: .5rem 1rem .5rem .75rem;
-  border-left: .25rem solid #e9ecef;
+  border-left: .25rem solid #edf0f5;
   border-radius: .3rem
 }
 .gblog-markdown blockquote :first-child {
@@ -721,14 +670,14 @@ img {
   text-align: left
 }
 .gblog-markdown table thead {
-  border-bottom: 2px solid #e9ecef
+  border-bottom: 2px solid #edf0f5
 }
 .gblog-markdown table tr td,
 .gblog-markdown table tr th {
   padding: .5rem 1rem
 }
 .gblog-markdown table tr {
-  border-bottom: 1px solid #e9ecef
+  border-bottom: 1px solid #edf0f5
 }
 .gblog-markdown table tr:nth-child(2n) {
   background: #f8f9fa
@@ -736,7 +685,7 @@ img {
 .gblog-markdown hr {
   height: 1px;
   border: none;
-  background: #e9ecef
+  background: #edf0f5
 }
 .gblog-markdown ol,
 .gblog-markdown ul {
@@ -753,7 +702,7 @@ img {
   margin: 1rem 0
 }
 .gblog-markdown code {
-  background-color: rgba(233,236,239,.5);
+  background-color: rgba(237,240,245,.5);
   font-size: .85em;
   line-height: 1.45;
   padding: .2em .4em
@@ -778,7 +727,7 @@ img {
   margin: 1rem 0
 }
 .chroma code {
-  background-color: rgba(233,236,239,.5);
+  background-color: rgba(237,240,245,.5);
   display: block;
   line-height: 1.45;
   font-size: .85em;
@@ -828,7 +777,7 @@ img {
   display: block
 }
 .chroma .lntable td:first-child code {
-  background-color: #e9ecef;
+  background-color: #edf0f5;
   border-right: 1px solid #dcdfe3;
   padding: .5em 0
 }
@@ -1076,7 +1025,7 @@ img {
 .gblog-expand {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  border: 1px solid #e9ecef;
+  border: 1px solid #edf0f5;
   border-radius: .3rem;
   overflow: hidden
 }
@@ -1098,7 +1047,7 @@ img {
 .gblog-tabs {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  border: 1px solid #e9ecef;
+  border: 1px solid #edf0f5;
   border-radius: .3rem;
   overflow: hidden;
   display: flex;
@@ -1137,9 +1086,9 @@ img {
 }
 .gblog-button {
   display: inline-block;
-  color: #495057;
-  border: 1px solid #adb5bd;
+  color: #868e96;
   border-radius: .3rem;
+  background-color: #f8f9fa;
   margin: .5rem 0;
   cursor: pointer
 }
@@ -1150,8 +1099,8 @@ img {
   padding: .25rem 1rem
 }
 .gblog-button:hover {
-  background: rgba(65,134,201,.9);
-  border-color: #4186c9;
+  background: rgba(82,92,122,.9);
+  border-color: #525c7a;
   color: #f8f9fa
 }
 .gblog-hint.info {
