@@ -116,7 +116,7 @@ export const data = {
         linkedin: "https://www.linkedin.com/in/nabi-nabizade/",
         github: "https://github.com/nabizade",
       },
-      jobTitle: "Software Developer",
+      jobTitle: "Community Leader",
       location: {
         city: "Baku",
         country: "Azerbaijan",
