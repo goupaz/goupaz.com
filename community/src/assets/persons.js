@@ -106,7 +106,8 @@ export const data = {
         city: "Ganja",
         country: "Azerbaijan",
       },
-          {
+    },
+    {
       id: uuidv4(),
       name: "Nabi Nabizade",
       img: "https://avatars1.githubusercontent.com/u/17747430?v=4",
@@ -120,7 +121,6 @@ export const data = {
         city: "Baku",
         country: "Azerbaijan",
       },
-    },
     },
   ],
 }
