@@ -106,6 +106,21 @@ export const data = {
         city: "Ganja",
         country: "Azerbaijan",
       },
+          {
+      id: uuidv4(),
+      name: "Nabi Nabizade",
+      img: "https://avatars1.githubusercontent.com/u/17747430?v=4",
+      links: {
+        website: "https://goupaz.com",
+        linkedin: "https://www.linkedin.com/in/nabi-nabizade/",
+        github: "https://github.com/nabizade",
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "Baku",
+        country: "Azerbaijan",
+      },
+    },
     },
   ],
 }
