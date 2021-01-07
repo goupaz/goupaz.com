@@ -122,5 +122,20 @@ export const data = {
         country: "Azerbaijan",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Rovshan Musayev",
+      img: "https://avatars1.githubusercontent.com/u/4127296?v=4",
+      links: {
+        website: "https://www.musayev.eu",
+        linkedin: "https://www.linkedin.com/in/rovshan-musayev/",
+        github: "https://github.com/arlington1985",
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "Prague",
+        country: "Czechia",
+      },
+    },
   ],
 }
