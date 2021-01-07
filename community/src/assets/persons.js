@@ -131,7 +131,7 @@ export const data = {
         linkedin: "https://www.linkedin.com/in/rovshan-musayev/",
         github: "https://github.com/arlington1985",
       },
-      jobTitle: "Software Engineer",
+      jobTitle: "Community Leader/Software Engineer",
       location: {
         city: "Prague",
         country: "Czechia",
