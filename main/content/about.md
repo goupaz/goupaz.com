@@ -17,7 +17,7 @@ menu: 'main'
 The GOUP project is the idea of Azerbaijani tech community living abroad.
 
 ## Mission
-Build bridges between tech professionals in a collaborative ways across the borders.
+Building next generation community.
 
 ## Vision
 Make the world better place to live, using technology and right culture.
