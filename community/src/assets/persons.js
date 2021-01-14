@@ -150,6 +150,22 @@ export const data = {
       location: {
         city: "Baku",
         country: "Azerbaijan",
+        },
+     },
+     {
+      id: uuidv4(),
+      name: "Penny Fang",
+      img: "https://avatars3.githubusercontent.com/u/10716182?v=4",
+      links: {
+        website: "https://goupaz.com",
+        linkedin: "https://www.linkedin.com/in/le-penny-fang/",
+        github: "https://github.com/Pennylele",
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "San Francisco",
+        state: "California",
+        country: "USA",
       },
     },
   ],
