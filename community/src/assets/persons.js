@@ -168,5 +168,24 @@ export const data = {
         country: "USA",
       },
     },
+    
+    {
+      id: uuidv4(),
+      name: "Ruslan Butdayev",
+      img: "https://avatars3.githubusercontent.com/u/51235873",
+      links: {
+        website: "https://goupaz.com",
+        linkedin: "https://www.linkedin.com/in/rbutdayev/",
+        github: "https://github.com/rbutdayev",
+      },
+      jobTitle: "Doing IT",
+      location: {
+        city: "Baku",
+        country: "Azerbaijan",
+      },
+    },
+    
+    
+    
   ],
 }
