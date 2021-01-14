@@ -137,5 +137,20 @@ export const data = {
         country: "Czechia",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Naseh Badalov",
+      img: "https://avatars0.githubusercontent.com/u/18102077",
+      links: {
+        website: "https://nasehbadalov.com",
+        linkedin: "https://www.linkedin.com/in/nasehbadalov/",
+        github: "https://github.com/nasehbadalov",
+      },
+      jobTitle: "Frontend Engineer",
+      location: {
+        city: "Baku",
+        country: "Azerbaijan",
+      },
+    },
   ],
 }
