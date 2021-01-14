@@ -139,6 +139,21 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Naseh Badalov",
+      img: "https://avatars0.githubusercontent.com/u/18102077",
+      links: {
+        website: "https://nasehbadalov.com",
+        linkedin: "https://www.linkedin.com/in/nasehbadalov/",
+        github: "https://github.com/nasehbadalov",
+      },
+      jobTitle: "Frontend Engineer",
+      location: {
+        city: "Baku",
+        country: "Azerbaijan",
+        },
+     },
+     {
+      id: uuidv4(),
       name: "Penny Fang",
       img: "https://avatars3.githubusercontent.com/u/10716182?v=4",
       links: {
