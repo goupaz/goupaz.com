@@ -6,9 +6,14 @@ featured: false
 weight: 0
 ---
 
-> ## Chapter03: January 2021
-> **Line**: Intro - [Video](https://www.youtube.com/watch?v=c0UEFYjs03o&t=12315s): English - [Slides](/events/techbrains/slides/2020/TechBrains_Kickoff_2021.pdf): English
-> 
+> ## [Chapter03: 09 January, 2021](/techbrains/chapter03)
+> **Line**: Techbrains Kickoff 2021 - [Video](https://www.youtube.com/watch?v=c0UEFY> js03o&t=12315s): English - [Slides](/events/techbrains/slides/2020/TechBrains_Kickoff_2021.pdf): English
+
+> **Sponsors**: 
+> Diamond - [AllMyTaxes](allmytaxes.com)
+> Platinium - [Metabob](metabob.com)
+> Gold - [Senpex](senpex.com) [Invalert](invalert.com) [ATLAcademy](atlacademy.az) [Erpgo](erpgo.az)
+> Silver - [Easymove](easymove.com) [Murmur](murmurcars.com) [YollAcademy](yoll.io) [Receipt-Depot](receipt-depot.com) [RestConsulting](restcs.com)
 
 {{< youtube c0UEFYjs03o >}}
 
