@@ -17,12 +17,12 @@ The moment silence is not gold.
 > **Line**: Community Managers + Startup Demos - Video: English - Slides: English
 
 > ## [Chapter03: 09 January, 2021](/techbrains/chapter03)
-> **Line**: Techbrains Kickoff 2021 - Video: English - Slides: English
-> **Sponsors**: 
-> Diamond - [AllMyTaxes](allmytaxes.com)
-> Platinium - [Metabob](metabob.com)
-> Gold - [Senpex](senpex.com) [Invalert](invalert.com) [ATLAcademy](atlacademy.az) [Erpgo](erpgo.az)
-> Silver - [Easymove](easymove.com) [Murmur](murmurcars.com) [YollAcademy](yoll.io) [Receipt-Depot](receipt-depot.com) [RestConsulting](restcs.com)
+> **Line**: Techbrains Kickoff 2021 - [Video](https://www.youtube.com/watch?v=c0UEFY> js03o&t=12315s): English - [Slides](/events/techbrains/slides/2020/TechBrains_Kickoff_2021.pdf): English <br />
+> **Sponsors**: <br />
+> *Diamond* - [AllMyTaxes](https://allmytaxes.com) <br />
+> *Platinium* - [Metabob](https://metabob.com) <br />
+> *Gold* - [Senpex](https://senpex.com) [Invalert](https://invalert.com) [ATLAcademy](https://atlacademy.az) [Erpgo](https://erpgo.az) <br />
+> *Silver* - [Easymove](https://easymove.com) [Murmur](https://murmurcars.com) [YollAcademy](https://yoll.io) [Receipt-Depot](https://receipt-depot.com) [RestConsulting](https://restcs.com) <br />
 
 
 ## Motivation
