@@ -185,7 +185,21 @@ export const data = {
       },
     },
     
-    
+        {
+      id: uuidv4(),
+      name: "Aqil Aghamirzayev",
+      img: "https://avatars2.githubusercontent.com/u/41694337?v=4",
+      links: {
+        website: "https://goupaz.com",
+        linkedin: "https://www.linkedin.com/in/aqil-aghamirzayev-ab2379172/",
+        github: "https://github.com/Aqilzeka",
+      },
+      jobTitle: "Java Developer",
+      location: {
+        city: "Baku",
+        country: "Azerbaijan",
+      },
+    },
     
   ],
 }
