@@ -15,8 +15,6 @@ resources:
       credits: "[David Pennington](https://unsplash.com/@dtpennington) on [Unsplash](https://unsplash.com/s/photos/test)"
 ---
 
-# Things we should value in a company
-
 **Mission** - what is company about, what is dream, or north star of people coming together. What kind of impact is going to have.How it is going to help you in your lifelong journey, and in the short term, for your next thing to do.
 
 
