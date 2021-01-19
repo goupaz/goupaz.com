@@ -17,12 +17,12 @@ The moment silence is not gold.
 > **Line**: Community Managers + Startup Demos - Video: English - Slides: English
 
 > ## [Chapter03: 09 January, 2021](/techbrains/chapter03)
-> **Line**: Techbrains Kickoff 2021 - [Video](https://www.youtube.com/watch?v=c0UEFY> js03o&t=12315s): English - [Slides](/events/techbrains/slides/2020/TechBrains_Kickoff_2021.pdf): English <br />
-> **Sponsors**: <br />
-> *Diamond* - [AllMyTaxes](https://allmytaxes.com) <br />
-> *Platinium* - [Metabob](https://metabob.com) <br />
-> *Gold* - [Senpex](https://senpex.com) [Invalert](https://invalert.com) [ATLAcademy](https://atlacademy.az) [Erpgo](https://erpgo.az) <br />
-> *Silver* - [Easymove](https://easymove.com) [Murmur](https://murmurcars.com) [YollAcademy](https://yoll.io) [Receipt-Depot](https://receipt-depot.com) [RestConsulting](https://restcs.com) <br />
+> **Line**: Techbrains Kickoff 2021 - [Video](https://www.youtube.com/watch?v=c0UEFYjs03o&t=9379s&ab_channel=GOUP): English - [Slides](/events/techbrains/slides/2021/TechBrains_Kickoff_2021.pdf): English\
+> **Sponsors**:\
+> *Diamond* - [AllMyTaxes](https://allmytaxes.com)\
+> *Platinium* - [Metabob](https://metabob.com)\
+> *Gold* - [Senpex](https://senpex.com) [Invalert](https://invalert.com) [ATLAcademy](https://atlacademy.az) [Erpgo](https://erpgo.az)\
+> *Silver* - [Easymove](https://easymove.com) [Murmur](https://murmurcars.com) [YollAcademy](https://yoll.io) [Receipt-Depot](https://receipt-depot.com) [RestConsulting](https://restcs.com)\
 
 
 ## Motivation
