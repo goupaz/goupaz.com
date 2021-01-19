@@ -6,7 +6,6 @@ authors:
 tags:
   - Open Source
   - Development
-  - DevOps
 resources:
   - name: testimage
     src: "images/testimage.jpg"
