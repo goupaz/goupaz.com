@@ -15,7 +15,7 @@ resources:
       credits: "Sako M"
 ---
 
-{{< img name="whatuwant" size="large" >}}
+{{< img name="whatuwant" size="small" >}}
 
 **Mission** - what is company about, what is dream, or north star of people coming together. What kind of impact is going to have.How it is going to help you in your lifelong journey, and in the short term, for your next thing to do.
 
@@ -59,15 +59,17 @@ resources:
 
 
 **Reward(base salary, equity, health insurance etc.)** - As a final step, we are getting hired to generate a value, which ends up converted to cash, thanks to customers who are seeing enough value on the final sum of work we are doing. I wish we had a better way to get paid, but for now it's the only way. So, if in some cases, the company is trying to reason that you are merchandise etc. it does not make sense. Rent, food, health insurance, gas, gifts, family needs if you have one and other things depending on individuals are few among values generated that we need cash. So if you are having hard time of negotiation, below is a use case which makes sense:
-If I get X amount, means I need to go out and find a cheaper option, or commute kids to school in another district, which ends up time and energy loss for me, and instead I would like to invest this time on self development on my job. So, pushing to get paid, above market average is debatable, and requires reasoning, what you bring to the table. 
+
+**IF** I get X amount, means I need to go out and find a cheaper option, or commute kids to school in another district, which ends up time and energy loss for me, and instead I would like to invest this time on self development on my job. So, pushing to get paid, above market average is debatable, and requires reasoning, what you bring to the table. 
+
 So, it must be part of conversation, but not the deal breaker, and with a couple rounds of negotiation should come to a conclusion if agreed on rest.
 
-If none of them keeps you happy, you know what is a logical next step. If some of them makes you unhappy, try to change and make sure you are getting heard, if still the same, rethink and move on. If all looks good to you, either it's your Day01, or love made you blind or you are one of few lucky people who is in the right time, right place with right people. Still a small alert for you, think if you would still be happy in that place in 5-10 years' time span, what things will change or might change in your life, and if that changes won't trigger any red flags in your happiness.
+**IF** none of them keeps you happy, you know what is a logical next step. If some of them makes you unhappy, try to change and make sure you are getting heard, if still the same, rethink and move on. If all looks good to you, either it's your Day01, or love made you blind or you are one of few lucky people who is in the right time, right place with right people. Still a small alert for you, think if you would still be happy in that place in 5-10 years' time span, what things will change or might change in your life, and if that changes won't trigger any red flags in your happiness.
 
 Obviously, there are so many other things need to consider, but constantly monitoring, preferable quarterly will help you to be proactive and keep the joy:
 
 
-Simple Rules:
+**Simple Rules**
 - 0 - RED Flag, requires immediate action
 - 1 -  Unhappy, but can be changed
 - 2 - Good for time being
@@ -78,4 +80,4 @@ So, try to evaluate the criterias in your list, and if the average is above 50% 
 
 Hope you enjoy reading it, and helps in your journey, as always I love to say:
 		
-Nobody is wrong, adjust your body.
+                       Nobody is wrong, adjust your body.
