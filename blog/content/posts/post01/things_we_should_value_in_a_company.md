@@ -15,6 +15,8 @@ resources:
       credits: "Sako M"
 ---
 
+{{< img name="whatuwant" size="large" >}}
+
 **Mission** - what is company about, what is dream, or north star of people coming together. What kind of impact is going to have.How it is going to help you in your lifelong journey, and in the short term, for your next thing to do.
 
 
