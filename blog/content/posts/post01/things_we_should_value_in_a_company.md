@@ -1,6 +1,7 @@
 ---
 title: "Things we should value in a company"
 date: 2021-01-19T20:00:00+02:00
+weight: 1
 authors:
   - sako-m 
 tags:
@@ -79,6 +80,6 @@ Obviously, there are so many other things need to consider, but constantly monit
 So, try to evaluate the criterias in your list, and if the average is above 50% continue doing what you are doing or try pushing it up a bit more, if below 50% start having conversations with people can help to change it, or if nothing helps get ready for your next journey.
 
 
-Hope you enjoy reading it, and helps in your journey, as always I love to say:
+Hope you enjoyed reading it, and helps in your journey, as always I love to say:
 		
 *Nobody is wrong, adjust your body.*

@@ -1,6 +1,6 @@
 ---
 title: "Software Engineer Handbook"
-weight: 1
+weight: 2
 date: 2020-09-24T00:06:00+02:00
 authors:
   - heller-vargas
