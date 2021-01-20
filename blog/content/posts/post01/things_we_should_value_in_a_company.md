@@ -5,14 +5,14 @@ weight: 1
 authors:
   - sako-m 
 tags:
-  - Open Source
-  - Development
+  - Mentorship
+  - Career growth
 resources:
-  - name: testimage
-    src: "images/testimage.jpg"
-    title: This is a test image
+  - name: whatuwant
+    src: "images/whatuwant.jpg"
+    title: This is image
     params:
-      credits: "[David Pennington](https://unsplash.com/@dtpennington) on [Unsplash](https://unsplash.com/s/photos/test)"
+      credits: "Sako M"
 ---
 
 **Mission** - what is company about, what is dream, or north star of people coming together. What kind of impact is going to have.How it is going to help you in your lifelong journey, and in the short term, for your next thing to do.
