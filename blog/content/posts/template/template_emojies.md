@@ -1,10 +1,10 @@
 ---
 # title: "Emoji Support"
-date: 2020-07-13T19:00:00+02:00
-authors:
-  - sako-m
-tags:
-  - Documentation
+# date: 2020-07-13T19:00:00+02:00
+# authors:
+#   - sako-m
+# tags:
+#   - Documentation
 ---
 
 Emoji can be enabled in a Hugo project in a number of ways.

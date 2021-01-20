@@ -1,18 +1,18 @@
 ---
 # title: "Things we should value in a company"
-date: 2021-01-19T20:00:00+02:00
-weight: 1
-authors:
-  - sako-m 
-tags:
-  - Open Source
-  - Development
-resources:
-  - name: testimage
-    src: "images/testimage.jpg"
-    title: This is a test image
-    params:
-      credits: "[David Pennington](https://unsplash.com/@dtpennington) on [Unsplash](https://unsplash.com/s/photos/test)"
+# date: 2021-01-19T20:00:00+02:00
+# weight: 1
+# authors:
+#   - sako-m 
+# tags:
+#   - Open Source
+#   - Development
+# resources:
+#   - name: testimage
+#     src: "images/testimage.jpg"
+#     title: This is a test image
+#     params:
+#       credits: "[David Pennington](https://unsplash.com/@dtpennington) on [Unsplash](https://unsplash.com/s/photos/test)"
 ---
 
 **Mission** - what is company about, what is dream, or north star of people coming together. What kind of impact is going to have.How it is going to help you in your lifelong journey, and in the short term, for your next thing to do.

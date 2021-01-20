@@ -1,11 +1,11 @@
 ---
 # title: "Getting Started"
-date: 2020-07-15T20:00:00+02:00
-authors:
-  - sako-m
-tags:
-  - Documentation
-weight: 1
+# date: 2020-07-15T20:00:00+02:00
+# authors:
+#   - sako-m
+# tags:
+#   - Documentation
+# weight: 1
 ---
 
 This post tells you how to get started with the Geekblog theme, including installation and basic configuration.

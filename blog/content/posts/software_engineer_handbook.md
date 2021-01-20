@@ -14,15 +14,15 @@ Translator: [Heller Vargas](https://www.linkedin.com/in/hellervargas/)
 * [Abstract](#abstract)
 * [The way to the interview](#the-way-to-the-interview)
   * [Programmer-engineer roles](#programmer-engineer-roles)
-  * [Different ways to avoid job interviews](#Different ways to avoid job interviews)
+  * [Different ways to avoid job interviews](#different-way-to-avoid-job-interviews)
     * [Companies career page](#companies-career-page)
-    * [Intra-company referral](#intra-company referral-reference---red)
-    * [University or academic path](#university-and-or-academic path)
+    * [Intra-company referral](#intra-company-referral-reference---red)
+    * [University or academic path](#university-and-or-academic-path)
     * [Programming competitions or Olympiads](#programming-competitions-and-or-olympiads)
     * [Contributions to open sources](#open-source-contributions-open-source-contributions---red)
     * [Linkedin profile, Cover letter and Resume](#linkedin-profile-cover-letter-and-resume-cv)
 * [Interview process](#interview-process)
-  * [PHASE 1 - Telephone interview with an employee of the human resources department](#stage-1---telephone interview with an employee of the human resources department-)
+  * [PHASE 1 - Telephone interview with an employee of the human resources department](#stage-1)
   * [STAGE 2.1 - Technical stage (Homework)](#stage-21---technical-stage-home-assignment)
   * [STAGE 2.2 - Technical stage (Online)](#stage-22---technical-stage-online)
   * [STAGE 2.3 - Technical stage (Onsite)](#stage-23---technical-stage-onsite)
@@ -33,10 +33,10 @@ Translator: [Heller Vargas](https://www.linkedin.com/in/hellervargas/)
     * [Sources to prepare for the interview](#sources-to-prepare-for-the-interview)
     * [Topics](#topics)
       * [Memory and time complexity in algorithms](#memory-and-time-complexity-algorithms-complexity)
-      * [Simple data structures](#simple-data-structures-elementary-data-structures --- red)
-      * [Complex data structures](#complex-data-structures-advanced-data-structures --- red)
-      * [Sort and search algorithms](#sort-and-search-algorithms-sort-and-search --- red)
-      * [String algorithms](#string-algorithms-string-algorithms --- red)
+      * [Simple data structures](#simple-data-structures-elementary-data-structures---red)
+      * [Complex data structures](#complex-data-structures-advanced-data-structures---red)
+      * [Sort and search algorithms](#sort-and-search-algorithms-sort-and-search---red)
+      * [String algorithms](#string-algorithms-string-algorithms---red)
       * [Graph algorithms](#graph-algorithms-graphs---red)
       * [Higher algorithm design methods](#higher-algorithm-design-methods-advanced-algorithmic-design-techniques---red)
   * [System design](#system-design)
@@ -69,24 +69,24 @@ The majority of open vacancies and job opportunities in large technology compani
 
 One of the main expectations of general programmer-engineers is a high ability to learn new technologies and programming languages. Engineers in this group are sometimes involved in several active projects using different programming languages ​​and technologies at the same time. In order to work effectively in this form, engineers are also given up to 3-6 months to learn the technologies they did not know and needed after joining the company. Employers pay more attention to the flexibility of new problems and the ability to solve problems optimally than to being an expert in any field, rather than being an expert in any field. During the interview, applicants are asked questions and questions on general topics such as algorithms, distributed computing (red), internet protocols, etc. to test their general knowledge. When solving problems, applicants are given the opportunity to choose the programming language they want.
 
-Qualified programmer-engineer
+# Qualified programmer-engineer
 
 In addition to the general role of programmer-engineer, technology companies also place job vacancies for qualified programmer-engineer roles in different areas. This role group includes programmers-engineers specializing in front-end, mobile (Android or iOS), Machine learning (red), DevOps and SRE (Site Relability Engineer - red) and other similar fields.
 
 The interview process for job applications for the roles of qualified programmer-engineer is somewhat different from that described in this article. Engineers applying for these roles are expected to be experts in their field. For example, in interviews for iOS mobile programmer-engineer ads, 1 or 2 parts of the interview may focus on the iOS operating system, Objective C, or Swift programming languages. Similarly, engineers applying for the role of frontend programming engineer may be required to develop any user interface using JavaScript, TypeScript and other frontend technologies during the interview. Algorithm and system design sections may also be omitted from these interviews.
 
-Different ways to get into job interviews
+# Different ways to get into job interviews
 
 Due to the large number of applicants, it is not easy to be interviewed by large technology companies and attract the attention of employers. There are different ways to get an interview. The ways we list below are based on the authors' personal experiences, and there are definitely stories that the authors are unaware of. There will be additions to this list as you get acquainted with new experiences. You can browse the Blind website to learn about different interview stories.
 
-Internal referral (Reference - red)
+# Internal referral (Reference - red)
 In most technology companies, employees can refer or recommend candidates they know through the internal portal and whom they know to meet the requirements of the job posting to the recruitment department or managers. Internal referrals are also important in companies, and in most cases, direct contact is made with the recommended candidate.
 
 If you do not have a friend or other acquaintance in the company you want to apply to, you can contact the Azerbaijani engineers working in that company, introduce yourself to them and, if deemed appropriate, recommend you to the job advertisement on the internal portal. When communicating with engineers in this form, use professional channels (eg Email, Linkedin, etc.) and behave professionally. Provide detailed information about yourself, including your work experience, education, knowledge and skills. Also emphasize why you want to be recommended.
 
 In general, our compatriots working in foreign companies want to help other Azerbaijanis who apply. However, sometimes you may not receive a reply to your e-mail or receive a late reply due to employment or low use of social networks.
 
-University or academic way
+# University or academic way
 
 Graduates and students of high-ranking technical universities are always in the spotlight of large companies. In addition to holding regular career fairs at these universities, technology companies also prefer these universities in their automated CV selection systems. After brief discussions with students and alumni at career fairs, students and alumni are often invited for on-site interviews. In addition to high-ranking universities, technology companies also hold career days and active interviews at local universities close to their offices in different cities (eg, Dublin, Zurich, London, etc.).
 
@@ -101,7 +101,7 @@ Details of this type of competition, the preparation process and other informati
 
 The experience gained in these competitions is useful for interviews. However, you should note that participation in these competitions is not always directly proportional to being a good engineer. Peter Norvig, head of Google's research department, responded in a speech.
 
-Contributions to Open Sources (Open Source contributions - red)
+# Contributions to Open Sources (Open Source contributions - red)
 
 One of the most important sources of recruitment for employers is open source projects. Technology companies are focusing on projects shared by companies such as Facebook and Google on Github, as well as The Apache Software Foundation's projects, and projects that are openly shared by universities and individual engineers.
 
@@ -121,7 +121,7 @@ In addition, both experienced and inexperienced candidates should write a short 
 
 An explanatory letter or cover letter is a short letter in which the interviewer gives brief information about himself and justifies his application. Recently, large companies do not require an explanatory letter in the recruitment process. Instead, a telephone interview is conducted with the interviewer. Some small and medium-sized technology companies may require a letter of explanation from the applicant. When writing an explanatory letter, try to keep the letter short (for example, up to half an A4 sheet). In one part of the letter, highlight your personal qualities, in the other part, a summary of your work experience, why you are suitable for the company and the role you are applying for.
 
-Müsahibə prossesi
+# Interview Process
 
 Technology companies based in the United States and Europe, as well as well-known companies such as Google, Microsoft, Facebook and Amazon, conduct the recruitment process in a standardized interview format. The interview is conducted in several stages, depending on the company you choose to apply for. Although the content and format of interviews in companies are different, in general, the interview process is similar. The differences are based on the general corporate and engineering culture of the partners. For example, in the hiring process on Amazon, the interviewer's suitability and behavior may come to the fore more than other companies. There may also be some differences in the approach to the interview process between different teams in the same company.
 
@@ -137,7 +137,7 @@ In addition to the above topics, you may be asked about your current visa status
 
 Interviewees who successfully complete the telephone interview are invited to the Technical Stage, which consists of several parts.
 
-STAGE 2.1 - Technical stage (Homework)
+## STAGE 2.1 - Technical stage (Homework)
 
 Homework is the first part of the Technical Interview phase of some technology companies. There are two main types of homework companies in the interview process:
 
@@ -147,7 +147,7 @@ Project format assignment - Homework in this format is sent as a repository in a
 
 Homework is checked by the company's engineers. Interviewers who successfully pass this stage are invited to the main part of the Technical Interview.
 
-STAGE 2.2 - Technical stage (Online)
+## STAGE 2.2 - Technical stage (Online)
 
 This part of the technical phase is held online at a pre-agreed time. The interview is conducted by the company's engineers or the engineers of the team you are specifically referring to. Before beginning the technical part of the interview, the accountant introduces himself and informs the candidate about his role in the company. He then asks the candidate to briefly tell him about his past and what he has done. Then the interview continues in the following 2 parts:
 
@@ -155,7 +155,7 @@ Coding - The interviewer presents the problems of the algorithm prepared in adva
 Davranış müsahibəsi (Behavioural interview) - Müsahibənin bu hissəsi əsasən namizədin müxtəlif iş vəziyyətlərində (məsələn, konflikt zamanı, komanda ilə iş zamanı, və s.) necə davranacağını öyrənmək üçün təşkil olunur. Davranış müsahibəsi əsasən 30-40 dəqiqə davam edir. Bəzi şirkətlərdə davranış müsahibəsi online mərhələdə deyil, namizədlə üzbəüz müsahibədə edir.
 At the end of this stage, the interviewer asks the candidate if he or she has any questions. As a rule, the candidate is expected to ask at least 1-2 questions. These questions can be about the company, the specific team the candidate is applying to, how the standard workday works, the difficult or interesting aspects of the job, the future strategy of the team or company, the development strategy of specific products, and so on. When asking these questions, keep in mind that the accountant may not be from the team you are applying to and may not answer specific questions for some teams.
 
-STAGE 2.3 - Technical stage (Onsite)
+## STAGE 2.3 - Technical stage (Onsite)
 
 Candidates who successfully pass the online part of the technical stage are invited for a face-to-face technical interview at the company's office abroad. The on-site interview consists of the following 3 parts and all parts are completed within 1 day.
 
@@ -180,11 +180,11 @@ Specialty Interview Coding and system design interviews test general technical k
 
 For more information on the interview and the recruitment process in general, you can refer to Hiring with Your Head, one of the main books that guide US companies in the recruitment process.
 
-Preparation
+# Preparation
 
 Recruitment in technology companies requires interviewees to prepare in advance for different technologies, algorithms, data structure, system design, presentation and communication, behavioral interviews, and other topics. This section mainly describes the process of preparing for an interview for the role of general programmer-engineer. When applying for the role of a qualified programmer-engineer, you will need to prepare for other technical topics in addition to these. Determining your interview preparation plan in advance and paying attention to the preparation process is one of the important factors that determine whether you are successful or unsuccessful in the recruitment process.
 
-English and fluent
+# English and fluent
 
 Proper communication and fluency can sometimes be as important as technical knowledge during an interview. Many engineers are unaware of the importance of communication skills during an interview.
 
@@ -197,7 +197,7 @@ Deepening your language skills before starting interviews, bringing your knowled
 
 As learning or developing English is not the main focus of this article, we do not write about it and leave it to you to do the necessary research and preparation. In addition, we would like to note that high language skills and communication skills, along with the recruitment process, were one of the important factors that will affect the comfort of your future work life.
 
-Choice of programming language
+# Choice of programming language
 
 In most cases, it is up to the candidate to decide which programming language to use in the interview. The candidate can write his notes and code in any language. However, in some exceptional cases, the hiring manager may want to learn your experience in any programming language. For example, in infrastructure projects and performance-sensitive systems, knowledge of C ++ may be a prerequisite.
 
@@ -207,7 +207,7 @@ Some experienced engineers do not pay attention to language during the interview
 
 Finally, no matter what programming language you use in interviews, a good knowledge of the language and general internal libraries will be useful to you both during the interview and in your future business life.
 
-Algorithms and data structures
+# Algorithms and data structures
 
 We would like to state in advance that the sources mentioned here are the sources used by the authors at different times. There are alternative resources and sources on the Internet and they can be used. Our main goal is not to complicate the life of the candidate preparing for the interview by mentioning most of the sources on the Internet, but to share the experience of professionals who have achieved real results and are closely acquainted with the interview process.
 
@@ -219,10 +219,10 @@ Another noteworthy book is "Elements of Programming Interviews in [Java, Python,
 
 Those who do not like to learn from books and online classes can use blogs that explain algorithm and data structure topics in a more practical and detailed way. For example, you can learn a simple explanation of the topic of Binary Indexed Trees from this article published in Topcoder. If you also prefer to learn from blogs, you can use the following online resources:
 
-geeksforgeeks.org
-codeforces.com
-www.topcoder.com
-github.com
+[geeksforgeeks.org](geeksforgeeks.org)
+[codeforces.com](codeforces.com)
+[www.topcoder.com](www.topcoder.com)
+[github.com](github.com)
 
 Candidates who have successfully passed the technical interviews are advised to actively use several online resources after losing theoretical knowledge or in parallel. Online resources help to strengthen theoretical knowledge in a practical way.
 
@@ -230,32 +230,32 @@ The Leetcode platform has been at the forefront of many online resources in many
 
 You can get acquainted with the process for free through the InterviewBit and Pramp platforms without entering a real interview. Here, registered professionals like you are interviewing each other. These interviews take place in the format we mentioned above.
 
-Topics
+# Topics
 
 The algorithm and data structure topics we write here do not cover all the topics in this area. Compiled in the form of a summary, the topics are based on frequently asked questions in the interviews and the authors' interview experience. The algorithms and data structures mentioned in the topics section are discussed only in terms of their appearance in the interview and the aspects that make them important in the context of the interview. The authors did not provide an in-depth explanation of the topics, as the fundamental working principles of the topics in question were not planned in the initial volume of this booklet. You can use the books, online lessons, and other online resources mentioned in the resource section of the booklet to gain a deeper knowledge of all the topics mentioned.
 
-Memory and time complexity in algorithms (Algorithm complexity)
+# Memory and time complexity in algorithms (Algorithm complexity)
 
 Different algorithms and data structures can be used to solve a given problem during an interview. The important points to consider are the time and memory requirements of the algorithm and data structure you choose. As a rule, execution algorithms and data structures that require less time and less memory should be preferred.
 
 Analytical or theoretical comparisons are often made when comparing algorithms. Algorithm analysis is a complex field and requires in-depth mathematical knowledge. From a practical point of view, the method of asymptotic analysis (asymptotic analysis - ed) is used to compare algorithms in both interviews and real-life analytical assessment. The main purpose of this method was to express the complexity of mathematical functions depending on the input values, regardless of the specific computer or physical objects. 3 cases can be used to analyze the algorithm:
 Best case - red
 
-Average case - red
+# Average case - red
 
-Worst case (Worst case - red)
+# Worst case (Worst case - red)
 
 In technical interviews, algorithms and solutions are evaluated based on the worst complexity. In some cases, the assessment of the worst case may be pessimistic. For example, in some data structures, the worst case is rare, and in most cases it is limited to the middle or best case functions. In this case, it is important to use the method of amortized analysis (ed.) Or to record during the interview.
 
 An important part of a technical interview is to be able to identify the memory and time complexity of the task and explain the interview accurately and clearly. In this regard, it is important to study and master the topic of algorithms and data structure. All other knowledge is based on the complexity of memory and time.
 
-Elementary Data structures – red
+# Elementary Data structures – red
 
 A simple data structure is often used as a small block in a problem. You can use simple data structures from the standard library of the programming language of your choice to solve problems. Static and dynamically distributed arrays, linked lists, stacks, queues, sets, and hash tables are included in simple data structures. red) and other fundamental data structures.
 
 Unless you are asked to write simple structures from scratch during an interview, there is no limit to your use of existing programming language libraries. Because your solution has a direct impact on memory and time complexity, it is important to know how they are applied in that language and what algorithms are used when using the simple data structures of a language's standard library.
 
-Advanced Data Structures - ed.
+# Advanced Data Structures - ed.
 
 In addition to simple data structures, complex data structures need to be used to optimally address issues during the interview. When using simple data structures during an interview, it is sufficient to explain the methods and complexity of writing the interview structure. If you need to use complex structures, you can choose 2 different approaches:
 
@@ -267,7 +267,7 @@ In technical interviews, mainly ordered map (red), binary search tree (Binary Se
 
 Knowing the details of the application of complex structures, the complexity of time and memory, will help you to be successful during the interview.
 
-Sorting and search algorithms (Sort and Search - red)
+# Sorting and search algorithms (Sort and Search - red)
 
 In technical interviews, ranking and search algorithms are often an integral part of problem solving. For example, to solve a problem, you may need to sort the data structure first. The main factor to pay attention to in this case is to use the correct methods to perform sorting and search operations on complex objects in the programming language you use. Depending on the language you choose to solve the problem, you can use sorting and search operations such as Comperator, Iterator and other methods. These methods are available in most programming languages ​​as part of a standard language library.
 
@@ -277,7 +277,7 @@ A common feature of the above algorithms is that the amount of data during sorti
 
 The most important search algorithms you should learn in preparation for technical interviews are Linear Search and Interval Search. A linear search interval is simpler than a search and does not take much time to learn. Intermittent search is mainly performed on sorted data structures. The most commonly used version of intermediate search algorithms is Binary Searc - red. In general, more complex forms of interval search algorithms are not found in technical interviews.
 
-String Algorithms (red)
+# String Algorithms (red)
 
 Line algorithms are used in many of the issues used in technical interviews. String sort, Tries, Substring Search, Regular Expression / Automata, Data Compression and other line algorithms and methods are used to solve string problems.
 
@@ -285,7 +285,7 @@ During a technical interview, the size of the data given to you during the probl
 
 Standard libraries are used during the substring search application. In addition to standard libraries, it is important to know the Rabin-Karp and Knuth-Morris-Pratt algorithms. The Rolling Hash method, especially the Rabin-Carp method, can be used in many different problems, so this algorithm needs special attention.
 
-Graphs algorithms (Graphs - red)
+# Graphs algorithms (Graphs - red)
 
 During a technical interview, many problems can be solved with graph algorithms. During the interview, you may be asked to divide the dependent nodes of a given graph into independent components. In addition, you may be asked how to make the best use of resources in a batch processing system, which has dependencies and limitations between tasks. It is enough to use the classical Topological Sort algorithm to solve the first problem. In the solution of the latter you can use dynamic programming and Topological Sort algorithm.
 
@@ -293,15 +293,15 @@ Examples of algorithms that can be described as a de facto solution to graph pro
 
 Classical graph problems and their solutions can be found in traditional books. However, in preparation for a technical interview, it is important that you learn about the two fundamental methods, DFS and BFS, which are part of most graph algorithms. Knowing both methods is important to succeed in technical interviews, as they are an important part of not only graph problems but also other algorithm problems.
 
-Advanced Algorithmic Design Techniques (red)
+# Advanced Algorithmic Design Techniques (red)
 
-Greedy Algorithms and Dynamic Programming (ed.)
+# Greedy Algorithms and Dynamic Programming (ed.)
 
 Traditionally, both greedy algorithms and dynamic programming issues have been widely used in technical interviews. As the solution has required more time and in-depth academic knowledge in recent years, complex dynamic programming issues have been removed from technical interviews and it is not advisable to ask them in interviews. However, the memoziation technique, which is used to solve dynamic programming problems, is widely used to solve various problems. Greedy algorithms are constantly being asked in technical interviews because they are more intuitive solutions.
 
 In MIT Introduction to Algorithms, the topics of Dynamic Programming and Greedy Algorithms were discussed in depth. These resources are covered extensively in other resources mentioned in the resource section of the booklet. Once you've mastered the subject, you can gain experience by solving problems under the heading Dynamic Programming and Greedy in Leet code and issues on other Olympic sites.
 
-Divide and Conquer – red
+# Divide and Conquer – red
 
 One of the fundamental topics you should learn when preparing for a technical interview is the "divide and rule" paradigm, a general model that can be used to design solutions to many different problems.
 
@@ -311,12 +311,12 @@ When using this method in interviews, it is important to keep in mind that probl
 
 In general, when preparing for an interview, you should be familiar not only with classical algorithms, but also with more complex, sometimes specific types of issues such as Two Pointers, Sliding Window, Reservoir Sampling, Suffix Array, Rolling Hash, Minimax and other algorithms or data structures. can be useful for you to win.
 
-Randomization
+# Randomization
 For some data structures, their randomized forms are as high-quality as classical forms, but can run faster than classical forms. For example, Randomized Priority Queue works almost as well as the classic form (because it is randomized, it can sometimes remove erroneous elements in turn - red), but is executed at a fixed time complexity compared to the classic form.
 
 Although the randomization method is not as common in technical interviews as other fundamental methods, you can add extra points to your account by using or talking about it during the interview.
 
-System design
+# System design
 
 In system design interviews, candidates are introduced to changes to any known platform (such as Instagram, Uber, Youtube, etc.) or any component of that platform (such as a distributed file system), millions of lines of code, and large numbers. the test component of the system, etc.) is designed to design a simple form in a short time.
 
@@ -326,17 +326,17 @@ The main factor that the interviewer focuses on in a system design interview is 
 
 After a general discussion of the question posed during the system design interview, you can focus on a topic you know more deeply. For example, if you have in-depth knowledge of the network, then you can discuss more of the problems that the system may encounter on the network side. Because the interviewer understands the breadth of the system design topic, he or she understands the candidate's deeper approach to the topics he or she knows.
 
-Topics
+# Topics
 
 During system design, candidates should be familiar with important fundamental topics in addition to specific knowledge. You can get acquainted with The System Design Primer with a more detailed list of topics. You can use Grokking the System Design Interview as another useful preparation resource.
 
-Network
+# Network
 
 One of the most important fundamental system design topics is computer networks. Candidates should gain the necessary knowledge of various important network protocols when preparing for a technical interview.
 
 During the interview, candidates may be asked what protocols are used in the client-server architecture, protocol guarantees, and other topics. Because computer networks are a classic branch of computer science, there are many materials, online tutorials, and books on the subject. One of my favorite resources is Computer Networking: A Top-Down Approach. The book discusses important networking topics. You can select and read the topics you need.
 
-Storage solutions
+# Storage solutions
 
 Another frequently asked topic in system design interviews is data storage and management. Candidates should generally be familiar with batch processing, stream processing, hot-cold data, warehouse solutions, various transactional warranties, and other such topics.
 
@@ -344,21 +344,21 @@ During the interview, the candidate can be given quick tasks to store and analyz
 
 One of our favorite books to prepare for system design interviews is Designing Data-Intensive Applications. The book contains almost all the basic practical knowledge that will be needed in system design interviews.
 
-Distributed systems
+# Distributed systems
 
 Distributed systems are in themselves one of the broadest sections of computer science, and the details of this subject are many times greater than the volume of this booklet. Replication, sharding, fault-tolerance, load-balancing, consensus, caching and other concepts of distributed systems are an integral part of almost all complex systems. Therefore, it is important for candidates to be familiar with these topics in order to succeed in the interview. To learn more about the topic, you can watch our favorite MIT 6.824: Distributed Systems lesson online.
 
-General technical knowledge
+# General technical knowledge
 
 It does not discuss specific topics, but technical solutions used by most engineers in their daily work, such as hardware required for client-server architecture, data formats that will allow data transfer between the two services, and so on.
 
-Additional sources
+# Additional sources
 
 It is not necessary to look at all the sources mentioned here. The list has been added mainly to get acquainted with technical topics.
 
 
 
-###Company blogs
+## Company blogs
 
 * [Netflix tech blog](https://netflixtechblog.com/)
 
@@ -380,7 +380,7 @@ It is not necessary to look at all the sources mentioned here. The list has been
 
 * [The Github blog](https://github.blog/category/engineering/)
 
-##Academic articles
+## Academic articles
 
 * [MapReduce: Simplified Data Processing on Large Clusters](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
 
@@ -397,7 +397,7 @@ It is not necessary to look at all the sources mentioned here. The list has been
 * [ZooKeeper: Wait-free coordination for Internet-scale systems](https://www.usenix.org/legacy/events/atc10/tech/full_papers/Hunt.pdf)
 
 
-##Real systems
+## Real systems
 
 * [Scaling Instagram Infrastructure](https://www.youtube.com/watch?v=hnpzNAPiC0E)
 
