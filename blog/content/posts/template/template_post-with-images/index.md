@@ -1,5 +1,5 @@
 ---
-title: "Things we should value in a company"
+# title: "Things we should value in a company"
 date: 2021-01-19T20:00:00+02:00
 weight: 1
 authors:
