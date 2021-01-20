@@ -81,4 +81,4 @@ So, try to evaluate the criterias in your list, and if the average is above 50% 
 
 Hope you enjoy reading it, and helps in your journey, as always I love to say:
 		
-                       Nobody is wrong, adjust your body.
+*Nobody is wrong, adjust your body.*
