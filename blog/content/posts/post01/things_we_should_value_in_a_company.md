@@ -1,7 +1,6 @@
 ---
 title: "Things we should value in a company"
 date: 2021-01-19T20:00:00+02:00
-weight: 1
 authors:
   - sako-m 
 tags:
@@ -15,7 +14,6 @@ resources:
       credits: "Sako M"
 ---
 
-# Things we should value in a company
 One of frequent questions we get from people reaching for guidance or mentorship is related to figuring out what are things they should look for when starting their journey, hope this blog helps a bit.
 
 {{< img name="whatuwant" size="small" >}}
