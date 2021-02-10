@@ -1,5 +1,5 @@
 ---
-title: "SCRUM 101 – A Short Guide to Helpful Resources on Scrum"
+title: "A Short Guide to Helpful Resources on Scrum"
 weight: 3
 date: 2021-02-10T00:06:00+02:00
 authors:
