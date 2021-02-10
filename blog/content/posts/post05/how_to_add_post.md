@@ -8,9 +8,9 @@ tags:
   - Blog
 ---
 
-## Here are the steps you'll want to follow while writing a blog post
+Here are the steps you'll want to follow while writing a blog post
 
-## Fork the [goupaz.com](https://github.com/goupaz/goupaz.com) github repo
+Fork the [goupaz.com](https://github.com/goupaz/goupaz.com) github repo
 
 Repo or repository - a directory or storage space where your projects can live.
 
