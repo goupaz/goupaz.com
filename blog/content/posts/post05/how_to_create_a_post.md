@@ -12,13 +12,12 @@ tags:
 ## Fork the [goupaz.com](https://github.com/goupaz/goupaz.com) github repo
 Repo or repository - a directory or storage space where your projects can live.
 ## Add blog
-* Go to the blog section
-* Tap on 'content'
-* Select 'authors' and create your author's name like "name-surname.yml" (as an example view the predecessor)
-* After that return to the 'content' and go to the 'posts'
-* Create post with subsequent number (if last was "/post05/" yours is "/post06/")
+* Go to the 'blog' section
+* Tap on 'data/authors' and create your author's name like "name-surname.yml" (as an example view the predecessor)
+* After that return to the 'blog' and go to the 'content'
+* Create post in 'posts' section with subsequent number (if last was "/post05/" yours is "/post06/")
 * Name it appropriately (example: "how_to_write_a_post.md") (look at predecessor)
-* Use the header as your predecessor wrote with main info
+* Use the intro of post as your predecessor did with main info
 * Put all your writings there
 * Hit the "commit new file" button bellow
 ## Create Pull Request to goupaz repo
