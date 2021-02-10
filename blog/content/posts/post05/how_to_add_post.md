@@ -1,5 +1,5 @@
 ---
-title: "A step-by-step guide on how to create a post"
+title: "How to add post"
 date: 2021-02-10T20:00:00+02:00
 weight: 5
 authors:
