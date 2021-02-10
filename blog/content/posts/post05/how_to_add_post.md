@@ -5,8 +5,7 @@ weight: 5
 authors:
   - nurlana-mollayeva
 tags:
-  - Guidance
-  - Post creation
+  - Blog
 ---
 
 ## Here are the steps you'll want to follow while writing a blog post
@@ -16,6 +15,7 @@ tags:
 Repo or repository - a directory or storage space where your projects can live.
 
 ## Add blog
+
 * Go to the 'blog' section
 * Tap on 'data/authors' and create your author's name like "name-surname.yml" (as an example view the predecessor)
 * After that return to the 'blog' and go to the 'content'
