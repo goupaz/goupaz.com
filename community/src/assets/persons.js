@@ -200,6 +200,20 @@ export const data = {
         country: "Azerbaijan",
       },
     },
-    
+    {
+      id: uuidv4(),
+      name: "Jumshud Sultan",
+      img: "https://avatars.githubusercontent.com/u/43217182?s=400&u=3222345f22e3ab866bb43c4412b574fbb76b13ad&v=4",
+      links: {
+        website: "https://goupaz.com",
+        linkedin: "https://www.linkedin.com/in/jumshudsultan/",
+        github: "https://github.com/jumshudsultan",
+      },
+      jobTitle: "Community Leader",
+      location: {
+        city: "Baku",
+        country: "Azerbaijan",
+      },
+    },
   ],
 }
