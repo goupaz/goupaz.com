@@ -12,7 +12,7 @@ Welcome to experience sharing `02hero` project!
 - [Host session](howto/hostsession.md)
 
 
-## Chapter03 April-June 2020
+## Chapter03 March 2021-June 2021
 
 Line: Open Source
 
