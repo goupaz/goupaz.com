@@ -3,7 +3,7 @@ title: "VIDEO SPEECH EXTRACTOR"
 date: 2021-04-29T12:33:46+10:00
 draft: false
 featured: true
-weight: 5
+weight: 4
 ---
 
 [https://github.com/goupaz/video_speech_extractor](https://github.com/goupaz/video_speech_extractor)
