@@ -1,5 +1,5 @@
 ---
-title: "VIDEO SPEECH EXTRACTOR"
+title: VideoSpeechExtractor
 date: 2021-04-29T12:33:46+10:00
 draft: false
 featured: true
