@@ -1,6 +1,6 @@
 ---
 title: "VideoSpeechExtractor"
-date: 2021-04-29T12:33:46+10:00
+date: 2018-11-18T12:33:46+10:00
 draft: false
 featured: true
 weight: 4
