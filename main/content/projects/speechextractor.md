@@ -6,9 +6,9 @@ featured: true
 weight: 4
 ---
 
-[https://github.com/goupaz/video_speech_extractor](https://github.com/goupaz/video_speech_extractor)
-
 Video Speech Extractor is a web-based application that allows to extract speech as a text from any type of video.
+
+[Github](https://github.com/goupaz/video_speech_extractor)
 
 ## TECHNOLOGIES & PLATFORMS
 
