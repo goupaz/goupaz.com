@@ -215,5 +215,20 @@ export const data = {
         country: "Azerbaijan",
       },
     },
+     {
+      id: uuidv4(),
+      name: "Azay Jalil",
+      img: "https://avatars.githubusercontent.com/u/41166569?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/jalil-azay/",
+        github: "https://github.com/JalilAzay",
+      },
+      jobTitle: "Linux Engineer",
+      location: {
+        city: "Baku",
+        country: "Azerbaijan",
+      },
+    },
   ],
 }
