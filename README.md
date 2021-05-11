@@ -29,6 +29,7 @@ Slide Language: English
 |4| Preparing Coding Interview|[Slides](/events/02hero/slides/chapter03/Session04_PraparingCodingInterview.pdf)|[Logs](/events/02hero/slides/chapter03/Session04_MeetingMinutes.pdf)|[Session04](https://www.youtube.com/watch?v=eVckvl2BvxU)| 11 April 2021 | [Vivek Kirubanandan](https://www.linkedin.com/in/vkirub)| USA| [expertech](https://expertech.az)|[Link]()|
 |5|Event-driven architectures on AWS|[Slides](/events/02hero/slides/chapter03/Session05_Event-drivenArchitecturesOnAWS.pdf)|[Logs](/events/02hero/slides/chapter03/Session05_MeetingMinutes.pdf)|[Session05](https://www.youtube.com/watch?v=)| 17 April 2021 | [Rustam Hashimov](https://www.linkedin.com/in/rustamhashimov)| USA| [expertech](https://expertech.az)|[Link]()|
 |6|Building SaaS in pandemic|[Slides](/events/02hero/slides/chapter03/Session06_BuildingSaaSInPandemic.pdf)|[Logs](/events/02hero/slides/chapter03/Session06_MeetingMinutes.pdf)|[Session06](https://www.youtube.com/watch?v=)| 18 April 2021 | [Gulnar Absalamova](https://www.linkedin.com/in/gulnarabsalamova)| Azerbaijan| [expertech](https://expertech.az)|[Link]()|
+|7|IamRemarkable+Transitioning from SRE/DevOps/Sysadmin to SWE|[Slides](/events/02hero/slides/chapter03/Session06_IamRemarkable_Transitioning_to_SWE.pdf)|[Logs](/events/02hero/slides/chapter03/Session07_MeetingMinutes.pdf)|[Session07](https://youtu.be/Jq8JAaZAkp0)| 24 April 2021 | [Khushali Desai](https://www.linkedin.com/in/khushalidesai)| India| [expertech](https://expertech.az)|[Link]()|
 
 
 © 2021 GOUP. All rights reserved.
