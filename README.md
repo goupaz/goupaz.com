@@ -1,15 +1,17 @@
 
-# TechMentors living across the world
-
-
+# Open Source Accelerator
 
 ![alt text](img/banner.png)
 
 Welcome to community driven Open Source Accelerator!
 
+- [Events](#events)
+- [Courses](#courses)
+- [Playbooks](#playbooks)
+- [Programs](#programs)
+- [Projects](#projects)
 - [About Us](#aboutus)
 - [Contact](#contact)
-- [Host session](howto/hostsession.md)
 
 
 ## Chapter03 March 2021-June 2021
