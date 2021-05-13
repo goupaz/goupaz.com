@@ -5,7 +5,7 @@
 
 ![alt text](img/banner.png)
 
-Welcome to experience sharing `02hero` project!
+Welcome to community driven Open Source Accelerator!
 
 - [About Us](#aboutus)
 - [Contact](#contact)
