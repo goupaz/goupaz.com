@@ -24,7 +24,7 @@ Slide Language: English
 |No| Topic | Slides|MoM|Video |Date|Speaker|Country|Co-host|Register|
 |------|----------------------|---------|---|-----|-----|------|------|------|------|
 |1| Stepping into Open Source |[Slides](/main/static/events/02hero/slides/chapter04/#)|[Logs](/main/static/events/02hero/slides/chapter04/#)|[Session01](https://www.youtube.com/watch?v=9ISElFaZpP4)| 05 June 2021 | [Kunal Kushwaha](https://www.linkedin.com/in/kunal-kushwaha/)| India| [metabob](https://metabob.com)|[Link](https://forms.gle/gPrQLuYCUf9sNNRm9)|
-|2| LDA Topic Modeling: Techniques and AI Modelst|[Slides](/main/static/events/02hero/slides/chapter04/#)|[Logs](/main/static/events/02hero/slides/chapter04/#)|[Session02](https://www.youtube.com/watch?v=e2k_1BM9AqE)| 06 June 2021 | [Benjamin Reaves](https://www.linkedin.com/in/benreaves/)| USA| [metabob](https://metabob.com)|[Link](https://forms.gle/2nGeBy4jFhPQ4HkS7)|
+|2| LDA Topic Modeling: Techniques and AI Modelst|[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session02_BenjaminReaves.pdf)|[Logs](/main/static/events/02hero/slides/chapter04/#)|[Session02](https://www.youtube.com/watch?v=e2k_1BM9AqE)| 06 June 2021 | [Benjamin Reaves](https://www.linkedin.com/in/benreaves/)| USA| [metabob](https://metabob.com)|[Link](https://forms.gle/2nGeBy4jFhPQ4HkS7)|
 
 
 ## Chapter03 March 2021-June 2021
