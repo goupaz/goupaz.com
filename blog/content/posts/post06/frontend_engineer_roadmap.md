@@ -1,0 +1,92 @@
+---
+title: "How To Be a Front-End Engineer That Stands Out"
+date: 2021-07-21T20:00:00+02:00
+weight: 3
+authors:
+  - orkhan-huseyn
+tags:
+  - Software Engineering
+---
+
+## Abstract
+
+Front-end web development is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data <sup>1</sup>. If you take a look at the <a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank" rel="noreferrrer noopener">first-ever website</a><sup>2</sup>, you can come into conclusion that being a front-end developer used to be very easy in early stages of web development; you just had to write HTML, nothing more. After <a href="https://css-tricks.com/look-back-history-css/" target="_blank" rel="noreferrer noopener">introducing CSS</a><sup>3</sup> and <a href="https://auth0.com/blog/a-brief-history-of-javascript/" target="_blank" rel="noreferrer noopener">JavaScript</a><sup>4</sup> the web started to be much more complicated.
+
+After more than 20 years, HTML, CSS and JavaScript has evolved drastically and front-end development is now, so much more than just writing HTML and serving it statically. In today's world, a front-end developer needs to know how to develop accessible and performant web applications that requires a lot more knowledge than the technologies mentioned above. To be a front-end developer you need to add build tools, testing, JavaScript frameworks, performance optimization skills, web security, responsive design, web accessibility and other important stuff to your toolbox.
+
+In this article we will talk about what you need to learn to be a front-end engineer that stands out from others. And of course, we'll share resources as well 😉
+
+📝 **Notice**: _Note that the headings are not sorted by any particular order. You can learn the mentioned concepts in any order you wish_
+
+## Know the basics
+
+It doesn't matter weather you are front-end or a back-end engineer, you must have at least basic CS knowledge. If you have a degree in Computer Science or similar major, then you already are one step ahead of others. If you don't have a degree on CS or you are coming from completely different major, then I would recomment starting with <a href="https://online-learning.harvard.edu/course/cs50-introduction-computer-science" target="_blank" rel="noreferrer noopener">CS50: Introduction to Computer Science course</a> by Harvard University on edX (it's free). After finishing that course, if you want a little deeper knowledge then you should enroll to <a href="https://www.coursera.org/learn/cs-algorithms-theory-machines" target="_blank" rel="noopener noreferrer">Computer Science: Algorithms, Theory, and Machines course</a> by Princeton University which is completely free on Coursera.
+
+## Algorithms and Data Structures
+
+Being part of the foundational knowledge, algorithms and data structures are very crucial to any kind of software engineer. If you already have knowledge about basic CS concepts then you must have heard of them before. As we are trying to be a front-end engineer, I recommend taking either <a href="https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/" target="_blank" rel="noreferrer noopener">Master the Coding Interview: Data Structures + Algorithms course</a> by Andrei Neagoie or <a href="https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/" target="_blank" rel="noreferrer noopener">JavaScript Algorithms and Data Structures Masterclass</a> by Colt Steele on Udemy. Both of these courses has simple way of explaining the concepts and they use JavaScript to implement them. We love JavaScript, right? 🤓 If you are a bookworm, then reading <a href="https://www.amazon.com/JavaScript-Data-Structures-Algorithms-Understanding/dp/1484239873" target="_blank" rel="noreferrer noopener">JavaScript Data Structures and Algorithms book</a> by Sammie Bae should be pretty much enough for you.
+
+## Master your CSS
+
+As a front-end developer who hated CSS for a long time, I would recommend stop hating and start learning. If you are starting from scratch, start watching <a href="" target="_blank" rel="noopeneer noreferrer">CSS - The Complete Guide 2021 (incl. Flexbox, Grid & Sass) course</a> by Maximilian Schwarzmüller and Manuel Lorenz. This course will strenghten your basic CSS skills and you will no more hate CSS. If you already have some intermediate CSS knowledge then definetely watch <a href="https://www.udemy.com/course/advanced-css-and-sass/" target="_blank" rel="noopeener noreferrrer">Advanced CSS and Sass: Flexbox, Grid, Animations and More! course</a> by Jonas Schmedtmann as well. This course will teach you internal workings of CSS, how to work with SASS, build tools and much more to level up your CSS confidence.
+
+## Master your VCS - Git
+
+Git is the most popular Version Control System that almost every software engineer uses in daily basis. However, most people haven't used any Git commands except `add`, `commit`, `pull`, `push` and `clone`. To level up your Git skills, you need to have a deeper knowledge on Git, how it works in order not to be afraid of it. Do you know how to rebase? Have you ever resolved a merge conflict? Do you use `stash` or do you know how yo squash commits locally? Have you ever got stuck in <a href="https://www.cloudbees.com/blog/git-detached-head" target="_blank" rel="noopener noreferrer">detached head state</a>?
+
+To start with basic Git skills visit <a href="https://githowto.com/" target="_blank" rel="noopener noreferrer">Git How To</a> and start reading (and of course doing) from <a href="https://githowto.com/setup" target="_blank" rel="noopener noreferrer">first section</a>. To get deeper knowledge on Git, its plubming commands and internals, definetly watch <a href="https://frontendmasters.com/courses/git-in-depth/" target="_blank" rel="noopener noreferrer">Git In-depth course</a> by Nina Zakharenko on Frontend Masters.
+
+## Learn how browsers work
+
+Learning how the tools that you're using works internally will always boost your self-confidence. When we write web applications, we don't always think about what browsers do and sometimes we torment them with the things we do. To get familiar with internal workings of browsers, read <a href="https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/" target="_blank" rel="noopener noreferrer">How Browsers Work: Behind the scenes of modern web browsers</a> article by Tali Garsiel and Paul Irish. If you are even more curious and want to write your own browser, then <a href="https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html" target="_blank" rel="noopener noreferrer">Let's build a browser engine! series by Matt Brubeck</a> will be a good start for you.
+
+## Master JavaScript and get to know internals of JavaScript Engines
+
+We hate things because we don't know why they do what they do. Trying to understand will always help (in life as well 😊). Most developers hate JavaScript because of its illogical looking results at first glance. For example, why `0 == "0"` is `true`, `0 == []` is `true` but `"0" == []` is `false`?<sup>5</sup> To understand this kind of stuff you need to know brief history of JavaScript<sup>4</sup> and <a href="https://tc39.es/ecma262/" target="_blank" rel="noopener noreferrer">its specfications</a>.
+
+The useful courses to build up your JavaScript confidence:
+
+- <a href="https://frontendmasters.com/courses/javascript-foundations/" target="_blank" rel="noopener noreferrer">Deep JavaScript Foundations</a> by Kyle Simpson (author of You Don't Know JS book)
+- <a href="https://frontendmasters.com/courses/javascript-hard-parts/" target="_blank" rel="noopener noreferrer">JavaScript: The Hard Parts</a> and <a href="https://frontendmasters.com/courses/javascript-new-hard-parts/" target="_blank" rel="noopener noreferrer">JavaScript: The New Hard Parts</a> by Will Sentance.
+- <a href="https://www.udemy.com/course/the-complete-javascript-course/" target="_blank" rel="noopener noreferrer">The Complete JavaScript Course 2021: From Zero to Expert!</a> by Jonas Schmedtmann
+
+If you are already pretty confident with JavaScript then start diving into internals of the engine. Since V8 is the most popular and performant JavaScript engine, there're plenty of articles and videos about how this engine works. To get started, read blog posts by SessionStack and freeCodeCamp:
+
+- <a href="https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf" target="_blank" rel="noopener noreferrer">How JavaScript works: an overview of the engine, the runtime, and the call stack</a>
+- <a href="https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e" target="_blank" rel="noopener noreferrer">How JavaScript works: inside the V8 engine + 5 tips on how to write optimized code</a>
+- <a href="https://www.freecodecamp.org/news/javascript-under-the-hood-v8/">How JavaScript Works: Under the Hood of the V8 Engine</a>
+
+To get more knowledge on engine internals, you can follow <a href="https://benediktmeurer.de/" target="_blank" rel="noopener noreferrer">Benedikt Meurer</a>, <a href="https://fhinkel.rocks/" target="_blank" rel="noopener noreferrer">Franziska Hinkelmann</a> and watch their talks on YouTube:
+
+- <a href="https://www.youtube.com/watch?v=5nmpokoRaZI" target="_blank" rel="noopener noreferrer">JavaScript Engines: The Good Parts™ - Mathias Bynens & Benedikt Meurer - JSConf EU 2018</a>
+- <a href="https://www.youtube.com/watch?v=cvybnv79Sek" target="_blank" rel="noopener noreferrer">Benedikt Meurer: A Tale of TurboFan: Four years that changed V8 forever</a>
+- <a href="https://www.youtube.com/watch?v=IFWulQnM5E0" target="_blank" rel="noopener noreferrer">A Tale of Types, Classes, and Maps by Benedikt Meurer · JSCamp Barcelona 2018</a>
+- <a href="https://www.youtube.com/watch?v=p-iiEDtpy6I" target="_blank" rel="noopener noreferrer">Franziska Hinkelmann: JavaScript engines - how do they even? | JSConf EU</a>
+- <a href="https://www.youtube.com/watch?v=ihANrJ1Po0w" target="_blank" rel="noopener noreferrer">How JavaScript Engines Work by Franziska Hinkelmann @ Web Rebels 2017</a>
+- <a href="https://www.youtube.com/watch?v=0I0d8LkDqyc" target="_blank" rel="noopener noreferrer">Mathias B, Benedikt M - JS Engine fundamentals [AgentConf]</a>
+
+To stay up to date with the engines, you should follow their official blogs and read them regularly.
+
+## Know how to optimize for performance
+
+After you have a good grasp of internal workings of browsers and JavaScript engines, then you will start thinking of performance. In today's world, we have complex web applications that has variety of users with different kind of devices and different network conditions. For example, onee user may have a 5G internet connection, the other might be in bad 2G connection, one user may have a MacBook with large retina screen and nice graphics card, the other might have and old Nokie smartphone. As a front-end engineer you need to optimize your web app's performance to be easily accessible and usable by any user.
+
+For web performance related stuff you should follow Addy Osmani on <a href="https://twitter.com/addyosmani" target="_blank" rel="noopener noreferrer">Twitter</a> and read his blog posts on <a href="https://medium.com/@addyosmani" target="_blank" rel="noopener noreferrer">Medium</a> and on <a href="https://developers.google.com/web/resources/contributors/addyosmani" target="_blank" rel="noopener noreferrer">Google Developers</a>.
+
+One course that I highly recommend you to waatch is <a href="https://frontendmasters.com/courses/web-performance/" target="_blank" rel="noopener noreferrer">JavaScript Performance course</a> by Steve Kinney on Frontend Masters.
+
+## Learn Web Accessibility
+
+## Know your framework
+
+## Learn testing
+
+## Learn containers and orchestration
+
+## References
+
+1. Wikipedia contributors. (2021, July 11). Front-end web development. Wikipedia. https://en.wikipedia.org/wiki/Front-end_web_development
+2. Nix, E. (2018, August 31). The World’s First Web Site. HISTORY. https://www.history.com/news/the-worlds-first-web-site
+3. Hoffmann, J. (2017, October 23). A Look Back at the History of CSS. CSS-Tricks. https://css-tricks.com/look-back-history-css/
+4. A Brief History of JavaScript. (2017, January 16). Auth0 - Blog. https://auth0.com/blog/a-brief-history-of-javascript/
+5. Bzadough, Y. (2019, October 13). The Best JavaScript Meme I’ve Ever Seen, Explained in detail. FreeCodeCamp.Org. https://www.freecodecamp.org/news/explaining-the-best-javascript-meme-i-have-ever-seen/
