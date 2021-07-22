@@ -10,7 +10,7 @@ tags:
 
 ## Abstract
 
-Front-end web development is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data <sup>1</sup>. If you take a look at the <a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank" rel="noreferrrer noopener">first-ever website</a><sup>2</sup>, you can come into conclusion that being a front-end developer used to be very easy in early stages of web development; you just had to write HTML, nothing more. After <a href="https://css-tricks.com/look-back-history-css/" target="_blank" rel="noreferrer noopener">introducing CSS</a><sup>3</sup> and <a href="https://auth0.com/blog/a-brief-history-of-javascript/" target="_blank" rel="noreferrer noopener">JavaScript</a><sup>4</sup> the web started to be much more complicated.
+Front-end web development is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data <sup>1</sup>. If you take a look at the <a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank" rel="noreferrer noopener">first-ever website</a><sup>2</sup>, you can come into conclusion that being a front-end developer used to be very easy in early stages of web development; you just had to write HTML, nothing more. After <a href="https://css-tricks.com/look-back-history-css/" target="_blank" rel="noreferrer noopener">introducing CSS</a><sup>3</sup> and <a href="https://auth0.com/blog/a-brief-history-of-javascript/" target="_blank" rel="noreferrer noopener">JavaScript</a><sup>4</sup> the web started to be much more complicated.
 
 After more than 20 years, HTML, CSS and JavaScript has evolved drastically and front-end development is now, so much more than just writing HTML and serving it statically. In today's world, a front-end developer needs to know how to develop accessible and performant web applications that requires a lot more knowledge than the technologies mentioned above. To be a front-end developer you need to add build tools, testing, JavaScript frameworks, performance optimization skills, web security, responsive design, web accessibility and other important stuff to your toolbox.
 
@@ -20,7 +20,7 @@ In this article we will talk about what you need to learn to be a front-end engi
 
 ## Know the basics
 
-It doesn't matter weather you are front-end or a back-end engineer, you must have at least basic CS knowledge. If you have a degree in Computer Science or similar major, then you already are one step ahead of others. If you don't have a degree on CS or you are coming from completely different major, then I would recomment starting with <a href="https://online-learning.harvard.edu/course/cs50-introduction-computer-science" target="_blank" rel="noreferrer noopener">CS50: Introduction to Computer Science course</a> by Harvard University on edX (it's free). After finishing that course, if you want a little deeper knowledge then you should enroll to <a href="https://www.coursera.org/learn/cs-algorithms-theory-machines" target="_blank" rel="noopener noreferrer">Computer Science: Algorithms, Theory, and Machines course</a> by Princeton University which is completely free on Coursera.
+It doesn't matter weather you are front-end or a back-end engineer, you must have at least some basic CS knowledge. If you have a degree in Computer Science or similar major, then you already are one step ahead of others. If you don't have a degree on CS or you are coming from completely different major, then I would recommend starting with <a href="https://online-learning.harvard.edu/course/cs50-introduction-computer-science" target="_blank" rel="noreferrer noopener">CS50: Introduction to Computer Science course</a> by Harvard University on edX (it's free). After finishing that course, if you want a little deeper knowledge then you should enroll to <a href="https://www.coursera.org/learn/cs-algorithms-theory-machines" target="_blank" rel="noopener noreferrer">Computer Science: Algorithms, Theory, and Machines course</a> by Princeton University which is completely free on Coursera.
 
 ## Algorithms and Data Structures
 
@@ -28,13 +28,13 @@ Being part of the foundational knowledge, algorithms and data structures are ver
 
 ## Master your CSS
 
-As a front-end developer who hated CSS for a long time, I would recommend stop hating and start learning. If you are starting from scratch, start watching <a href="" target="_blank" rel="noopeneer noreferrer">CSS - The Complete Guide 2021 (incl. Flexbox, Grid & Sass) course</a> by Maximilian Schwarzmüller and Manuel Lorenz. This course will strenghten your basic CSS skills and you will no more hate CSS. If you already have some intermediate CSS knowledge then definetely watch <a href="https://www.udemy.com/course/advanced-css-and-sass/" target="_blank" rel="noopeener noreferrrer">Advanced CSS and Sass: Flexbox, Grid, Animations and More! course</a> by Jonas Schmedtmann as well. This course will teach you internal workings of CSS, how to work with SASS, build tools and much more to level up your CSS confidence.
+As a front-end developer who hated CSS for a long time, I would recommend stop hating and start learning. If you are starting from scratch, start watching <a href="" target="_blank" rel="noopener noreferrer">CSS - The Complete Guide 2021 (incl. Flexbox, Grid & Sass) course</a> by Maximilian Schwarzmüller and Manuel Lorenz. This course will strengthen your basic CSS skills and you will no more hate CSS. If you already have some intermediate CSS knowledge then definitely watch <a href="https://www.udemy.com/course/advanced-css-and-sass/" target="_blank" rel="noopener noreferrer">Advanced CSS and Sass: Flexbox, Grid, Animations and More! course</a> by Jonas Schmedtmann as well. This course will teach you internal workings of CSS, how to work with SASS, build tools and much more to level up your CSS confidence.
 
 ## Master your VCS - Git
 
 Git is the most popular Version Control System that almost every software engineer uses in daily basis. However, most people haven't used any Git commands except `add`, `commit`, `pull`, `push` and `clone`. To level up your Git skills, you need to have a deeper knowledge on Git, how it works in order not to be afraid of it. Do you know how to rebase? Have you ever resolved a merge conflict? Do you use `stash` or do you know how yo squash commits locally? Have you ever got stuck in <a href="https://www.cloudbees.com/blog/git-detached-head" target="_blank" rel="noopener noreferrer">detached head state</a>?
 
-To start with basic Git skills visit <a href="https://githowto.com/" target="_blank" rel="noopener noreferrer">Git How To</a> and start reading (and of course doing) from <a href="https://githowto.com/setup" target="_blank" rel="noopener noreferrer">first section</a>. To get deeper knowledge on Git, its plubming commands and internals, definetly watch <a href="https://frontendmasters.com/courses/git-in-depth/" target="_blank" rel="noopener noreferrer">Git In-depth course</a> by Nina Zakharenko on Frontend Masters.
+To start with basic Git skills visit <a href="https://githowto.com/" target="_blank" rel="noopener noreferrer">Git How To</a> and start reading (and of course doing) from <a href="https://githowto.com/setup" target="_blank" rel="noopener noreferrer">first section</a>. To get deeper knowledge on Git, its plumbing commands and internals, definitely watch <a href="https://frontendmasters.com/courses/git-in-depth/" target="_blank" rel="noopener noreferrer">Git In-depth course</a> by Nina Zakharenko on Frontend Masters.
 
 ## Learn how browsers work
 
@@ -42,7 +42,7 @@ Learning how the tools that you're using works internally will always boost your
 
 ## Master JavaScript and get to know internals of JavaScript Engines
 
-We hate things because we don't know why they do what they do. Trying to understand will always help (in life as well 😊). Most developers hate JavaScript because of its illogical looking results at first glance. For example, why `0 == "0"` is `true`, `0 == []` is `true` but `"0" == []` is `false`?<sup>5</sup> To understand this kind of stuff you need to know brief history of JavaScript<sup>4</sup> and <a href="https://tc39.es/ecma262/" target="_blank" rel="noopener noreferrer">its specfications</a>.
+We hate things because we don't know why they do what they do. Trying to understand will always help (in life as well 😊). Most developers hate JavaScript because of its illogical looking results at first glance. For example, why `0 == "0"` is `true`, `0 == []` is `true` but `"0" == []` is `false`?<sup>5</sup> To understand this kind of stuff you need to know brief history of JavaScript<sup>4</sup> and <a href="https://tc39.es/ecma262/" target="_blank" rel="noopener noreferrer">its specifications</a>.
 
 The useful courses to build up your JavaScript confidence:
 
@@ -69,19 +69,66 @@ To stay up to date with the engines, you should follow their official blogs and 
 
 ## Know how to optimize for performance
 
-After you have a good grasp of internal workings of browsers and JavaScript engines, then you will start thinking of performance. In today's world, we have complex web applications that has variety of users with different kind of devices and different network conditions. For example, onee user may have a 5G internet connection, the other might be in bad 2G connection, one user may have a MacBook with large retina screen and nice graphics card, the other might have and old Nokie smartphone. As a front-end engineer you need to optimize your web app's performance to be easily accessible and usable by any user.
+After you have a good grasp of internal workings of browsers and JavaScript engines, then you will start thinking of performance. In today's world, we have complex web applications that has variety of users with different kind of devices and different network conditions. For example, one user may have a 5G internet connection, the other might be in bad 2G connection, one user may have a MacBook with large retina screen and nice graphics card, the other might have and old Nokia smartphone. As a front-end engineer you need to optimize your web app's performance to be easily accessible and usable by any user.
 
 For web performance related stuff you should follow Addy Osmani on <a href="https://twitter.com/addyosmani" target="_blank" rel="noopener noreferrer">Twitter</a> and read his blog posts on <a href="https://medium.com/@addyosmani" target="_blank" rel="noopener noreferrer">Medium</a> and on <a href="https://developers.google.com/web/resources/contributors/addyosmani" target="_blank" rel="noopener noreferrer">Google Developers</a>.
 
-One course that I highly recommend you to waatch is <a href="https://frontendmasters.com/courses/web-performance/" target="_blank" rel="noopener noreferrer">JavaScript Performance course</a> by Steve Kinney on Frontend Masters.
+One course that I highly recommend you to watch is <a href="https://frontendmasters.com/courses/web-performance/" target="_blank" rel="noopener noreferrer">JavaScript Performance course</a> by Steve Kinney on Frontend Masters.
 
 ## Learn Web Accessibility
 
+Accessibility (often abbreviated to A11y—as in "a" then 11 characters then "y") in Web development means enabling as many people as possible to use Web sites, even when those people's abilities are limited in some way<sup>6</sup>. This is the topic that most front-end developers overlook. The idea is very simple as W3C states:
+
+> "The Web is fundamentally designed to work for all people, whatever their hardware, software, language, culture, location, or physical or mental ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability."
+
+Accessibility should be in mind while developing your web application. The questions you may ask to yourself are:
+
+- Can a user without a mouse use my web app? - the answer is <a href="https://webaim.org/techniques/keyboard/" target="_blank" rel="noopener noreferrer">keyboard accessibility</a>
+- Are users who use devices with different screen sizes (mobile, tablet, desktop) able to use my web app easily? - the answer is <a href="https://web.dev/responsive-web-design-basics/" target="_blank" rel="noopener noreferrer">responsive design</a>
+- Are people with different visual deficiencies (blindness, color blindness, blurry vision etc.) able to use my web app?
+- Can deaf people watch video on my website and understand it? - think of providing text alternative for time-based media
+
+To make your web app accessible, there are lots of things that you should consider while working on your project. To get familiar with these concepts, I highly recommend to read <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility#key_accessibility_tutorials" target="_blank" rel="noopener noreferrer">web accessibility tutorials on Mozilla Developers Network</a>.
+
 ## Know your framework
+
+If you're front-end developer, you're definitely working with one of popular JavaScript frameworks such as React ❤️, Vue 🔥 or Angular 💩. Did you ever think how React works? Did you ever try to take a look at Vue's source code? I know that this can be intimidating but I can offer you some resources to get you started.
+
+For Vue, take a look at these courses on Vue Mastery:
+
+- <a href="https://www.vuemastery.com/courses/advanced-components" target="_blank" rel="noopener noreferrer">Advanced Components</a>
+- <a href="https://www.vuemastery.com/courses/vue3-deep-dive-with-evan-you" target="_blank" rel="noopener noreferrer">Vue 3 Deep Dive with Evan You</a>
+- <a href="https://www.vuemastery.com/courses/vue-3-reactivity" target="_blank" rel="noopener noreferrer">Vue 3 Reactivity</a>
+
+For React:
+
+- <a href="https://www.youtube.com/watch?v=aS41Y_eyNrU" target="_blank" rel="noopener noreferrer">SMOOSHCAST: React Fiber Deep Dive with Dan Abramov</a>
+- <a href="https://pomb.us/build-your-own-react/" target="_blank" rel="noopener noreferrer">Build your own React by Rodrigo Pombo</a>
+- <a href="https://overreacted.io/" target="_blank" rel="noopener noreferrer">Overreacted by Dan Abramov</a>
+
+For Angular:
+
+- 😃
+
+## Learn build tools
+
+Let's say you're writing a React app. You will probably use `create-react-app` CLI to create project and get to the code very fast. Now, suppose you do not have such CLI, can you create exact setup using Webpack and Babel (or maybe with other tools like Rollup)? If not, then go to <a href="https://webpack.js.org/concepts/" target="_blank" rel="noopener noreferrer">Webpack documentation</a> and start reading it. Then visit <a href="https://babeljs.io/">Babel's website</a> and start learning it as well. Of course there are a lot more than just Webpack and Babel, but knowing at least one built tool and being able to create a <a href="https://medium.com/swlh/a-complete-webpack-setup-for-react-e56a2edf78ae" target="_blank" rel="noopener noreferrer">complete webpack setup for React</a> would make you stand out among other developers.
 
 ## Learn testing
 
+Testing is also a crucial skill for a front-end engineer. No matter, which JavaScript framework you are using, you should get to know its testing utilities and start writing some unit, integration and end-to-end tests. For unit and integration testing in React, I recommend watching <a href="https://testingreact.katifrantz.com/" target="_blank" rel="noopener noreferrer">The React Testing Masterclass</a> by Kati Frantz. For Vue and Angular, there are plenty of resources and documentation as well. For end-to-end testing, you can use Cypress which has <a href="https://docs.cypress.io/examples/examples/tutorials" target="_blank" rel="noopener noreferrer">starter tutorials</a> on its website.
+
 ## Learn containers and orchestration
+
+You probably have heard of Docker, Kubernetes and other fancy stuff. But have you ever had any experience with them? You may know what they are but to make sure, you should at least learn Docker, be able to dockerize your application or even run it on a local single Kubernetes cluster. If this sounds interesting I highly recommend you to watch <a href="https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/" target="_blank" rel="noopener noreferrer">Docker and Kubernetes: The Complete Guide course</a> by Stephen Grider. This course will teach you Docker, Docker compose, Kubernetes and you will even have chance to gain some experience with Google Cloud and AWS.
+
+## Know your back-end
+
+Are you a front-end engineer who does not know what SQL is? Stop right there and start working on a back-end environment. It might be NodeJs, Go, Java, Python or PHP but you have to learn how to write APIs, how to authorize API users, how to create database and how to query database using SQL. If you look at some job descriptions from big tech companies, you will see a sentence like "Experience in one or more of object oriented programming languages such as Python, Java, C++". Personally, my advice would be to learn some strictly typed programming language like Java or Go.
+
+## Conclusion
+
+I agree that there are a lot of things to learn but you don't need to rush. There are plenty of time ahead of us and learning journey will never end. Event after you have 15 years of experience, you will still learn something new every day. Learn, be humble and accept that no one knows everything and we'll always have something to learn. Good luck and if you think anything is wrong with this article, do not hesitate to create an issue and contact us.
 
 ## References
 
@@ -90,3 +137,4 @@ One course that I highly recommend you to waatch is <a href="https://frontendmas
 3. Hoffmann, J. (2017, October 23). A Look Back at the History of CSS. CSS-Tricks. https://css-tricks.com/look-back-history-css/
 4. A Brief History of JavaScript. (2017, January 16). Auth0 - Blog. https://auth0.com/blog/a-brief-history-of-javascript/
 5. Bzadough, Y. (2019, October 13). The Best JavaScript Meme I’ve Ever Seen, Explained in detail. FreeCodeCamp.Org. https://www.freecodecamp.org/news/explaining-the-best-javascript-meme-i-have-ever-seen/
+6. Accessibility | MDN. (2021, June 10). Mozilla Developers Network. https://developer.mozilla.org/en-US/docs/Web/Accessibility
