@@ -16,7 +16,7 @@ After more than 20 years, HTML, CSS and JavaScript has evolved drastically and f
 
 In this article we will talk about what you need to learn to be a front-end engineer that stands out from others. And of course, we'll share resources as well 😉
 
-📝 **Notice**: _Note that the headings are not sorted by any particular order. You can learn the mentioned concepts in any order you wish_
+📝 **Notice**: _Note that the headings are not sorted in any particular order. You can learn the mentioned concepts in any order you wish_
 
 ## Know the basics
 
@@ -104,6 +104,7 @@ For React:
 
 - <a href="https://www.youtube.com/watch?v=aS41Y_eyNrU" target="_blank" rel="noopener noreferrer">SMOOSHCAST: React Fiber Deep Dive with Dan Abramov</a>
 - <a href="https://pomb.us/build-your-own-react/" target="_blank" rel="noopener noreferrer">Build your own React by Rodrigo Pombo</a>
+- <a href="https://www.youtube.com/watch?v=CGpMlWVcHok" target="_blank" rel="noopener noreferrer">Building a Custom React Renderer | Sophie Alpert</a>
 - <a href="https://overreacted.io/" target="_blank" rel="noopener noreferrer">Overreacted by Dan Abramov</a>
 
 For Angular:
