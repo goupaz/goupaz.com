@@ -121,15 +121,27 @@ Testing is also a crucial skill for a front-end engineer. No matter, which JavaS
 
 ## Learn containers and orchestration
 
-You probably have heard of Docker, Kubernetes and other fancy stuff. But have you ever had any experience with them? You may know what they are but to make sure, you should at least learn Docker, be able to dockerize your application or even run it on a local single Kubernetes cluster. If this sounds interesting I highly recommend you to watch <a href="https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/" target="_blank" rel="noopener noreferrer">Docker and Kubernetes: The Complete Guide course</a> by Stephen Grider. This course will teach you Docker, Docker compose, Kubernetes and you will even have chance to gain some experience with Google Cloud and AWS.
+You probably have heard of Docker, Kubernetes and other fancy stuff. But have you ever had any experience with them? You may know what they are but to make sure, you should at least learn Docker, be able to dockerize your application or even run it on a local single node Kubernetes cluster. If this sounds interesting I highly recommend you to watch <a href="https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/" target="_blank" rel="noopener noreferrer">Docker and Kubernetes: The Complete Guide course</a> by Stephen Grider. This course will teach you Docker, Docker compose, Kubernetes and you will even have chance to gain some experience with Google Cloud and AWS.
 
-## Know your back-end
+## Get a little full-stack and know the Web
 
-Are you a front-end engineer who does not know what SQL is? Stop right there and start working on a back-end environment to have a little experience. It might be NodeJs, Go, Java, Python or PHP but you have to learn how to write APIs, how to authorize API users, how to create database and how to query database using SQL. If you look at some job descriptions from big tech companies, you will see a sentence like "Experience in one or more of object oriented programming languages such as Python, Java, C++". So learning a back-end language won't hurt you. Personally, my advice would be to learn some strictly typed programming language like Java or Go.
+Are you a front-end engineer who does not know what SQL is? Stop right there and start working on a back-end environment to have a little experience. It might be NodeJs, Go, Java, Python or PHP but you have to learn how to write APIs, how to authorize API users, how to create database and how to query database using SQL. Learn REST standards, be able to write REST APIs, get your hands on some GraphQL and so on.
+
+If you look at some job descriptions from big tech companies, you will see a sentence like "Experience in one or more of object oriented programming languages such as Python, Java, C++". So learning a back-end language won't hurt you. Personally, my advice would be to learn a strictly typed programming language like Java or Go. If you are brave, you can even try C 🤓
+
+My personal recommendation would be to follow <a href="https://www.youtube.com/user/GISIGeometry" target="_blank" rel="noopener noreferrer">Hussein Nasser's YouTube channel</a>. You can get lots of useful information from him. Some sweet playlists from Hussein Nasser are:
+
+- <a href="https://www.youtube.com/watch?v=V3ZPPPKEipA&list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT" target="_blank" rel="noopener noreferrer">Backend Engineering</a>
+- <a href="https://www.youtube.com/watch?v=7IS7gigunyI&list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr" target="_blank" rel="noopener noreferrer">Network Engineering</a>
+- <a href="https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO" target="_blank" rel="noopener noreferrer">HTTP</a> and <a href="https://www.youtube.com/watch?v=fVKPrDrEwTI&list=PLQnljOFTspQWbBegaU790WhH7gNKcMAl-" target="_blank" rel="noopener noreferrer">HTTP/2</a>
+- <a href="https://www.youtube.com/watch?v=SqqrOspasag&list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC" target="_blank" rel="noopener noreferrer">Proxies</a>
+- <a href="https://www.youtube.com/watch?v=2Nt-ZrNP22A&list=PLQnljOFTspQUGjfGdg8UvL3D_K9ACL6Qh" target="_blank" rel="noopener noreferrer">Web Sockets</a>
+
+You may encounter same videos in different playlists but that's okay.
 
 ## Conclusion
 
-I agree that there are a lot of things to learn but you don't need to rush. We didn't even talk about cyber security, operating system concepts, design patterns, programming language paradigms like OOP and FP, Linux command line etc. So, there are plenty of time ahead of us and learning journey will never end. Even after you have 15 years of experience, you will still learn something new every day. Learn, be humble and accept that no one knows everything and we'll always have something to learn. Good luck on your journey! If you think anything is wrong with this article, do not hesitate to create an issue or contact us. And of course, grow and GO UP! ❤️
+I agree that there are a lot of things to learn but you don't need to rush. We didn't even talk about cyber security, operating system concepts, design patterns, programming language paradigms like OOP and FP, Linux, command line etc. So, there are plenty of time ahead of us and learning journey will never end. Even after you have 15 years of experience, you will still learn something new every day. Learn, be humble and accept that no one knows everything and we'll always have something to learn. Good luck on your journey! If you think anything is wrong with this article, do not hesitate to create an issue or contact us. And of course, grow and GO UP! ❤️
 
 ## References
 
