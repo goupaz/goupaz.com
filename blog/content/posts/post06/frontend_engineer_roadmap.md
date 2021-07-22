@@ -44,11 +44,12 @@ Learning how the tools that you're using works internally, will always boost you
 
 We hate things because we don't know why they do what they do. Trying to understand will always help (in life as well 😊). Most developers hate JavaScript because of its illogical looking results at first glance. For example, why `0 == "0"` is `true`, `0 == []` is `true` but `"0" == []` is `false`?<sup>5</sup> To understand this kind of stuff you need to know brief history of JavaScript<sup>4</sup> and <a href="https://tc39.es/ecma262/" target="_blank" rel="noopener noreferrer">its specifications</a>.
 
-The useful courses to build up your JavaScript confidence:
+The useful resources to build up your JavaScript confidence:
 
 - <a href="https://frontendmasters.com/courses/javascript-foundations/" target="_blank" rel="noopener noreferrer">Deep JavaScript Foundations</a> by Kyle Simpson (author of You Don't Know JS book)
 - <a href="https://frontendmasters.com/courses/javascript-hard-parts/" target="_blank" rel="noopener noreferrer">JavaScript: The Hard Parts</a> and <a href="https://frontendmasters.com/courses/javascript-new-hard-parts/" target="_blank" rel="noopener noreferrer">JavaScript: The New Hard Parts</a> by Will Sentance.
 - <a href="https://www.udemy.com/course/the-complete-javascript-course/" target="_blank" rel="noopener noreferrer">The Complete JavaScript Course 2021: From Zero to Expert!</a> by Jonas Schmedtmann
+- <a href="https://javascript.info/" target="_blank" rel="noopener noreferrer">The Modern JavaScript Tutorial</a> by Ilya Kantor
 
 If you are already pretty much confident with JavaScript then start diving into internals of the engine. Since V8 is the most popular and performant JavaScript engine, there're plenty of articles and videos about how this engine works. To get started, read blog posts by SessionStack and freeCodeCamp:
 
@@ -129,13 +130,14 @@ Are you a front-end engineer who does not know what SQL is? Stop right there and
 
 If you look at some job descriptions from big tech companies, you will see a sentence like "Experience in one or more of object oriented programming languages such as Python, Java, C++". So learning a back-end language won't hurt you. Personally, my advice would be to learn a strictly typed programming language like Java or Go. If you are brave, you can even try C 🤓
 
-My personal recommendation would be to follow <a href="https://www.youtube.com/user/GISIGeometry" target="_blank" rel="noopener noreferrer">Hussein Nasser's YouTube channel</a>. You can get lots of useful information from him. Some sweet playlists from Hussein Nasser are:
+Know the web, learn its components and be aware how all these stuff work together. I recommend to follow <a href="https://www.youtube.com/user/GISIGeometry" target="_blank" rel="noopener noreferrer">Hussein Nasser's YouTube channel</a>. You can get lots of useful information from him. Some sweet playlists from Hussein Nasser are:
 
 - <a href="https://www.youtube.com/watch?v=V3ZPPPKEipA&list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT" target="_blank" rel="noopener noreferrer">Backend Engineering</a>
 - <a href="https://www.youtube.com/watch?v=7IS7gigunyI&list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr" target="_blank" rel="noopener noreferrer">Network Engineering</a>
 - <a href="https://www.youtube.com/watch?v=JhpUch6lWMw&list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO" target="_blank" rel="noopener noreferrer">HTTP</a> and <a href="https://www.youtube.com/watch?v=fVKPrDrEwTI&list=PLQnljOFTspQWbBegaU790WhH7gNKcMAl-" target="_blank" rel="noopener noreferrer">HTTP/2</a>
 - <a href="https://www.youtube.com/watch?v=SqqrOspasag&list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC" target="_blank" rel="noopener noreferrer">Proxies</a>
 - <a href="https://www.youtube.com/watch?v=2Nt-ZrNP22A&list=PLQnljOFTspQUGjfGdg8UvL3D_K9ACL6Qh" target="_blank" rel="noopener noreferrer">Web Sockets</a>
+- and many more on the channel.
 
 You may encounter same videos in different playlists but that's okay.
 
