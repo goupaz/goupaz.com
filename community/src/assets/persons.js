@@ -230,5 +230,20 @@ export const data = {
         country: "Azerbaijan",
       },
     },
+     {     
+      id: uuidv4(),
+      name: "Humay",       
+      img: "https://avatars.githubusercontent.com/u/47967308?v=4",    
+      links: {        
+        website: "https://goupaz.com",        
+        linkedin: "https://www.linkedin.com/in/humay555/",       
+        github: "https://github.com/Humay555",      
+      },      
+      jobTitle: "Contributor",     
+      location: {        
+        city: "Baku",         
+        country: "Azerbaijan",      
+     },
+    },
   ],
 }
