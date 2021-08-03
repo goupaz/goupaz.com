@@ -21,18 +21,18 @@ Webinar Language: English
 
 Slide Language: English
 
-|No| Topic | Slides|MoM|Video |Date|Speaker|Country|Co-host|Register|
-|------|----------------------|---------|---|-----|-----|------|------|------|------|
-|1| Stepping into Open Source |[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session01_KunalKushwaha.pdf)|[Logs](/main/static/events/02hero/slides/chapter04/#)|[Session01](https://www.youtube.com/watch?v=9ISElFaZpP4)| 05 June 2021 | [Kunal Kushwaha](https://www.linkedin.com/in/kunal-kushwaha/)| India| [metabob](https://metabob.com)|[Link](https://forms.gle/gPrQLuYCUf9sNNRm9)|
-|2| LDA Topic Modeling: Techniques and AI Modelst|[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session02_BenjaminReaves.pdf)|[Logs](/main/static/events/02hero/slides/chapter04/#)|[Session02](https://www.youtube.com/watch?v=e2k_1BM9AqE)| 06 June 2021 | [Benjamin Reaves](https://www.linkedin.com/in/benreaves/)| USA| [metabob](https://metabob.com)|[Link](https://forms.gle/2nGeBy4jFhPQ4HkS7)|
-|3| Modern Way of Building Websites with Jamstack Approach |[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session03_TonyMamedbekov.pdf)|[Logs](/main/static/events/02hero/slides/chapter04/#)|[Session03](https://www.youtube.com/)| 12 June 2021 | [Tony Mamedbekov](https://www.linkedin.com/in/mamedbekov/)| USA| [metabob](https://metabob.com)|[Link](https://forms.gle/KHhw2y9CADefy39h8)|
-|4| Machine Learning for the Web: an Introduction to Tensorflow.JS|[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session04_ShivayLamba.pdf)|[Logs](/main/static/events/02hero/slides/chapter04/#)|[Session04](https://www.youtube.com/watch?v=GOdxs-BIET8)| 13 June 2021 | [Shivay Lamba](https://www.linkedin.com/in/shivaylamba/)| India| [metabob](https://metabob.com)|[Link](https://forms.gle/zCaYQ7y53h4RkQwC9)|
-|5| Open Source Program Office|[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session05_DeborahBryant.pdf)|[Logs](/main/static/events/02hero/slides/chapter04/#)|[Session05](https://www.youtube.com/watch?v=cBHYIt3QRsE)| 19 June 2021 | [Deborah Bryant](https://www.linkedin.com/company/opengovernment/)| USA| [metabob](https://metabob.com)|[Link](https://forms.gle/NfosbjoFhmopWXoPA)|
-|6| Building a Free and Open Cloud One Deployment at a Time with Unfurl|[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session06_AdamSouzis.pdf)|[Logs](/main/static/events/02hero/slides/chapter04/#)|[Session06](https://www.youtube.com/watch?v=i02B3gjjcTo)| 26 June 2021 | [Adam Souzis](https://www.linkedin.com/in/adamsouzis/)| USA| [metabob](https://metabob.com)|[Link](https://forms.gle/HvwgN2BU5XnMo6y6A)|
-|7| Data Collection & Processing for AI|[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session07_AviGopal.pdf)|[Logs](/main/static/events/02hero/slides/chapter04/#)|[Session07](https://www.youtube.com/watch?v=q31TEIY6_Vk)| 27 June 2021 | [Avi Gopal](https://www.linkedin.com/in/avinash-gopal-440669140/)| USA| [metabob](https://metabob.com)|[Link](https://forms.gle/ULnH5j55hix9wV5X6)|
-|8| Open Source Vulnerability Management with Faraday|[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session08_FedericoKirschbaum.pdf)|[Logs](/main/static/events/02hero/slides/chapter04/#)|[Session08](https://www.youtube.com/watch?v=zd2hfSp4e-E)| 3 July 2021 | [Federico Kirschbaum](https://www.linkedin.com/in/fedek/)| USA| [metabob](https://metabob.com)|[Link](https://forms.gle/oNBuGxGr1FgHchwK9)|
-|9| Past, future & present of Envoy proxy|[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session09_MattKlein.pdf)|[Logs](/main/static/events/02hero/slides/#)|[Session09](https://www.youtube.com/watch?v=fdA0td8xsHY)| 8 July 2021 | [Matt Klein](https://www.linkedin.com/in/mattklein123/)| USA| [metabob](https://metabob.com)|[Link](https://forms.gle/SFYYxrD3xR71891PA)|
-
+|No| Topic | Slides|Video |Date|Speaker|Country|Co-host|Register|
+|------|----------------------|---------|-----|-----|------|------|------|------|
+|1| Stepping into Open Source |[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session01_KunalKushwaha.pdf)|[Session01](https://www.youtube.com/watch?v=9ISElFaZpP4)| 05 June 2021 | [Kunal Kushwaha](https://www.linkedin.com/in/kunal-kushwaha/)| India| [metabob](https://metabob.com)|[Link](https://forms.gle/gPrQLuYCUf9sNNRm9)|
+|2| LDA Topic Modeling: Techniques and AI Modelst|[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session02_BenjaminReaves.pdf)|[Session02](https://www.youtube.com/watch?v=e2k_1BM9AqE)| 06 June 2021 | [Benjamin Reaves](https://www.linkedin.com/in/benreaves/)| USA| [metabob](https://metabob.com)|[Link](https://forms.gle/2nGeBy4jFhPQ4HkS7)|
+|3| Modern Way of Building Websites with Jamstack Approach |[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session03_TonyMamedbekov.pdf)|12 June 2021 | [Tony Mamedbekov](https://www.linkedin.com/in/mamedbekov/)| USA| [metabob](https://metabob.com)|[Link](https://forms.gle/KHhw2y9CADefy39h8)|
+|4| Machine Learning for the Web: an Introduction to Tensorflow.JS|[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session04_ShivayLamba.pdf)|[Session04](https://www.youtube.com/watch?v=GOdxs-BIET8)| 13 June 2021 | [Shivay Lamba](https://www.linkedin.com/in/shivaylamba/)| India| [metabob](https://metabob.com)|[Link](https://forms.gle/zCaYQ7y53h4RkQwC9)|
+|5| Open Source Program Office|[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session05_DeborahBryant.pdf)|[Session05](https://www.youtube.com/watch?v=cBHYIt3QRsE)| 19 June 2021 | [Deborah Bryant](https://www.linkedin.com/company/opengovernment/)| USA| [metabob](https://metabob.com)|[Link](https://forms.gle/NfosbjoFhmopWXoPA)|
+|6| Building a Free and Open Cloud One Deployment at a Time with Unfurl|[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session06_AdamSouzis.pdf)|[Session06](https://www.youtube.com/watch?v=i02B3gjjcTo)| 26 June 2021 | [Adam Souzis](https://www.linkedin.com/in/adamsouzis/)| USA| [metabob](https://metabob.com)|[Link](https://forms.gle/HvwgN2BU5XnMo6y6A)|
+|7| Data Collection & Processing for AI|[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session07_AviGopal.pdf)|[Session07](https://www.youtube.com/watch?v=q31TEIY6_Vk)| 27 June 2021 | [Avi Gopal](https://www.linkedin.com/in/avinash-gopal-440669140/)| USA| [metabob](https://metabob.com)|[Link](https://forms.gle/ULnH5j55hix9wV5X6)|
+|8| Open Source Vulnerability Management with Faraday|[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session08_FedericoKirschbaum.pdf)|[Session08](https://www.youtube.com/watch?v=zd2hfSp4e-E)| 3 July 2021 | [Federico Kirschbaum](https://www.linkedin.com/in/fedek/)| USA| [metabob](https://metabob.com)|[Link](https://forms.gle/oNBuGxGr1FgHchwK9)|
+|9| Past, future & present of Envoy proxy|[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session09_MattKlein.pdf)|[Session09](https://www.youtube.com/watch?v=fdA0td8xsHY)| 8 July 2021 | [Matt Klein](https://www.linkedin.com/in/mattklein123/)| USA| [metabob](https://metabob.com)|[Link](https://forms.gle/SFYYxrD3xR71891PA)|
+|10| Apache Skywalking APM|[Slides](/main/static/events/02hero/slides/chapter04/Chapter04_Session010_ShengWu.pdf)|[Session10](https://youtu.be/6lmHU3XtN10)| 31 July 2021 | [Sheng Wu](https://www.linkedin.com/in/wusheng1108/)| China| [metabob](https://metabob.com)|[Link](https://forms.gle/J1DxWLTXttRHQ5cA7)|
 
 
 ## Chapter03 March 2021-June 2021
@@ -79,7 +79,7 @@ Our goal is simple to structure and index the data flow within communities.
 ## Contact
 You can join us:
 
-[Slack](https://slack.goupaz.com)
+[Slack](https://goupaz.slack.com)
 
 [Linkedin](https://www.linkedin.com/company/goupaz)
 
