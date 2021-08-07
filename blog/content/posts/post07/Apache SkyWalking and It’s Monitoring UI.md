@@ -79,7 +79,7 @@ For Open Source Contributor, Do check out the projects by Apache:
 - [https://github.com/apache/skywalking-website](https://github.com/apache/skywalking-website)
 - [https://skywalking.apache.org/docs/](https://skywalking.apache.org/docs/)
 
-Do watch session on SkyWalking by Sheng Wu to know more about SkyWalking and Cloud Native Monitoring.
+Do watch the session on SkyWalking Application Performance Monitor by Sheng Wu to know more about SkyWalking and Cloud Native Monitoring.
 
 <!-- ![](https://i.imgur.com/7UhCsm6.jpg)] -->
 
