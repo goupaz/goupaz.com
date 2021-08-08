@@ -1,9 +1,9 @@
 ---
 title: "Apache SkyWalking and It's Monitoring UI"
-date: 2021-07-21T20:00:00+02:00
+date: 2021-08-08T18:00:00+02:00
 weight: 3
 authors:
-  - Siddhant Prateek
+  - siddhant-prateek
 tags:
   - Open Source
   - Monitoring
