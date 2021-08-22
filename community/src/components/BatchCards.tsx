@@ -25,7 +25,7 @@ export const BatchCards = ({ persons, numberPerBatch = 16 }: any) => {
 
       <Content>
         <CardList persons={persons.slice(0, batch * numberPerBatch)} />
-        {persons.length >= batch * numberPerBatch && (
+        {persons.length > batch * numberPerBatch && (
           <ButtonWrapper>
             <Button
               onClick={addToBatch}
