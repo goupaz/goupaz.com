@@ -184,8 +184,7 @@ export const data = {
         country: "Azerbaijan",
       },
     },
-    
-        {
+    {
       id: uuidv4(),
       name: "Aqil Aghamirzayev",
       img: "https://avatars2.githubusercontent.com/u/41694337?v=4",
@@ -230,7 +229,7 @@ export const data = {
         country: "Azerbaijan",
       },
     },
-     {     
+    {   
       id: uuidv4(),
       name: "Humay",       
       img: "https://avatars.githubusercontent.com/u/47967308?v=4",    
@@ -243,6 +242,21 @@ export const data = {
       location: {        
         city: "Baku",         
         country: "Azerbaijan",      
+     },
+    },
+    {   
+      id: uuidv4(),
+      name: "Orkhan Huseynli",       
+      img: "https://avatars.githubusercontent.com/u/21221412?v=4",    
+      links: {        
+        website: "https://orkhan-huseyn.github.io/",        
+        linkedin: "https://www.linkedin.com/in/orkhanhuseynli/",       
+        github: "https://github.com/orkhan-huseyn",      
+      },      
+      jobTitle: "Tech Writer & Software Engineer",     
+      location: {        
+        city: "Kraków",         
+        country: "Poland",      
      },
     },
   ],
