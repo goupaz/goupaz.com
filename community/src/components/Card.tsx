@@ -12,7 +12,12 @@ const addDefaultImg = (e: any) => {
   e.target.src = defaultImageDataURI
 }
 const Card = ({ user }: any) => {
-  let { id, img, name, jobTitle, location, links } = user
+  const { id, img, name, jobTitle, location = {}, links } = user
+  const { city = "", state = "", country = "" } = location
+
+  const locationString = [city, state, country]
+    .filter((entry) => Boolean(entry))
+    .join(", ")
 
   if (id) {
     return (
@@ -35,17 +40,7 @@ const Card = ({ user }: any) => {
         </Copy>
         <Contact>
           <Copy type="div" display="body">
-            {location.city === "" ? "" : location.city}
-            {(location.city !== "" && location.state !== "") ||
-            (location.city !== "" && location.country !== "")
-              ? ", "
-              : ""}
-            {location.state === "" ? "" : location.state}
-            {(location.city !== "" && location.state !== "") ||
-            (location.state !== "" && location.country !== "")
-              ? ", "
-              : ""}
-            {location?.country}
+            {locationString}
           </Copy>
           <div className="websites">
             {links.website && (
