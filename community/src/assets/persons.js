@@ -103,8 +103,9 @@ export const data = {
       },
       jobTitle: "Community Leader",
       location: {
-        city: "Ganja",
-        country: "Azerbaijan",
+        city: "Edinburgh",
+        state: "Scotland",
+        country: "United Kingdom",
       },
     },
     {
@@ -150,9 +151,9 @@ export const data = {
       location: {
         city: "Baku",
         country: "Azerbaijan",
-        },
-     },
-     {
+      },
+    },
+    {
       id: uuidv4(),
       name: "Penny Fang",
       img: "https://avatars3.githubusercontent.com/u/10716182?v=4",
@@ -168,7 +169,7 @@ export const data = {
         country: "USA",
       },
     },
-    
+
     {
       id: uuidv4(),
       name: "Ruslan Butdayev",
@@ -202,7 +203,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jumshud Sultan",
-      img: "https://avatars.githubusercontent.com/u/43217182?s=400&u=3222345f22e3ab866bb43c4412b574fbb76b13ad&v=4",
+      img:
+        "https://avatars.githubusercontent.com/u/43217182?s=400&u=3222345f22e3ab866bb43c4412b574fbb76b13ad&v=4",
       links: {
         website: "https://goupaz.com",
         linkedin: "https://www.linkedin.com/in/jumshudsultan/",
@@ -214,7 +216,7 @@ export const data = {
         country: "Azerbaijan",
       },
     },
-     {
+    {
       id: uuidv4(),
       name: "Azay Jalil",
       img: "https://avatars.githubusercontent.com/u/41166569?v=4",
@@ -229,35 +231,35 @@ export const data = {
         country: "Azerbaijan",
       },
     },
-    {   
+    {
       id: uuidv4(),
-      name: "Humay",       
-      img: "https://avatars.githubusercontent.com/u/47967308?v=4",    
-      links: {        
-        website: "https://goupaz.com",        
-        linkedin: "https://www.linkedin.com/in/humay555/",       
-        github: "https://github.com/Humay555",      
-      },      
-      jobTitle: "Contributor",     
-      location: {        
-        city: "Baku",         
-        country: "Azerbaijan",      
-     },
+      name: "Humay",
+      img: "https://avatars.githubusercontent.com/u/47967308?v=4",
+      links: {
+        website: "https://goupaz.com",
+        linkedin: "https://www.linkedin.com/in/humay555/",
+        github: "https://github.com/Humay555",
+      },
+      jobTitle: "Contributor",
+      location: {
+        city: "Baku",
+        country: "Azerbaijan",
+      },
     },
-    {   
+    {
       id: uuidv4(),
-      name: "Orkhan Huseynli",       
-      img: "https://avatars.githubusercontent.com/u/21221412?v=4",    
-      links: {        
-        website: "https://orkhan-huseyn.github.io/",        
-        linkedin: "https://www.linkedin.com/in/orkhanhuseynli/",       
-        github: "https://github.com/orkhan-huseyn",      
-      },      
-      jobTitle: "Tech Writer & Software Engineer",     
-      location: {        
-        city: "Kraków",         
-        country: "Poland",      
-     },
+      name: "Orkhan Huseynli",
+      img: "https://avatars.githubusercontent.com/u/21221412?v=4",
+      links: {
+        website: "https://orkhan-huseyn.github.io/",
+        linkedin: "https://www.linkedin.com/in/orkhanhuseynli/",
+        github: "https://github.com/orkhan-huseyn",
+      },
+      jobTitle: "Tech Writer & Software Engineer",
+      location: {
+        city: "Kraków",
+        country: "Poland",
+      },
     },
   ],
 }
