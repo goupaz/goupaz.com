@@ -20,8 +20,7 @@ Line: Open Source
 |No| Topic | Slides|Video |Date|Speaker|Country|
 |------|----------------------|---------|-----|-----|------|------|
 |1|Building well architected infrastructure |[Slides](/main/static/events/02hero/slides/chapter05/Chapter05_Session01_MichalM.pdf)|[Session01](https://www.youtube.com/watch?v=9wu7u-iNcEw)| 13 Nov 2021 | [Michal M](https://www.linkedin.com/in/michalmatyjek/)| USA|
-|2|Building a DevOps SaaS from scratch|[Slides](/main/static/events/02hero/slides/chapter05/Gallery.pdf)|[Session02](https://www.youtube.com/watch?v=xY8QZyCMrS4)| 14 Nov 2021 | [Jagath Vytheeswaran](https://www.linkedin.com/in/jagathv/) [Vignesh Varadarajan](https://www.linkedin.com/in/vignesh-varadarajan-22469937
-/)| USA|
+|2|Building a DevOps SaaS from scratch|[Slides](/main/static/events/02hero/slides/chapter05/Gallery.pdf)|[Session02](https://www.youtube.com/watch?v=xY8QZyCMrS4)| 14 Nov 2021 | [Jagath Vytheeswaran](https://www.linkedin.com/in/jagathv/) [Vignesh Varadarajan](https://www.linkedin.com/in/vignesh-varadarajan-22469937/)| USA|
 
 ## Chapter04 June 2021-July 2021
 
