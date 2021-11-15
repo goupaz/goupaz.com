@@ -13,13 +13,19 @@ Welcome to community driven Open Source Accelerator!
 - [About Us](#aboutus)
 - [Contact](#contact)
 
-## Chapter04 June 2021-July 2021
+## Chapter05 Nov 2021-Dec 2021
 
 Line: Open Source
 
-Webinar Language: English
+|No| Topic | Slides|Video |Date|Speaker|Country|
+|------|----------------------|---------|-----|-----|------|------|
+|1|Building well architected infrastructure |[Slides](/main/static/events/02hero/slides/chapter05/Chapter05_Session01_MichalM.pdf)|[Session01](https://www.youtube.com/watch?v=9wu7u-iNcEw)| 13 Nov 2021 | [Michal M](https://www.linkedin.com/in/michalmatyjek/)| USA|
+|2|Building a DevOps SaaS from scratch|[Slides](/main/static/events/02hero/slides/chapter05/Gallery.pdf)|[Session02](https://www.youtube.com/watch?v=xY8QZyCMrS4)| 14 Nov 2021 | [Jagath Vytheeswaran](https://www.linkedin.com/in/jagathv/) [Vignesh Varadarajan](https://www.linkedin.com/in/vignesh-varadarajan-22469937
+/)| USA|
 
-Slide Language: English
+## Chapter04 June 2021-July 2021
+
+Line: Open Source
 
 |No| Topic | Slides|Video |Date|Speaker|Country|Co-host|Register|
 |------|----------------------|---------|-----|-----|------|------|------|------|
@@ -38,11 +44,6 @@ Slide Language: English
 ## Chapter03 March 2021-June 2021
 
 Line: Open Source
-
-Webinar Language: English
-
-Slide Language: English
-
 
 |No| Topic | Slides|MoM|Video |Date|Speaker|Country|Co-host|Register|
 |------|----------------------|---------|---|-----|-----|------|------|------|------|
